@@ -1795,7 +1795,20 @@ Ela começa a fechar a porta, você precisa prender a atenção dela:
 -[[Então o CERTO é omitir a verdade e deixar as pessoas sofrendo e morrendo, kate?!|bruto 2]] - Você decide que a melhor escolha é usar a mesma tática e ser firme também, tentando testar a fraqueza dela.
 
 &lt;&lt;set $manso to true&gt;&gt;
-</tw-passagedata><tw-passagedata pid="192" name="bruto 1" tags="" position="1325,2150" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="193" name="manso 2" tags="" position="1175,2300" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $boa to $boa + 1&gt;&gt;
+</tw-passagedata><tw-passagedata pid="192" name="bruto 1" tags="" position="1325,2150" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $grosso to $grosso + 1&gt;&gt;
+
+&quot;Não me diga que você está tentando investigar aquela manchete?!&quot; - Ela diz encostando na moldura da porta - &quot;você publicou a única que não era problemática!Uma difamava o Freeman e não passava de calúnia mal feita e a outra revela o que a empresa esconde. Você está melhor sem se envolver contra a ARCH CORP.&quot; - ela parece estar se forçando muito para manter a voz firme, mas você percebe que ela está sensível.
+
+Ela começa a fechar a porta, você precisa prender a atenção dela:
+
+-[[Mas e quanto as pessoas que sofrem diariamente com isso? Devemos deixá-las morrer?|manso 2]] - Você faz um apelo para a consciência dela tentando atingir essa sensibilidade que ela emana
+
+-[[Então o CERTO é omitir a verdade e deixar as pessoas sofrendo e morrendo, kate?!|bruto 2]] - Você decide que a melhor escolha é usar a mesma tática e ser firme também, tentando testar a fraqueza dela.
+
+&lt;&lt;set $manso to false&gt;&gt;
+
+
+</tw-passagedata><tw-passagedata pid="193" name="manso 2" tags="" position="1175,2300" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $boa to $boa + 1&gt;&gt;
 &lt;&lt;if $manso is true&gt;&gt;
 &quot;Pessoas vão sempre morrer, Vanno, nem sempre somos capazes de impedir a morte de todas&quot; - ela evita de olhar em seus olhos
 
@@ -1820,7 +1833,32 @@ Você olha para ela, incrédulo, não parece a mesma Kate que você conhece
 &lt;&lt;set $manso to true&gt;&gt;
 
 
-</tw-passagedata><tw-passagedata pid="194" name="bruto 2" tags="" position="1325,2300" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="195" name="manso 3" tags="" position="1175,2450" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $boa to $boa + 1&gt;&gt;
+</tw-passagedata><tw-passagedata pid="194" name="bruto 2" tags="" position="1325,2300" size="100,100">&lt;&lt;if $manso is true&gt;&gt;&lt;&lt;set $grosso to $grosso + 1&gt;&gt;
+
+&quot;Pessoas morrem, Vanno! Mesmo verdade não vai fazer com que elas se tornem imortais. Não somos capazes de impedir a morte de todo mundo. Não tem a ver com certo ou errado.&quot; - ela evita de olhar em seus olhos e começa a ficar inquieta
+
+Você olha para ela, incrédulo, não parece a mesma Kate que você conhece
+
+-[[Kate, qualquer um pode sofrer perdas. Eu perdi minha única familia, o que impede de isso acontecer com a você?|manso 3]] - Apelando para a humanidade que ela sempre apresentou, desde que se conheceram
+
+-[[Você diz isso porque não deve ter perdido ninguém! Eu perdi todos meus amigos e família, Kate. Imagine perder alguém e poder ter impedido!|bruto 3]] - Tentando trazer um pouco de consciência coletiva para ela 
+
+&lt;&lt;elseif $manso is false&gt;&gt;
+
+&quot;Pessoas morrem, Vanno! Mesmo verdade não vai fazer com que elas se tornem imortais. Não somos capazes de impedir a morte de todo mundo.&quot; - ela evita de olhar em seus olhos e começa a ficar inquieta
+
+Você olha para ela, incrédulo, não parece a mesma Kate que você conhece
+
+-[[Kate, qualquer um pode sofrer perdas. Eu perdi minha única familia, o que impede de isso acontecer com a você?|manso 3]] - Apelando para a humanidade que ela sempre apresentou, desde que se conheceram
+
+-[[Você diz isso porque não deve ter perdido ninguém! Eu perdi todos meus amigos e família, Kate. Imagine perder alguém e poder ter impedido!|bruto 3]] - Tentando trazer um pouco de consciência coletiva para ela 
+
+
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;set $manso to false&gt;&gt;
+
+
+</tw-passagedata><tw-passagedata pid="195" name="manso 3" tags="" position="1175,2450" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $boa to $boa + 1&gt;&gt;
 &lt;&lt;if $manso is true&gt;&gt;
 &quot;Eu já estou protegendo minha familia, Vanno! Se eu continuasse me metendo nesse assunto... Eu... só não quero perdê-los.&quot;
 
@@ -1844,7 +1882,32 @@ você se lembra de quando ligou para ela pouco antes, ela parecia estar sendo am
 &lt;&lt;set $manso to true&gt;&gt;
 
 
-</tw-passagedata><tw-passagedata pid="196" name="bruto 3" tags="" position="1325,2450" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="197" name="manso 4" tags="" position="1175,2600" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $boa to $boa + 1&gt;&gt;
+</tw-passagedata><tw-passagedata pid="196" name="bruto 3" tags="" position="1325,2450" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $grosso to $grosso + 1&gt;&gt;
+&lt;&lt;if $manso is true&gt;&gt;
+
+&quot;Não OUSE diminuir a dor que estou sentindo! Só estou protegendo minha familia, Vanno! E caso eu continuasse me metendo nesse assunto... Eu... só não quero perdê-los.&quot;
+
+você se lembra de quando ligou para ela pouco antes, ela parecia estar sendo ameaçada
+
+-[[Você está sendo ameaçada, Kate? precisa de ajuda? Posso fazer algo|manso 4]] - Você dá um passo à frente
+
+-[[Estão te ameaçando e é isto? Você vai ceder?! Vai condenar o mundo inteiro por causa de algumas mensagens ruins?!|bruto 4]] - Incrédulo, levantando um pouco o tom de voz, mas regulando-se
+
+&lt;&lt;elseif $manso is false&gt;&gt;
+
+&quot;Não OUSE diminuir a dor que estou sentindo! Só estou protegendo minha familia, Vanno! E caso eu continuasse me metendo nesse assunto... Eu... só não quero perdê-los.&quot;
+
+você se lembra de quando ligou para ela pouco antes, ela parecia estar sendo ameaçada
+
+-[[Você está sendo ameaçada, Kate? precisa de ajuda? Posso fazer algo|manso 4]] - Você dá um passo à frente
+
+-[[Estão te ameaçando e é isto? Você vai ceder?! Vai condenar o mundo inteiro por causa de algumas mensagens ruins?!|bruto 4]] - Incrédulo, levantando um pouco o tom de voz, mas regulando-se
+
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;set $manso to false&gt;&gt;
+
+
+</tw-passagedata><tw-passagedata pid="197" name="manso 4" tags="" position="1175,2600" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $boa to $boa + 1&gt;&gt;
 &lt;&lt;if $manso is true&gt;&gt;
 &quot;Eles me mandam coisas horríveis! A ARCH Corp tem vigiado minha familia... sabe cada passo que eles dão! Até fotos minhas dentro de casa, tiradas de bem onde você está parado! Até os animais de rua que eu cuidava, apareceram mortos!&quot; - ela se encolhe e coloca a mão na testa
 
@@ -1865,7 +1928,33 @@ Ela parece inquieta, esperando suas próximas palavras
 &lt;&lt;set $manso to true&gt;&gt;
 
 
-</tw-passagedata><tw-passagedata pid="198" name="bruto 4" tags="" position="1325,2600" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="199" name="manso 5" tags="" position="1175,2750" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $boa to $boa + 1&gt;&gt;
+</tw-passagedata><tw-passagedata pid="198" name="bruto 4" tags="" position="1325,2600" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $grosso to $grosso + 1&gt;&gt;
+&lt;&lt;if $manso is true&gt;&gt;
+Kate começa a chorar e fala:
+&quot;VOCÊ NÃO ENTENDE! Eles sabem CADA PASSO que eu dou. Recebo fotos de quando eu estou em casa, tiradas bem do gramado onde você está! Eles tiram fotos dos meus sobrinhos, minha irmã e minha mãe, e só precisariam dar um passo para acabar com a vida deles! Vanno, eu cuidava de animaizinhos de rua e TODOS apareceram MORTOS! A ARCH Corp é capaz de TUDO!&quot; - ela se encolhe e começa a tremer
+
+Ela tem passado por muita coisa, mas você ainda não acredita que exista uma justificativa para condenar o mundo à morte
+
+-[[Está tudo bem, Kate, eles não podem fazer nada com a sua família, caso seja eu que continue a investigação. Por favor, me ajude.|manso 5]] - você, ainda irritado, tenta usar palavras doces para manipulação
+
+-[[Então não se envolva mais, já que não aguentou! Mas me deixe fazer alguma coisa! Eu sei que você pode passar algo para minha pesquisa!|bruto 5]] - Você fala com o a voz firme
+
+&lt;&lt;elseif $manso is false&gt;&gt;
+Kate começa a chorar desesperadamente e fala:
+
+&quot;MEU DEUS! VOCÊ NÃO ENTENDE!&quot; - ela começa a tremer e parece estar sem fôlego - &quot;Eles sabem CADA PASSO que eu dou. Recebo fotos de quando eu estou em casa, tiradas bem do gramado onde você está! Eles tiram fotos dos meus sobrinhos, minha irmã e minha mãe, e só precisariam dar um passo para acabar com a vida deles! É a MINHA FAMILIA! Vanno, eu cuidava de animaizinhos de rua e TODOS apareceram MORTOS! A ARCH Corp é capaz de TUDO!&quot; - ela se encolhe e começa a tremer
+
+Ela tem passado por muita coisa e o que você falou parece realmente ter atigido ela, mas você ainda não acredita que exista uma justificativa para condenar o mundo à morte
+
+-[[Está certo, Kate. Eles não poderão fazer nada com a sua família, caso seja eu que continue a investigação. Por favor, me ajude.|manso 5]] - você, muito irritado irritado, tenta usar palavras mais doces na manipulação
+
+-[[Então não se envolva mais, já que não aguentou! Mas me deixe fazer alguma coisa! Eu sei que você pode passar algo para minha pesquisa!|bruto 5]] - Você fala com o a voz firme, para aumentar o peso de suas palavras
+
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;set $manso to false&gt;&gt;
+
+
+</tw-passagedata><tw-passagedata pid="199" name="manso 5" tags="" position="1175,2750" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $boa to $boa + 1&gt;&gt;
 &lt;&lt;if $manso is true&gt;&gt;
 &quot;Eu não sei&quot; - &quot;Não entendo essa sua fixação SEM SENTIDO em arranjar problemas!&quot; - &quot;Eles vão descobrir se eu te falar algo e você SABE disso, não tente me manipular!&quot; - Ela dá um passo a frente - &quot;Não me faça gastar o pouco ânimo que eu tenho nessa conversa&quot;
 
@@ -1889,7 +1978,30 @@ Parece será a ultima vez que você terá a chance de falar algo
 &lt;&lt;set $manso to true&gt;&gt;
 
 
-</tw-passagedata><tw-passagedata pid="200" name="bruto 5" tags="" position="1325,2750" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="201" name="se lascou" tags="" position="1050,2750" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="200" name="bruto 5" tags="" position="1325,2750" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $grosso to $grosso + 1&gt;&gt;
+&lt;&lt;if $manso is true&gt;&gt;
+&quot;PARA COM ISSO... por favor..&quot; - ela parece fraca agora - &quot;Eles  podem me descobrir e cumprir as ameaças! Só me deixa em paz!&quot;
+
+É a hora de finalizar isso
+
+&lt;&lt;if $boa gt $grosso&gt;&gt;-[[E então? Você conseguirá mesmo viver sabendo que deixou bilhões de pessoas morrerem por causa de egoísmo, Kate?|se lascou]] - Você tenta finalizar, mostrando que essa culpa nuncá irá sair das mãos dela
+
+&lt;&lt;elseif $grosso gt $boa&gt;&gt;-[[Então não me entregue. Mas quando tiver que editar manchetes sobre o número de mortos crescendo aos bilhões e ver mais pessoas ficando loucas por causa da ARCH Corp, tenha em mente que A CULPA SERÁ INTEIRAMENTE SUA E DO SEU EGOÍSMO.|venceu]]&lt;&lt;/if&gt;&gt; - Você despeja tudo que acha das atitudes dela, provavelmente ela pensa o mesmo
+
+&lt;&lt;elseif $manso is false&gt;&gt;
+
+&quot;PARA COM ISSO... por favor..&quot; - ela segura a cabeça com as duas mãos, amaçando os cabelos - &quot;E se eles me descobrirem? E SE REALMENTE CUMPRIREM AS AMEAÇAS? Porque você não vai embora e me deixa em  PAZ?&quot;
+
+É a hora de finalizar isso
+
+&lt;&lt;if $boa gt $grosso&gt;&gt;-[[Certo, e então? Se eu for agora você ainda sim conseguirá viver sabendo que deixou bilhões de pra morrer por causa de egoísmo seu?|se lascou]] - Você tenta finalizar, mostrando que essa culpa nuncá irá sair das mãos dela
+
+&lt;&lt;elseif $grosso gt $boa&gt;&gt;-[[Então não me entregue. Mas quando tiver que editar manchetes sobre o número de mortos crescendo aos bilhões e ver mais pessoas ficando loucas por causa da ARCH Corp, tenha em mente que A CULPA SERÁ INTEIRAMENTE SUA E DO SEU EGOÍSMO.|venceu]]&lt;&lt;/if&gt;&gt; - Você despeja tudo que acha das atitudes dela, provavelmente ela pensa o mesmo
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;set $manso to false&gt;&gt;
+
+
+</tw-passagedata><tw-passagedata pid="201" name="se lascou" tags="" position="1050,2750" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 &quot;Eu...&quot; - ela fica um tempo caladaa antes de se decidir - &quot;Não posso confiar! Preciso preservar o que é importante para mim! Então... sim! Vou conviver e sobreviver com isso!&quot; - Ela bate a porta sem deixar você retrucar.
 
