@@ -117,6 +117,10 @@ input, select, textarea {
   border: none;
   padding: .0em .0em .0em .15em;
 }
+#freeman {
+ width: 891px;
+ height: 973px;
+}
 #imgs {
  width: 900px;
  height: 464px;
@@ -705,7 +709,7 @@ Você pode ver a preocupação nas mensagens de josé, talvez você possa usar i
 &lt;&lt;createaudiogroup &quot;:ui&quot;&gt;&gt;
 	&lt;&lt;track &quot;arch_bgm&quot;&gt;&gt;
 &lt;&lt;/createaudiogroup&gt;&gt;
-&lt;!---Musica ARCH----------------------------------------&gt;
+&lt;!---Musica run----------------------------------------&gt;
 &lt;&lt;set _bgm = setup.SoundPath + &quot;sounds/run.mp3&quot;&gt;&gt;
 &lt;&lt;cacheaudio &quot;run_bgm&quot; &quot;sounds/run.mp3&quot;&gt;&gt;
 &lt;&lt;createaudiogroup &quot;:ui&quot;&gt;&gt;
@@ -1582,7 +1586,10 @@ As ruínas que eu comentei? preciso que você vá coletar mais evidências e que
 
 [[Vamos então... acho que não me resta escolha|EscavaçãoA]] - Você aceita a oferta e segue seu destino
 
-[[Claro que não posso aceitar um absurdo desses!|Tenta fugir]] - Em desepero você tenta fugir do local</tw-passagedata><tw-passagedata pid="148" name="EscavaçãoA" tags="" position="3775,3075" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+[[Claro que não posso aceitar um absurdo desses!|Tenta fugir]] - Em desepero você tenta fugir do local
+
+&lt;&lt;audio run_bgm stop&gt;&gt;
+&lt;&lt;audio arch_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="148" name="EscavaçãoA" tags="" position="3775,3075" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 &quot;Você provavelmente vai ter pouco tempo de explorar o local então precisamos ser rápidos para coletar o máximo de evidências possiveis&quot;
 
@@ -1602,7 +1609,10 @@ Você volta e se senta. Um sorriso leve se ergue no rosto dela enquanto ela esta
 
 &quot;Muito bem... vamos continuar nossa conver-&quot;
 
-Você então [[Tenta fugir]]</tw-passagedata><tw-passagedata pid="151" name="Sala F" tags="" position="3550,1800" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+Você então [[Tenta fugir]]
+
+&lt;&lt;audio run_bgm stop&gt;&gt;
+&lt;&lt;audio arch_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="151" name="Sala F" tags="" position="3550,1800" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Entrando na sala você se depara com uma janela enorme que cobre todo o fundo da sala,entre você e o vidro tem uma mesa e uma cadeira alta com as costas viradas pra você. A cadeira roda e você vê uma mulher sentada com uma xícara de chá nas mãos,ela coloca a xícara na mesa,coloca sua máscara e fala
 
 &quot;Você é o jornalista,não? Do ZER0 HORA,se não me engano. Estou certa de que você queria uma entrevista para falar sobre as nossas motivações,não é? Sente-se,por favor.&quot;
@@ -1738,7 +1748,11 @@ Impressionantemente essa não é a parte assustadora, mas sim o fato de que o pr
 Ele deseja ser venerado... por isso, causou desespero na humanidade para ser o único com a salvação, a cura. Fica claro que a ARCH corp não pode divulgar a cura mesmo que a possua, se não, Freeman em sua ira, causará o apocalipse.
 
 &lt;&lt;if $Saude lte 0&gt;&gt;Você instantaneamente pensa em contar isso ao mundo, mas assim que você pega seu celular sua visão fica turva e você começa a tossir sangue na tela dele, você sabe que não pode parar. Em seus ultimos esforços de vida você pega todas as [[informações da sua pesquisa para enviar a Billy Jordan|morrer como heroi]]&lt;&lt;else&gt;&gt;
-Você instantaneamente pensa em contar isso ao mundo, mas a única pessoa que lhe daria [[ouvidos seria Billy Jordan|contar a verdade ao mundo]]&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="172" name="retirar calendario" tags="" position="400,3825" size="100,100">Você então tenta retirar a pedra do lugar, para estuda-lá melhor em outro lugar, mas no momento em que você faz força sobre ela você ouve um som de algum mecanismo sendo ativado...
+Você instantaneamente pensa em contar isso ao mundo, mas a única pessoa que lhe daria [[ouvidos seria Billy Jordan|contar a verdade ao mundo]]&lt;&lt;/if&gt;&gt;
+
+&lt;&lt;audio drama_bgm stop&gt;&gt;
+&lt;&lt;audio final_bgm stop&gt;&gt;
+&lt;&lt;audio cyber2_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="172" name="retirar calendario" tags="" position="400,3825" size="100,100">Você então tenta retirar a pedra do lugar, para estuda-lá melhor em outro lugar, mas no momento em que você faz força sobre ela você ouve um som de algum mecanismo sendo ativado...
 
 Deveria [[continuar fazendo força|desmorona]] ou [[sair de perto|desmorona alt]]</tw-passagedata><tw-passagedata pid="173" name="contar a verdade ao mundo" tags="" position="500,4200" size="100,100">Rápidamente você começa a escrever o e-mail ao Billy Jordan falando sobre tudo sua pesquisa e oque descobriu, mas enquanto o e-mail esta sendo enviado você ve varios drones te cercando... Virando o rosto para a entrada do templo você ve uma figura feminina com uniforme da ARCH corp se aproximando enquanto fala:
 
@@ -1748,15 +1762,33 @@ O mundo ja sabe da verdade, antes que eles te peguem só resta você destruir as
 
 [[Jogar celular no chão e pisar|contar a verdade ao mundo 2]]
 
-[[Jogar celular na parede o mais forte que puder|contar a verdade ao mundo 2]]</tw-passagedata><tw-passagedata pid="174" name="A liberdade" tags="" position="250,3825" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="175" name="morrer como heroi" tags="" position="1900,4400" size="100,100">Em seus ultimos esforços você manda toda sua pesquisa a Billy Jordan...
+[[Jogar celular na parede o mais forte que puder|contar a verdade ao mundo 2]]
 
-Mesmo que no fim, você tenha o mesmo destino que seu irmão, o fato de que o mundo sabe da verdade e que com isso menos pessoas vão sofrer como você te traz paz uma última vez.</tw-passagedata><tw-passagedata pid="176" name="desmorona" tags="" position="625,3675" size="100,100">Você tenta com toda sua força retirar a pedra de uma vez, para que você possa sair desse lugar, mas você não tem força suficiente. Por segundos você olha para a entrada do templo e ve um grupo de pessoas com uniforme da ARCH corp que estava entrando começando a evacuar, mesmo pedindo por ajuda [[já é tarde...|GAME OVER]]
+&lt;&lt;audio cyber_bgm stop&gt;&gt;
+&lt;&lt;audio cyber2_bgm stop&gt;&gt;
+&lt;&lt;audio jose_bgm stop&gt;&gt;
+&lt;&lt;audio church_bgm stop&gt;&gt;
+&lt;&lt;audio arch_bgm stop&gt;&gt;
+&lt;&lt;audio title_bgm stop&gt;&gt;
+&lt;&lt;audio final_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="174" name="A liberdade" tags="" position="250,4200" size="100,100">Você se aproxima da relíquia e através de alguma energia que você nunca sentiu antes, vocÊ começa a entender para que serve aquela relíquia</tw-passagedata><tw-passagedata pid="175" name="morrer como heroi" tags="" position="1900,4400" size="100,100">Em seus ultimos esforços você manda toda sua pesquisa a Billy Jordan...
+
+Mesmo que no fim, você tenha o mesmo destino que seu irmão, o fato de que o mundo sabe da verdade e que com isso menos pessoas vão sofrer como você te traz paz uma última vez.
+
+
+&lt;&lt;audio cyber_bgm stop&gt;&gt;
+&lt;&lt;audio cyber2_bgm stop&gt;&gt;
+&lt;&lt;audio jose_bgm stop&gt;&gt;
+&lt;&lt;audio church_bgm stop&gt;&gt;
+&lt;&lt;audio arch_bgm stop&gt;&gt;
+&lt;&lt;audio title_bgm stop&gt;&gt;
+&lt;&lt;audio final_bgm stop&gt;&gt;
+&lt;&lt;audio drama_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="176" name="desmorona" tags="" position="625,3675" size="100,100">Você tenta com toda sua força retirar a pedra de uma vez, para que você possa sair desse lugar, mas você não tem força suficiente. Por segundos você olha para a entrada do templo e ve um grupo de pessoas com uniforme da ARCH corp que estava entrando começando a evacuar, mesmo pedindo por ajuda [[já é tarde...|GAME OVER]]
 
 Você por alguns segundos pensa sobre suas ultimas escolhas... E se talvez se você tivesse feito diferente isso não teria terminado assim</tw-passagedata><tw-passagedata pid="177" name="desmorona alt" tags="" position="500,3925" size="100,100">Em desespero vocÊ correm direção a saída, abandonando tudo que você teve tanto trabalho para conseguir... Logo na entrada tem duas pessoas com uniformes da ARCH corp e alguns drones.
 
 Uma delas extende a mão para você como se estivesse preparada para te puxar.
 
-Você [[agarra as mãos|vivo e destruído]] ou [[tenta correr sozinho|esmagado]]</tw-passagedata><tw-passagedata pid="178" name="vivo e destruído" tags="" position="625,3925" size="100,100">Você agarra as mãos femininas do que parece ser uma agente da ARCH corp, você é puxado segundos antes de ser esmagado, então olha para traz e vê todo o seu trabalho destruído... A pedra que você precisava tanto investigar foi destruida e soterrada, como se não bastasse tudo isso os agentes da ARCH corp te imobilizam e levam para o carro deles fazendo inumeras perguntas...
+Você [[agarra as mãos|vivo e destruído]] ou [[tenta correr sozinho|esmagado]]</tw-passagedata><tw-passagedata pid="178" name="vivo e destruído" tags="" position="625,3925" size="100,100">Você agarra as mãos femininas do que parece ser uma agente da ARCH corp, você é puxado segundos antes de ser esmagado, então olha para trás e vê todo o seu trabalho destruído... A pedra que você precisava tanto investigar foi destruida e soterrada, como se não bastasse tudo isso os agentes da ARCH corp te imobilizam e levam para o carro deles fazendo inumeras perguntas...
 
 Você ainda incrédulo que tudo se foi por causa de um empurrão, permanece quieto e triste. Sabendo que a [[verdade nunca será descoberta por sua causa.|GAME OVER]]</tw-passagedata><tw-passagedata pid="179" name="esmagado" tags="" position="625,3800" size="100,100">Você então tenta correr até a entrada sozinho, ignorando qualquer tipo de ajuda, mas você não é rápido o suficiente e por segundos consegue ver para a pessoa com uniforme da ARCH corp que estava tentando te salvar, mas agora [[já é tarde...|GAME OVER]]
 
@@ -2071,7 +2103,10 @@ Você concorda com a teoria de Aylin e se aproxima para fazer uma [[analise|anal
 
 Impressionantemente essa não é a parte assustadora, mas sim o fato de o primeiro evento mostrar algo semelhante a um &quot;veneno contagioso&quot;, tendo várias pessoas ficando doentes ao mesmo tempo.
 &lt;&lt;set $Saude to $Saude - 2&gt;&gt;
-&lt;&lt;if $Saude lte 0&gt;&gt;Você instantaneamente pensa em contar isso ao mundo, mas assim que você pega seu celular sua visão fica turva e você começa a tossir sangue na tela dele, você sabe que não pode parar. Em seus ultimos esforços de vida você pega todas as [[informações da sua pesquisa para enviar a Billy Jordan|morrer como heroi]]&lt;&lt;else&gt;&gt;Mesmo com a ARCH corp pedindo para você manter em segredo, você não resiste em enviar suas [[descobertas à Billy Jordan|Falar para ele antes]] antes que alguém da ARCH corp apareça.&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="205" name="escavaçãoA 4 alt" tags="" position="3800,3800" size="100,100">Sem muita demora liderados por Aylin o grupo da ARCH corp aparece.
+&lt;&lt;if $Saude lte 0&gt;&gt;Você instantaneamente pensa em contar isso ao mundo, mas assim que você pega seu celular sua visão fica turva e você começa a tossir sangue na tela dele, você sabe que não pode parar. Em seus ultimos esforços de vida você pega todas as [[informações da sua pesquisa para enviar a Billy Jordan|morrer como heroi]]&lt;&lt;else&gt;&gt;Mesmo com a ARCH corp pedindo para você manter em segredo, você não resiste em enviar suas [[descobertas à Billy Jordan|Falar para ele antes]] antes que alguém da ARCH corp apareça.&lt;&lt;/if&gt;&gt;
+
+&lt;&lt;audio drama_bgm stop&gt;&gt;
+&lt;&lt;audio cyber2_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="205" name="escavaçãoA 4 alt" tags="" position="3800,3800" size="100,100">Sem muita demora liderados por Aylin o grupo da ARCH corp aparece.
 
 &quot;Vanno, oque está fazendo! vir até aqui sem a máscara pode ser perigoso&quot; - diz Aylin enquato te entrega uma máscara - &quot;Então é aqui que esta oque eu tanto procurei... Agora vou poder pesquisar com material físico ao invés de meras imagens! Vamos drones tirem-na do pedestal&quot;
 
@@ -2084,7 +2119,10 @@ Impressionantemente essa não é a parte assustadora, mas sim o fato de o primei
 
 [[Agora eu entendo o porque vocês não distribuem a cura...|Final ARCH]]
 
-[[Eu não deveria ter duvidado de vocês...|Final ARCH]]</tw-passagedata><tw-passagedata pid="207" name="analisar com ARCH" tags="" position="4000,4100" size="100,100">Usando seu celular, que ainda tem sinal você faz uma pesquisa demorada sobre antigas civilizações e percebe que a criadora deste templo sumiu em pouquíssimo tempo, como se tivessem passado por uma catástrofe. Com isso em mente e olhando novamente o calendário, você começa a relacionar oque Aylin te disse... ele realmente não consta datas, mas sim eventos. E o evento final parece ser uma catástrofe que levou aquela civilização à ruína.
+[[Eu não deveria ter duvidado de vocês...|Final ARCH]]
+
+&lt;&lt;audio final_bgm stop&gt;&gt;
+&lt;&lt;audio cyber2_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="207" name="analisar com ARCH" tags="" position="4000,4100" size="100,100">Usando seu celular, que ainda tem sinal você faz uma pesquisa demorada sobre antigas civilizações e percebe que a criadora deste templo sumiu em pouquíssimo tempo, como se tivessem passado por uma catástrofe. Com isso em mente e olhando novamente o calendário, você começa a relacionar oque Aylin te disse... ele realmente não consta datas, mas sim eventos. E o evento final parece ser uma catástrofe que levou aquela civilização à ruína.
 
 Impressionantemente essa não é a parte assustadora, mas sim o fato de que o primeiro evento parece mostrar algo sobre várias pessoas ficando doentes ao mesmo tempo... Olhando com mais atenção, você precebe que as figuras indicam que o criador da doença é o proprio líder do povo, Freeman.
 
