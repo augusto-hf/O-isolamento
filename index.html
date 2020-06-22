@@ -514,7 +514,6 @@ Após negar o convite um tanto suspeito você então resolve ir [[atrás de mais
 -[[Você tem certeza que deveria tirar a máscara?|tirar a máscara?]] - olhando preocupado para o rosto dele
 
 -[[Obrigado...|Obrigado]] - enquanto ajeita sua máscara, certificando-se que ela permaneça em seu rosto.</tw-passagedata><tw-passagedata pid="24" name="tirar a máscara?" tags="" position="175,1875" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;
-&lt;/div&gt;&lt;img id=&quot;imgs&quot; src=&quot;images/freeman.png&quot;&gt;
 
 &quot;Não há o que temer, meu caro, o Homem Livre protege a todos&quot; - a figura diz, enquanto aponta para a imagem de um homem na parede.
 
@@ -525,7 +524,6 @@ Você diz que está tudo bem, mas que prefere ficar com a sua máscara
 -[[Meu nome é Vanno, prazer|educado]] - você inicia educadamente, assim ele pode cooperar mais
 
 -[[&quot;Vamos direto ao assunto, não podemos perder tempo com apresentações&quot;|sem tempo irmao]] - sendo direto vocês podem resolver o assunto mais rapidamente</tw-passagedata><tw-passagedata pid="25" name="Obrigado" tags="" position="325,1875" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
-&lt;img id=&quot;imgs&quot; src=&quot;images/freeman.png&quot;&gt;&lt;/img&gt;
 
 &quot;É muito bom ver o rosto do homem que tanto almeja encontrar a verdade&quot; - diz a figura enquanto abre um leve sorriso
 
@@ -536,14 +534,12 @@ Você diz que não pôde ficar parado depois de lêr aquelas atrocidades
 -[[Meu nome é Vanno, prazer|educado]] - você inicia educadamente, assim ele pode cooperar mais
 
 -[[&quot;Vamos direto ao assunto, não podemos perder tempo com apresentações&quot;|sem tempo irmao]] - sendo direto vocês podem resolver o assunto mais rapidamente</tw-passagedata><tw-passagedata pid="26" name="educado" tags="" position="375,2025" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
-&lt;img id=&quot;imgs&quot; src=&quot;images/freeman.png&quot;&gt;
 
 &quot;Os seguidores do homem livre procuram levar a verdade a todos os irmãos e por isso o contatamos, sabemos que você busca o mesmo objetivo por isso é a pessoa certa para nos ajudar&quot;
 
 -[[Fico feliz em termos interesses em comum, porém preciso de fundamento para completar este objetivo|Foco]] - Você fala mantendo o foco no assunto
 
 -[[Eu sei pouco sobre a fé ao homem livre, mas vindo até aqui eu percebi que vocês são o grupo certo para ajudar nessa busca pela verdade.|Homem Livre 1]] - você deixa o assunto fluir</tw-passagedata><tw-passagedata pid="27" name="sem tempo irmao" tags="" position="125,2025" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
-&lt;img id=&quot;imgs&quot; src=&quot;images/freeman.png&quot;&gt;
 
 &quot;Posso ver nos seus olhos que reconhece a urgência do assunto. Nós, os seguidores do homem livre estamos há muito tempo em busca de revelar a verdade ao mundo e sabemos que você pode nos ajudar&quot;
 
@@ -661,7 +657,7 @@ Você pode ver a preocupação nas mensagens de josé, talvez você possa usar i
 
 [[&quot;Relaxa posso resolver a situação, mas vou precisar saber de algo antes&quot;|chantagem]]- tranquilizando josé você pode conseguir o que precisa
 
-[[&quot;Pra você?! Isso também está me prejudicando muito!&quot;|ameaça]]- Talvez através da pressão você consiga informações mais rápido</tw-passagedata><tw-passagedata pid="37" name="StoryInit" tags="" position="825,200" size="100,100">&lt;!---Musica tema 1----------------------------------------&gt;
+[[&quot;Pra você?! Isso também está me prejudicando muito!&quot;|ameaça]]- Talvez através da pressão você consiga informações mais rápido</tw-passagedata><tw-passagedata pid="37" name="StoryInit" tags="" position="2500,450" size="100,100">&lt;!---Musica tema 1----------------------------------------&gt;
 &lt;&lt;set _bgm = setup.SoundPath + &quot;sounds/ludowic.mp3&quot;&gt;&gt;
 &lt;&lt;cacheaudio &quot;cyber_bgm&quot; &quot;sounds/ludowic.mp3&quot;&gt;&gt;
 &lt;&lt;createaudiogroup &quot;:ui&quot;&gt;&gt;
@@ -692,8 +688,8 @@ Você pode ver a preocupação nas mensagens de josé, talvez você possa usar i
 	&lt;&lt;track &quot;gameover_bgm&quot;&gt;&gt;
 &lt;&lt;/createaudiogroup&gt;&gt;
 &lt;!---Musica tema 2----------------------------------------&gt;
-&lt;&lt;set _bgm = setup.SoundPath + &quot;sounds/Valorant OST - Collection.mp3&quot;&gt;&gt;
-&lt;&lt;cacheaudio &quot;cyber2_bgm&quot; &quot;sounds/Valorant OST - Collection.mp3&quot;&gt;&gt;
+&lt;&lt;set _bgm = setup.SoundPath + &quot;sounds/cybertemple.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;cyber2_bgm&quot; &quot;sounds/cybertemple.mp3&quot;&gt;&gt;
 &lt;&lt;createaudiogroup &quot;:ui&quot;&gt;&gt;
 	&lt;&lt;track &quot;cyber2_bgm&quot;&gt;&gt;
 &lt;&lt;/createaudiogroup&gt;&gt;
@@ -708,6 +704,12 @@ Você pode ver a preocupação nas mensagens de josé, talvez você possa usar i
 &lt;&lt;cacheaudio &quot;arch_bgm&quot; &quot;sounds/arch.mp3&quot;&gt;&gt;
 &lt;&lt;createaudiogroup &quot;:ui&quot;&gt;&gt;
 	&lt;&lt;track &quot;arch_bgm&quot;&gt;&gt;
+&lt;&lt;/createaudiogroup&gt;&gt;
+&lt;!---Musica ARCH----------------------------------------&gt;
+&lt;&lt;set _bgm = setup.SoundPath + &quot;sounds/run.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;run_bgm&quot; &quot;sounds/run.mp3&quot;&gt;&gt;
+&lt;&lt;createaudiogroup &quot;:ui&quot;&gt;&gt;
+	&lt;&lt;track &quot;run_bgm&quot;&gt;&gt;
 &lt;&lt;/createaudiogroup&gt;&gt;</tw-passagedata><tw-passagedata pid="38" name="&quot;Problema ou não, aquela era a escolha certa&quot;" tags="" position="2175,1750" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Que bom que tem orgulho do que fez, cara&quot;
 
@@ -878,6 +880,7 @@ Logo após essa conversa um pouco pesada, você percebe que seu e-mail enviado a
 &lt;&lt;set $D to false&gt;&gt;</tw-passagedata><tw-passagedata pid="58" name="respondido" tags="" position="1675,3150" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 resposta.txt
 &lt;&lt;audio jose_bgm stop&gt;&gt;
+&lt;&lt;audio cyber_bgm stop&gt;&gt;
 &lt;&lt;audio cyber2_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="59" name="A verdade 2" tags="" position="2250,2300" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Sim... ela trabalha em dos cargos altos da Zero Hora&quot;
 
@@ -935,14 +938,15 @@ Isso só te deixa mais confuso, oque uma escavação teria haver com a cura?
 [[&quot;Tudo bem, assim que eu souber de algo eu te aviso&quot;|Avisar]]
 
 [[&quot;Desculpa, mas eu ja estou me arriscando, não quero te colocar em risco também&quot;|Manter Longe]]</tw-passagedata><tw-passagedata pid="66" name="Homem Livre 2" tags="" position="375,2275" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
-&lt;img id=&quot;imgs&quot; src=&quot;images/freeman.png&quot;&gt;
 
 &quot;Exatamente por isso que nós devemos mostrar que com o culto todos estão seguros, mas ainda não são muitos os que acreditam...&quot; - Diz Roberto com uma expressão de decepção
 
-Ouvir isso e ver a tristeza genuína no rosto dele te entristece um pouco.
+Ouvir isso e ver a tristeza genuína no rosto dele te entristece um pouco e você pergunta o que levou as pessoas a não acreditarem.
 
--[[&quot;Mas oque levou as pessoas a não acreditar?&quot;|Homem Livre 3]] - Você, ainda sim, precisa saber mais</tw-passagedata><tw-passagedata pid="67" name="Foco" tags="" position="125,2175" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
-&lt;img id=&quot;imgs&quot; src=&quot;images/freeman.png&quot;&gt;&lt;&lt;set $cetico to $cetico&gt;&gt;&lt;&lt;set $cetico to false&gt;&gt;
+&quot;Esta empresa vem fingindo ao povo que quer ajudar, mas na verdade só esta usando sua influencia para os cegar!&quot; - ele aponta para a sala o templo quase vazio, no momento - &quot;E como nós estamos tentando mostrar a verdade às pessoas, eles não medem esforços para ir contra nós, com isso eles querem planejar um ataque a imagem de nosso salvador, mas não sabemos o suficiente, precisamos que você nos ajude a investigar isso, vanno&quot;
+&lt;&lt;set $fe to true&gt;&gt;
+-[[&quot;Onde posso começar para impedir essa justiça?&quot;|Investigação]] - Você diz, determinado</tw-passagedata><tw-passagedata pid="67" name="Foco" tags="" position="125,2175" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+
 &quot;Muito bem, vamos seguir com nossos assuntos sobre a empresa então...&quot; - Diz Roberto enquanto anda até um dos bancos do templo.
 
 Então você segue com ele.
@@ -952,7 +956,6 @@ Então você segue com ele.
 -[[Mas como a ARCH corp teve envolvimento nisso?|Foco 2]] - você precisa de mais detalhes
 
 -[[Faz sentido... A doença levou a vida de muitos, eles não vão acreditar em qualquer coisa tão facilmente|cético]] - ele precisa de mais que isso para te convencer</tw-passagedata><tw-passagedata pid="68" name="Homem Livre 1" tags="" position="375,2150" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
-&lt;img id=&quot;imgs&quot; src=&quot;images/freeman.png&quot;&gt;
 
 &quot;Fez uma sábia escolha meu filho, juntos podemos mostrar ao mundo a verdade, mostrar o verdadeiro poder do homem livre não acha? As pessoas não precisarão viver com medo de perder a própria vida, família ou amigos para essa pandemia sem fim.&quot;
 
@@ -962,16 +965,10 @@ Ao ouvir estas palavras, pela primeira vez em anos você sente paz em seu coraç
 
 -[[&quot;Ainda tenho minhas duvidas, mas vamos voltar a fazer oque viemos fazer&quot;|Foco]] - Ainda com duvidas de tudo que está acontecendo, você prefere focar no que veio fazer aqui.
 </tw-passagedata><tw-passagedata pid="69" name="Foco 2" tags="" position="125,2425" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
-&lt;img id=&quot;imgs&quot; src=&quot;images/freeman.png&quot;&gt;
 
 &quot;Esta empresa vem fingindo ao povo que quer ajudar, mas na verdade só esta usando sua influencia para os cegar&quot; - ele explica &lt;&lt;if $cetico is true&gt;&gt;e depois de tudo que você viu é difícil não concordar com Roberto&lt;&lt;/if&gt;&gt; - &quot;E todos que tentam expor seus segredos, são ameaçados ou pior... Nós sabemos que eles planejam alguma espécie de retaliação contra nós, mas precisamos de você para investigar isso&quot;
 &lt;&lt;set $fe to false&gt;&gt;
--[[Uma prova de que a empresa quer atacar este templo seria o suficiente para fazer todos duvidarem... Por onde eu começo?|Investigação]] - você está preparado para a missão</tw-passagedata><tw-passagedata pid="70" name="Homem Livre 3" tags="" position="375,2425" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
-&lt;img id=&quot;imgs&quot; src=&quot;images/freeman.png&quot;&gt;
-
-&quot;Esta empresa vem fingindo ao povo que quer ajudar, mas na verdade só esta usando sua influencia para os cegar!&quot; - ele aponta para a sala o templo quase vazio, no momento - &quot;E como nós estamos tentando mostrar a verdade às pessoas, eles não medem esforços para ir contra nós, com isso eles querem planejar um ataque a imagem de nosso salvador, mas não sabemos o suficiente, precisamos que você nos ajude a investigar isso, vanno&quot;
-&lt;&lt;set $fe to true&gt;&gt;
--[[&quot;Onde posso começar para impedir essa justiça?&quot;|Investigação]] - Você diz, determinado</tw-passagedata><tw-passagedata pid="71" name="cético" tags="" position="25,2300" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+-[[Uma prova de que a empresa quer atacar este templo seria o suficiente para fazer todos duvidarem... Por onde eu começo?|Investigação]] - você está preparado para a missão</tw-passagedata><tw-passagedata pid="70" name="cético" tags="" position="25,2300" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &lt;img id=&quot;imgs&quot; src=&quot;images/freeman.png&quot;&gt;&lt;&lt;set $cetico to true&gt;&gt;
 
 &quot;Eu entendo suas dúvidas meu filho, mas posso provar a força de nossa fé facilmente&quot; - Diz Roberto ainda mais certo de suas palavras e extendendo um dos braços.
@@ -986,9 +983,11 @@ Você questiona como uma imagem clara de quebra da quarentena poderia ser algo b
 
 Você ve as datas passando, desde o começo da quarentena até os dias de hoje mesmo se aglomerando, o numero de pessoas não muda e ninguém parece doente, na verdade eles parecem muito bem e até... felizes.
 
-&lt;&lt;if $ler3 is true&gt;&gt;-[[Eu ja havia visto algo do tipo em uma manchete, mas não dizia nada sobre ninguém ficar doente... Então como a ARCH corp tinha envolvimento com o que você tinha dito anteriormente?&quot;|Foco 2]] - ele definitivamente te convenceu&lt;&lt;else&gt;&gt;-[[Eu não sabia de nada disso, realmente não estava esperando... Então como a ARCH corp tinha envolvimento com oque você tinha dito anteriormente?|Foco 2]] - ele definitivamente te convenceu&lt;&lt;/if&gt;&gt;
--[[Eu realmente não deveria duvidar da fé ao homem livre|Homem Livre 3]]
-</tw-passagedata><tw-passagedata pid="72" name="Investigação" tags="" position="175,2550" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;if $ler3 is true&gt;&gt;-[[Eu ja havia visto algo do tipo em uma manchete, mas não dizia nada sobre ninguém ficar doente... Então como a ARCH corp tinha envolvimento com o que você tinha dito anteriormente?&quot;|Foco 2]] - ele definitivamente te convenceu
+&lt;&lt;else&gt;&gt;-[[Eu não sabia de nada disso, realmente não estava esperando... Então como a ARCH corp tinha envolvimento com oque você tinha dito anteriormente?|Foco 2]] - ele definitivamente te convenceu&lt;&lt;/if&gt;&gt;
+
+-[[Eu realmente não deveria duvidar da fé ao homem livre|Homem Livre 2]]
+</tw-passagedata><tw-passagedata pid="71" name="Investigação" tags="" position="175,2550" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Nós agradecemos muito ao homem livre por nos proporcionar uma ajuda como você&quot;
 
 Você então abre um leve sorriso
@@ -1000,8 +999,9 @@ Realmente isso te faz lembrar sobre a tal biblioteca que é muito bem guardada p
 -[[Aconteceu algo por lá? Parece ser um lugar tão seguro...|Investigação 2]] - Mesmo reconhecendo a segurança do local, essa ainda é uma hipótese
 
 -[[Já ouvi falar um pouco sobre, mas teria como você me falar um pouco mais?|Investigação 1.5]]
-&lt;&lt;if $fe is true&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="73" name="visita" tags="" position="875,1700" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
-&lt;div class=&quot;imgm&quot;&gt;&lt;img id=&quot;pessoas&quot; src=&quot;images/kate.png&quot;&gt;&lt;/div&gt;Você chama na frente da casa de Kate pedindo que ela abra a porta para conversar e explica quem é. Assim que termina de pronunciar seu nome, a porta abre repentinamente:
+&lt;&lt;if $fe is true&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="72" name="visita" tags="" position="875,1700" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;div class=&quot;imgm&quot;&gt;&lt;img id=&quot;pessoas&quot; src=&quot;images/kate.png&quot;&gt;&lt;/div&gt;
+Você chama na frente da casa de Kate pedindo que ela abra a porta para conversar e explica quem é. Assim que termina de pronunciar seu nome, a porta abre repentinamente:
 
 &quot;Porque fez aquilo?!&quot;
 
@@ -1012,12 +1012,16 @@ Você pergunta sobre o que ela está falando e ela prossegue:
 &lt;&lt;if $MancheteP eq 1&gt;&gt;[[-Me parecia uma manchete que chamaria atenção.|mentira]] - Você acha melhor não ser muito direto de cara, já que ela parece estar à beira de uma crise. 
 
 -[[O mundo precisava saber a verdade.|verdade]] - Você decide que o melhor caminho é falando a verdade diretamente.
-&lt;&lt;elseif $MancheteP eq 2&gt;&gt;-[[&quot;Agora eu me arrependo amargamente disso&quot;|op1]]
+&lt;&lt;elseif $MancheteP eq 2&gt;&gt;-[[&quot;Agora, já não sei se foi a melhor escolha&quot;|manso 1]]
 
--[[&quot;Foi o melhor jeito de não chamar atenção&quot;|op2]]&lt;&lt;else&gt;&gt;Você não entendeu nada do que aconteceu, mas não tem outra escolha a não ser, [[voltar pra casa|pegar informações sigilosas]]
+-[[&quot;Foi o melhor jeito de não chamar atenção&quot;|bruto 1]]&lt;&lt;else&gt;&gt;Você não entendeu nada do que aconteceu, mas não tem outra escolha a não ser, [[voltar pra casa|pegar informações sigilosas]]
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;set $Saude to $Saude - 1&gt;&gt;
-&lt;&lt;set $K to false&gt;&gt;</tw-passagedata><tw-passagedata pid="74" name="mentira" tags="" position="675,1875" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;set $K to false&gt;&gt;
+&lt;&lt;set $manso to $manso&gt;&gt;
+&lt;&lt;set $manso to false&gt;&gt;
+&lt;&lt;set $boa to 0&gt;&gt;
+&lt;&lt;set $grosso to 0&gt;&gt;</tw-passagedata><tw-passagedata pid="73" name="mentira" tags="" position="600,1875" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Está brincando? Você envia algo como aquilo para a publicação porque acha que chamaria atenção?&quot; - ela parece ter ficado ofendida com a resposta
 
 -[[Fiz isso porque é o que geralmente fazemos no nosso trabalho, kate, não foi por mal|fora]] - você explica ( caminho pra game over)
@@ -1026,7 +1030,7 @@ Você pergunta sobre o que ela está falando e ela prossegue:
 
 &lt;&lt;set $k to true&gt;&gt;
 
-&lt;&lt;set $ko to $ko&gt;&gt;&lt;&lt;set $ko to true&gt;&gt;</tw-passagedata><tw-passagedata pid="75" name="verdade" tags="" position="900,1850" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $sincero to $sincero&gt;&gt;&lt;&lt;set $sincero to false&gt;&gt;
+&lt;&lt;set $ko to $ko&gt;&gt;&lt;&lt;set $ko to true&gt;&gt;</tw-passagedata><tw-passagedata pid="74" name="verdade" tags="" position="850,1850" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $sincero to $sincero&gt;&gt;&lt;&lt;set $sincero to false&gt;&gt;
 &quot;Você tem que parar com isso! Não sabe onde está se metendo... Eles não Vão parar! Farão você se arrepender! Você PRECISA parar...&quot; - ela começa a tremer e se apoia no arco da porta, fica algum tempo paralizada e parece pensar em algo mas logo prossegue - &quot;Você disse algo sobre a verdade, o que você tem a ver com a fé ao homem livre?&quot;
 
 Você não tem ideia do que ela quis dizer com tudo isso. Mas ao lembrar de quando ela atendeu a ligação, ficou claro que ela está sendo ameaçada de alguma forma.
@@ -1037,7 +1041,7 @@ Você não tem ideia do que ela quis dizer com tudo isso. Mas ao lembrar de quan
 
 [[-Como assim?|imparcial]] - Sendo imparcial, pode ser que cosiga mais explicações, não ficou explícitia a resposta que ela espera de você.
 
-&lt;&lt;set $k to true&gt;&gt;</tw-passagedata><tw-passagedata pid="76" name="blefar" tags="" position="1025,1975" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;set $k to true&gt;&gt;</tw-passagedata><tw-passagedata pid="75" name="blefar" tags="" position="975,1975" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &lt;center&gt;&lt;img id=&quot;freeman&quot; src=&quot;images/kateroom.png&quot;&gt;&lt;/center&gt;
 
 &quot;Até onde você sabe?&quot; - disse Kate com a voz falhando. Parece que ela realmente está muito afetada, visto que realmente não duvidou da sua afirmação.
@@ -1050,13 +1054,13 @@ Kate se encolhe e começa a chorar.
 
 -[[Meu Deus... o que você acha que pode ter feito para eles te mandarem coisas tão horríveis?|questionar]] - talvez descobrindo o que causou essas ameaças você poderá usar isso pra avançar na investigação
 
--[[Meu Deus... que horrível, Kate... Mas olhe, deve ser por isso que me mandaram falar com você, eu também recebi um e-mail|revelar]] - você mostra o e-mail que recebeu e espera que isso ajude a conversa a fluir mais rápido</tw-passagedata><tw-passagedata pid="77" name="sincero" tags="" position="900,1975" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+-[[Meu Deus... que horrível, Kate... Mas olhe, deve ser por isso que me mandaram falar com você, eu também recebi um e-mail|revelar]] - você mostra o e-mail que recebeu e espera que isso ajude a conversa a fluir mais rápido</tw-passagedata><tw-passagedata pid="76" name="sincero" tags="" position="850,1975" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &lt;&lt;set $sincero to true&gt;&gt;
 &quot;Se não sabe, porque veio aqui?&quot; - ela olha fixamente para seu rosto
 
 -[[Olha, depois que li aquela manchete, eu não consegui parar de pensar nela... e então recebi um e-mail estranho.|apaziguar]] - Você mostra o e-mail ameaçador na sua caixa de entrada
 
--[[Eu preciso inventigar mais isso, kate. Eles podem estar escondendo algo que salvaria o mundo inteiro! Eu ja sofri muito com essa doença maldita, mas nós podemos mudar isso para outras pessoas. Não tenho mais nada a perder|manipular]]- Você é direto sobre suas motivaçôes caso omita, ela te expulsa</tw-passagedata><tw-passagedata pid="78" name="imparcial" tags="" position="775,1975" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+-[[Eu preciso inventigar mais isso, kate. Eles podem estar escondendo algo que salvaria o mundo inteiro! Eu ja sofri muito com essa doença maldita, mas nós podemos mudar isso para outras pessoas. Não tenho mais nada a perder|manipular]]- Você é direto sobre suas motivaçôes caso omita, ela te expulsa</tw-passagedata><tw-passagedata pid="77" name="imparcial" tags="" position="725,1975" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Não conhece os Seguidores de Freeman?&quot;
 
 Você explica que sabe quem são, mas não entendeu o porquê da comparação. Então segue dizendo que não é um cara muito religioso, afinal.
@@ -1067,13 +1071,13 @@ Então você tem que decidir se [[segue a dica|aceitar a ajuda]] de Kate, ou [[c
 
 &lt;&lt;set $K to false&gt;&gt;
 &lt;&lt;set $imparcial to $imparcial&gt;&gt;
-&lt;&lt;set $imparcial to true&gt;&gt;</tw-passagedata><tw-passagedata pid="79" name="questionar" tags="" position="1050,2175" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;set $imparcial to true&gt;&gt;</tw-passagedata><tw-passagedata pid="78" name="questionar" tags="" position="1050,2125" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &lt;&lt;set $improviso to $improviso&gt;&gt;&lt;&lt;set $improviso to true&gt;&gt;
 &quot;Não! Eu sei o que está fazendo, está tentando saber mais sobre a Arch Corp! Isso é perigoso demais, Vanno... Não posso permitir que faça isso. Olha o meu estado, olha o que fizeram comigo! Eu vivo todo dia com um medo constante do que eles podem fazer à mim ou à minha familia, pense um pouco na sua!&quot; - ela parece desesperada, mas o que diz, te lembra que não há ninguém mais que possa perder.
 
 -[[Calma, Kate, Eu só perguntei o motivo porque isso pode me ajudar a descobrir mais coisas. Você sabe, preciso descobrir a VERDADE|manipular]] - Você diz essa última palavra sem gritar mas com uma entonação diferente para lembrá-la do que a fez ceder no começo.
 
--[[Calma... na verdade, eu perguntei isso porque quero entender o motivo de eles estarem fazendo isso com você. Sabe que tenho um propósito de estar aqui|revelar]] - Você improvisa, tentando acalmar os ânimos.</tw-passagedata><tw-passagedata pid="80" name="revelar" tags="" position="1175,2075" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+-[[Calma... na verdade, eu perguntei isso porque quero entender o motivo de eles estarem fazendo isso com você. Sabe que tenho um propósito de estar aqui|revelar]] - Você improvisa, tentando acalmar os ânimos.</tw-passagedata><tw-passagedata pid="79" name="revelar" tags="" position="1050,2250" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 &lt;&lt;if $improviso eq true&gt;&gt; &quot;Que propósito?&quot; - ela pergunta, dessa vez desconfiada.
 
@@ -1084,7 +1088,7 @@ Na verdade, você se pergunta o mesmo e sabendo que não pode demorar, avança r
 Você fica orgulhoso, parece que seus dotes de improviso estão aumentando e Kate se acalma um pouco. Além disso ela acaba de adimitir que também estava investigando a empresa
 
 -[[Imaginei que isso poderia acontecer caso descobrissem que continuo investigando, por isso estou fazendo isso sozinho e tomando precauções para que não me percebam.|acalmar]] - Você acalma mais um pouco as preocupações de kate
-</tw-passagedata><tw-passagedata pid="81" name="manipular" tags="" position="925,2125" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="80" name="manipular" tags="" position="925,2125" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &lt;&lt;if $sincero is false&gt;&gt;&quot;Não é assim que funciona, Vanno! Não vê que você só vai se colocar em perigo? E quanto a mim? Só vai piorar minha situação!&quot; - Ela apoia a cabeça nas mãos, sem esperanças.
 
 Você não tem ideia do que mais responder... Kate parece piorar à cada palavra que você fala, então diz à ela que não pode voltar atrás.&gt;&gt;
@@ -1097,7 +1101,7 @@ Você reafirma que não pode esquecer o que leu.
 
 &quot;É por isso que preciso que você saia daqui.&quot; - Ela começa a fechar a porta mas abre novamente - &quot;Eu também vou avisar ao José e ao Desmon que você possivelmente irá falar com eles, não posso deixar que coloque mais pessoas em risco. Caso você insista e tente entrar em contato com eles, Precisarei avisar ao chefe. Eu sinto muito mesmo...&quot; - finaliza pouco antes de abaixar a cabeça e fechar a porta.&lt;&lt;/if&gt;&gt;
 
-Sem mais o que fazer, você volta pra casa exausto, com dificuldade de respirar, como se tivesse andado por quilômetros. Sabe que caso seu chefe descubra o que está fazendo, você será demitido na hora, com isso, sua única opção é [[investigar sozinho|procurar por informações]].</tw-passagedata><tw-passagedata pid="82" name="seguidores de Freeman" tags="" position="625,1225" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+Sem mais o que fazer, você volta pra casa exausto, com dificuldade de respirar, como se tivesse andado por quilômetros. Sabe que caso seu chefe descubra o que está fazendo, você será demitido na hora, com isso, sua única opção é [[investigar sozinho|procurar por informações]].</tw-passagedata><tw-passagedata pid="81" name="seguidores de Freeman" tags="" position="625,1225" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 Você já bem experiente em achar pessoas, faz uma breve pesquisa e acha um correspondente anonimo que diz falar em nome do culto ao Freeman. 
 
@@ -1106,14 +1110,14 @@ Após uma breve troca de e-mails com esse o correspondente misterioso, ele te pe
 Você então [[aceita]] ou [[nega]] ?
 
 &lt;&lt;audio church_bgm stop&gt;&gt;
-&lt;&lt;audio cyber_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="83" name="acalmar" tags="" position="1200,2200" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;audio cyber_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="82" name="acalmar" tags="" position="1050,2375" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 &quot;Eu também estava, mas fui tão burra...&quot; - ela deu um tapa forte na testa, decepcionada - &quot;eu fiz uma publicação anônima num forum de Teorias da Conspiração e após isso eu recebi um email parecido com o seu, provavelmente me rastrearam. Então eu percebi que precisava e ajuda e depois que os seguidores de Freeman me contataram oferecendo-a, eu aceitei.&quot; - ela suspira um pouco aliviada depois de dizer a ultima palavra.
 
 -[[Foi por isso que que você percebeu que eu estou com eles?|desabafo]] - continuando a mentira que começou 
 
 -[[Certo|segue]] - assentindo com a cabeça
-</tw-passagedata><tw-passagedata pid="84" name="normal" tags="" position="1725,1700" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="83" name="normal" tags="" position="1725,1700" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Ele finalmente consegue ligar a câmera e se senta em sua cadeira. É estranho ver o rosto de outra pessoa tão próximo e sem a máscara,você mal consegue se lembrar como é ter esse tipo de interação sem pensar primeiro em cobrir seu rosto,até que lembra que é apenas uma vídeo-chamada e que o perigo de transmissão não existe nestas circunstâncias.
 
 &quot;Agora tá tudo certo? Parece que sim... então tá,cê queria me perguntar alguma coisa?&quot;
@@ -1121,12 +1125,12 @@ Ele finalmente consegue ligar a câmera e se senta em sua cadeira. É estranho v
 &lt;&lt;if $mancete is 1&gt;&gt;[[Sim! Eu tava querendo conversar sobre o último arquivo que me foi enviado|normal com manchete 1]] 
 &lt;&lt;else&gt;&gt;[[Sim!! Eu tava querendo conversar sobre o último arquivo que me foi enviado|normal sem manchete 1]]
 &lt;&lt;/if&gt;&gt;
-</tw-passagedata><tw-passagedata pid="85" name="bajulaçao 1" tags="" position="1900,1700" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="84" name="bajulaçao 1" tags="" position="1900,1700" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Quando a câmera dele finalmente liga o rosto dele está com uma expressão descreditada,claramente ele não esperava um elogio. 
 
 Mal da pra acreditar que bajular Desmon talvez seja o melhor a se fazer,mas ele pode ter informação que você precisa,talvez descontrariar e [[Admitir que era brincadeira|normal 0.5]] seja melhor,provável que ele fique um pouco ofendido mas isso não o impediria de continuar falando
 
-ou talvez [[Bajular mais|bajulaçao 2]] possa dar resultado,é dificil de acreditar que ele vá se render a exaltação barata mas pode ser que dê certo.</tw-passagedata><tw-passagedata pid="86" name="normal com manchete 1" tags="" position="1600,1850" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+ou talvez [[Bajular mais|bajulaçao 2]] possa dar resultado,é dificil de acreditar que ele vá se render a exaltação barata mas pode ser que dê certo.</tw-passagedata><tw-passagedata pid="85" name="normal com manchete 1" tags="" position="1600,1850" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 A cara dele fica com uma expressão confusa
 
 &quot;O arquivo que pediram pra não ser postado? Eu não sei nem por que queriam que a gente editasse...&quot;
@@ -1137,7 +1141,7 @@ Seus olhos arregalam e o tom de sua voz levanta enquanto responde
 
 &quot;Opa! Opa! Opa! Calma lá! Pediram pra gente não postar o negócio e você tá querendo procurar informação? Não acha que terem pedido pra gente não publicar foi o suficiente?&quot;
 
--[[Eu preciso de algumas informações sobre o arquivo,Desmon,não é como se eu fosse investigar tudo sobre ele|blefe]]</tw-passagedata><tw-passagedata pid="87" name="normal sem manchete 1" tags="" position="1850,1850" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+-[[Eu preciso de algumas informações sobre o arquivo,Desmon,não é como se eu fosse investigar tudo sobre ele|blefe]]</tw-passagedata><tw-passagedata pid="86" name="normal sem manchete 1" tags="" position="1850,1850" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Ele parece ter ouvido o que disse e hesitou
 
 &quot;Você,o que?&quot;
@@ -1148,7 +1152,7 @@ Você repete o que acabou de dizer e fala com ele sobre o que você precisa sabe
 
 -[[Não seria melhor me ter trablhando pra você?|chantagemD 1.5]]
 
--[[Eu só preciso saber o que dizia a manchete,Desmon... O cargo pode ser seu.|chantagemD 1]]</tw-passagedata><tw-passagedata pid="88" name="blefe" tags="" position="1600,1975" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+-[[Eu só preciso saber o que dizia a manchete,Desmon... O cargo pode ser seu.|chantagemD 1]]</tw-passagedata><tw-passagedata pid="87" name="blefe" tags="" position="1600,1975" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 As sombrancelhas dele se levantam
 
 &quot;Tá... Eu posso te mandar pra um site que me enviaram como base informativa pra editar a manchete... Era só isso?&quot;
@@ -1157,31 +1161,31 @@ Um pouco contrangido por ter criado uma vídeo-chamada só para pedir isso,você
 
 &quot;Então... Acho que a gente não precisa mais ficar em chamada,até mais,eu acho&quot;
 
-Ele desliga. Não era bem o tipo de conversa que estava esperando ter com Desmon,mas se ele vai enviar o site com as respostass é melhor não reclamar. Alguns minutos de espera depois e o link chega em um e-mail sem remetente,o que é estranho mas o único e-mail que pode ter chego é o de Desmon. Você acessa o link e isso te envia a uma página dentro do proprio ZER0 HORA,o que é mais estranho ainda pois você nunca sequer soube da existência dessa página. O arquivo da manchete está ali em algum lugar,ainda assim é esquisito esta página ter passado despercebida por você durante tanto tempo,talvez [[voltar a conversar com Desmon|conversar de novo]] e perguntar sobre a página seja uma boa ideia,mas as informações que você tanto quer estão na sua frente,[[continuar a explorar a página|site]] agora pode ser sua única chance de encontrar respostas...</tw-passagedata><tw-passagedata pid="89" name="conversar de novo" tags="" position="1725,2100" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+Ele desliga. Não era bem o tipo de conversa que estava esperando ter com Desmon,mas se ele vai enviar o site com as respostass é melhor não reclamar. Alguns minutos de espera depois e o link chega em um e-mail sem remetente,o que é estranho mas o único e-mail que pode ter chego é o de Desmon. Você acessa o link e isso te envia a uma página dentro do proprio ZER0 HORA,o que é mais estranho ainda pois você nunca sequer soube da existência dessa página. O arquivo da manchete está ali em algum lugar,ainda assim é esquisito esta página ter passado despercebida por você durante tanto tempo,talvez [[voltar a conversar com Desmon|conversar de novo]] e perguntar sobre a página seja uma boa ideia,mas as informações que você tanto quer estão na sua frente,[[continuar a explorar a página|site]] agora pode ser sua única chance de encontrar respostas...</tw-passagedata><tw-passagedata pid="88" name="conversar de novo" tags="" position="1725,2100" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Você liga novamente pra Desmon e instântaneamente pergunta por que nunca chegou aos seus ouvidos a existência dessa página
 
 &quot;Ahn? Ela... sempre existiu! Se você der uma olhadinha melhor eu sei que você vai ver as informações que você tava pedindo&quot;
 
-Desmon está estranho... Ele não age de coração aberto assim,com certeza ele está tentando te enganar,mas não tem jeito de conseguir a informação,você já esta muito fundo pra voltar atrás. Mas você não explorou toda a extenção do site ainda,[[continuar a explorar a página|site]] pode dar algum resultado,apesar de agora você saber que é perigoso,ou você pode [[tentar manipular|manipularD]] Desmon para extrair a informação dele...</tw-passagedata><tw-passagedata pid="90" name="site" tags="" position="1600,2100" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+Desmon está estranho... Ele não age de coração aberto assim,com certeza ele está tentando te enganar,mas não tem jeito de conseguir a informação,você já esta muito fundo pra voltar atrás. Mas você não explorou toda a extenção do site ainda,[[continuar a explorar a página|site]] pode dar algum resultado,apesar de agora você saber que é perigoso,ou você pode [[tentar manipular|manipularD]] Desmon para extrair a informação dele...</tw-passagedata><tw-passagedata pid="89" name="site" tags="" position="1600,2100" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 A manchete está completa,mal dá pra acreditar que tudo que tinha que ser feito era pedir informação a Desmon. Você começa a analisar os textos do site e a manchete que lhe foi enviada realmente e eles juntos concluem que a ARCH Corp realmente tem uma cura e qua não a está distribuindo para acabar com a pandemia. Quanto mais você lê mais espantado fica com as informações vistas,até que chega em um ponto curioso dizendo que... o ZER0 HORA aparentemente está envolvido? Não é loucura,está escrito isso mesmo,a plataforma informativa na qual você trabalha estava corrupta desde o começo. Você tenta ler mais coisas e de repente um erro ocorre no computador,você recarrega a página mas ela aparentemente não existe mais. O que pode ter acontecido? Tudo estava dando certo... o que pode ter acontecido?
 Uma mensagem chega no seu celular. É de Desmon. A &quot;mensagem&quot; é um silgular &quot;K&quot;. Você destrava o celular para tirar satisfação com ele mas recebe uma ligação,é o seu chefe, então você [[atende|ligação site]]
 
-</tw-passagedata><tw-passagedata pid="91" name="ligação site" tags="" position="1600,2300" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="90" name="ligação site" tags="" position="1600,2300" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &lt;center&gt;&lt;img id=&quot;imgs&quot; src=&quot;images/boss.png&quot;&gt;&lt;/center&gt;
-&quot;Vanno,quando eu pedi para que não publicasse a manchete,é por que ela possuia assuntos delicados demais para o público,você leu parte do que estava escrito,sabe tão bem quanto eu que as pessoas surtariam se lessem aquilo. Me dói ter que fazer isso pois você é nosso melhor editor mas... depois de tantos incidentes eu vou ter que lhe enviar sua carta de [[Demissão|GAME OVER]]. Você não me deixou escolha,Garoto. Infelizmente vai ter que ser assim.&quot;</tw-passagedata><tw-passagedata pid="92" name="manipularD" tags="" position="1725,2300" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&quot;Vanno,quando eu pedi para que não publicasse a manchete,é por que ela possuia assuntos delicados demais para o público,você leu parte do que estava escrito,sabe tão bem quanto eu que as pessoas surtariam se lessem aquilo. Me dói ter que fazer isso pois você é nosso melhor editor mas... depois de tantos incidentes eu vou ter que lhe enviar sua carta de [[Demissão|GAME OVER]]. Você não me deixou escolha,Garoto. Infelizmente vai ter que ser assim.&quot;</tw-passagedata><tw-passagedata pid="91" name="manipularD" tags="" position="1725,2300" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Você fecha a página que o e-mail lhe enviou e se faz de sonso,dizendo que a página não quer abrir
 
 &quot;Tá dizendo que a página não existe ou só não quer abrir mesmo?
 
 [[Na verdade eu que não quero abrir, como posso confiar em algo assim?|honestoD]] - ser honesto e confrontar ele sobre o link
 
-[[Simplesmente não esta funcionando Desmon, eu não sei porque|manipularD 2]] - Você continua se fazendo de idiota dizendo que a página não fuinciona</tw-passagedata><tw-passagedata pid="93" name="Desligar a chamada" tags="" position="1825,2900" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+[[Simplesmente não esta funcionando Desmon, eu não sei porque|manipularD 2]] - Você continua se fazendo de idiota dizendo que a página não fuinciona</tw-passagedata><tw-passagedata pid="92" name="Desligar a chamada" tags="" position="1825,2900" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 Após toda essa conversa com Desmon você percebe que seu e-mail enviado a Billy Jordan foi [[respondido]]
 
 
 &lt;&lt;set $J to false&gt;&gt;
-&lt;&lt;set $K to false&gt;&gt;</tw-passagedata><tw-passagedata pid="94" name="honestoD" tags="" position="1825,2425" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;set $K to false&gt;&gt;</tw-passagedata><tw-passagedata pid="93" name="honestoD" tags="" position="1825,2425" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Ele coloca a mão sobre o rosto como ja estivesse muito irritado
 
 &quot;Tudo bem Vanno, faz o seguinte...&quot;
@@ -1190,13 +1194,13 @@ De repente ele para de falar e você não sabe exatamente oque aconteceu, então
 
 Te deixando sem opções você volta a tentar [[falar com outro de seus colegas|pegar informações sigilosas]].
 &lt;&lt;set $D to false&gt;&gt;
-</tw-passagedata><tw-passagedata pid="95" name="manipularD 2" tags="" position="1700,2600" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="94" name="manipularD 2" tags="" position="1700,2600" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 Isso aprece tirá-lo um pouco do sério
 
 &quot;Como assim não funciona?! Você tá com o link certo! É só ler até a parte da manchete e você vai ter o que merece!&quot;
 
-[[Qual parte? Não to vendo aqui...|manipularD 3]] - Continuar com a mesma estratégia, até que ele perder totalmente a paciencia</tw-passagedata><tw-passagedata pid="96" name="manipularD 3" tags="" position="1700,2750" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+[[Qual parte? Não to vendo aqui...|manipularD 3]] - Continuar com a mesma estratégia, até que ele perder totalmente a paciencia</tw-passagedata><tw-passagedata pid="95" name="manipularD 3" tags="" position="1700,2750" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;A que fala da ARCH Corp estar tendo o dinheiro desviado,seu imbecil! É só carregar a página e ler!&quot;
 
 ARCH Corp está desviando dinheiro? Então a manchete estava escondendo isso? Você sorri levemente e percebe que Desmon não tinha intenção de deixar a informação vazar,o que encerra sua fúria precocemente. Você agradece a ajuda que Desmon te deu.
@@ -1205,19 +1209,19 @@ ARCH Corp está desviando dinheiro? Então a manchete estava escondendo isso? Vo
 
 Ele parece desesperado para que você leia,mas já deu pra perceber que era tudo armação,tu agradece mais uma vez antes de [[Desligar a chamada]],enquanto ele fica gritando pra você voltar pra página.
 
-&lt;&lt;set $quem to 2&gt;&gt;</tw-passagedata><tw-passagedata pid="97" name="chantagemD 1.5" tags="" position="1850,2100" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;set $quem to 2&gt;&gt;</tw-passagedata><tw-passagedata pid="96" name="chantagemD 1.5" tags="" position="1850,2100" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Os olhos dele arregalam em surpresa,nem ele mesmo tinha imaginado a satisfação que seria ter o melhor editor trabalhando para si. Depois de tanto temp na sua sombra,faz sentido ele aceitar tal proposta,certo?
 
 &quot;Hum... muito bem... Não tinha imaginado essa opção. Ter você fazendo todo o ttrabalho dificil enquanto eu só me esbanjo com as finalizações? Seria perfeito...&quot;
 
--[[O cargo é seu,eu só preciso saber o que tinha na manchete|chantagem 2]]</tw-passagedata><tw-passagedata pid="98" name="chantagemD 1" tags="" position="1850,1975" size="100,100">&quot;E por qual motivo eu não deveria acabar com seu cargo na empresa? Ia ser muito mais fácil não te ter por perto pra atrapalhar e eu seria finalmente visto do jeito que eu deveria ser&quot;
+-[[O cargo é seu,eu só preciso saber o que tinha na manchete|chantagem 2]]</tw-passagedata><tw-passagedata pid="97" name="chantagemD 1" tags="" position="1850,1975" size="100,100">&quot;E por qual motivo eu não deveria acabar com seu cargo na empresa? Ia ser muito mais fácil não te ter por perto pra atrapalhar e eu seria finalmente visto do jeito que eu deveria ser&quot;
 
 Realmente não tem motivo para ele não te demitir,ele tem todos os argumentos necessarios pra te tirar de cena completamente... a não ser que...
 
--[[Não seria melhor me ter trablhando pra você?|chantagemD 1.5]]</tw-passagedata><tw-passagedata pid="99" name="chantagem 2" tags="" position="1850,2225" size="100,100">&quot;A manchete? Nem se eu quisesse eu poderia te dar a informação completa,tudo que ela falava era da ARCH Corp estar tendo um desvio de dinheiro sem sentido. Cê me ligou só pra isso? Que maravilha,você só queria uma informação boba e eu saí com seu cargo,eu acho que essa conversa ta acabada,até mais escravo!&quot;
+-[[Não seria melhor me ter trablhando pra você?|chantagemD 1.5]]</tw-passagedata><tw-passagedata pid="98" name="chantagem 2" tags="" position="1850,2225" size="100,100">&quot;A manchete? Nem se eu quisesse eu poderia te dar a informação completa,tudo que ela falava era da ARCH Corp estar tendo um desvio de dinheiro sem sentido. Cê me ligou só pra isso? Que maravilha,você só queria uma informação boba e eu saí com seu cargo,eu acho que essa conversa ta acabada,até mais escravo!&quot;
 
 Ele fala com toda satisfação do mundo. A informação você conseguiu mas a que custo? Não resta nada a fazer agora além de [[Desligar a chamada]]
-</tw-passagedata><tw-passagedata pid="100" name="normal 0.5" tags="" position="1725,1850" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="99" name="normal 0.5" tags="" position="1725,1850" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Ah,ta! Achei mesmo que era sacanagem sua. Você falar algo bom sobre mim? Pensei até que fosse um sonho&quot;
 
 Ele claramente está um pouco incomodado,mas não efetivamente com raiva da brincadeira
@@ -1227,7 +1231,7 @@ Ele claramente está um pouco incomodado,mas não efetivamente com raiva da brin
 &lt;&lt;if $mancete is 1&gt;&gt;[[Sim! Eu tava querendo conversar sobre o último arquivo que me foi enviado|normal com manchete 1]] 
 &lt;&lt;else&gt;&gt;[[Sim!! Eu tava querendo conversar sobre o último arquivo que me foi enviado|normal sem manchete 1]]
 &lt;&lt;/if&gt;&gt;
-</tw-passagedata><tw-passagedata pid="101" name="bajulaçao 2" tags="" position="1975,2425" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="100" name="bajulaçao 2" tags="" position="1975,2425" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Mais alguns elogios e boas comparações depois ele fala
 
 &quot;Você.. tá me elogiando mesmo?&quot;
@@ -1242,41 +1246,41 @@ Depois de amaciar o ego dele
 
 [[Mas então Desmon, como foi editar aquela manchete que não era pra ser publicada?|bajulação 3]]
 
-[[Brincadeira, só queria ver até onde você acreditava...|honestoD]]</tw-passagedata><tw-passagedata pid="102" name="bajulação 3" tags="" position="1900,2650" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+[[Brincadeira, só queria ver até onde você acreditava...|honestoD]]</tw-passagedata><tw-passagedata pid="101" name="bajulação 3" tags="" position="1900,2650" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;O que? aquela loucura? Eu não tenho a manchete aqui comigo e nem lembro tudo que tinha,mas tinha uma outra que editei a um tempo... Ela falava sobre o dinheiro da ARCH Corp estar sendo desviado pra alguma outra coisa que não fosse o desenvolvimento da cura. Doidera né?&quot;
 
 Você fica surpreso,mas não demonstra para não arriscar sua faixada. Então era sobre isso que a manchete falava? As partes faltando realmente conseguiram esconder a verdade. Já que você conseguiu o que queria,é bom tentar voltar as suas pesquisas o mais rápido possível,mas Desmon ainda está falando besteiras de como é ser o melhor editor,[[Desligar a chamada]] e dizer que sua internet falhou é um ótimo jeito de despistá-lo
 
-&lt;&lt;set $quem to 1&gt;&gt;</tw-passagedata><tw-passagedata pid="103" name="Investigação 2" tags="" position="250,2700" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;set $quem to 1&gt;&gt;</tw-passagedata><tw-passagedata pid="102" name="Investigação 2" tags="" position="250,2700" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Infelizmente receio que a segurança do local tenha sido comprometida, com isso alguns arquivos sumiram...&quot; - Diz ele com uma expressão de preocupação
 
 Ouvir isso foi realmente surpreendente, já que aquele local foi muito bem guardado a anos.
 
 -[[mas... Oque isso tem haver com o assunto?|Investigação 3]]
 
--[[Que tipo de informação foi pega?|Investigação 3.5]]</tw-passagedata><tw-passagedata pid="104" name="Investigação 1.5" tags="" position="50,2725" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+-[[Que tipo de informação foi pega?|Investigação 3.5]]</tw-passagedata><tw-passagedata pid="103" name="Investigação 1.5" tags="" position="50,2725" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;O credo do homem livre é antigo, sendo assim durante todos esses séculos seus devotos vem juntando um acervo cada vez mais rico de informações sobre nossa fé e tudo que a cerca&quot;
 
 Você estranha ouvir sobre um acervo de livros fisicos, hoje em dia isso é algo bem raro, já que todos os livros são cópias digitais dos físicos ou nem versão física tem.
 
 &quot;Aparentemente tivemos um problema por lá...&quot;
 
--[[E oque seria?|Investigação 2]]</tw-passagedata><tw-passagedata pid="105" name="falhar em todos" tags="" position="1350,1350" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+-[[E oque seria?|Investigação 2]]</tw-passagedata><tw-passagedata pid="104" name="falhar em todos" tags="" position="1350,1350" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &lt;center&gt;&lt;img id=&quot;imgs&quot; src=&quot;images/boss.png&quot;&gt;&lt;/center&gt;
-&quot;Eu ouvi de alguns funcionários, que você tem questionado todos os seus colegas de trabalho sobre a matéria que possuia um assunto um tanto delicado.. Como eu sei que você não vai parar, infelizmente terei que te exonerar completamente da empresa, sendo assim...&quot; - Seu chefe então para e respira profundamente - &quot;VOCÊ... ESTÁ... [[DEMITIDO!|GAME OVER]]&quot;</tw-passagedata><tw-passagedata pid="106" name="Investigação 3" tags="" position="100,2875" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&quot;Eu ouvi de alguns funcionários, que você tem questionado todos os seus colegas de trabalho sobre a matéria que possuia um assunto um tanto delicado.. Como eu sei que você não vai parar, infelizmente terei que te exonerar completamente da empresa, sendo assim...&quot; - Seu chefe então para e respira profundamente - &quot;VOCÊ... ESTÁ... [[DEMITIDO!|GAME OVER]]&quot;</tw-passagedata><tw-passagedata pid="105" name="Investigação 3" tags="" position="100,2875" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 &quot;nós temos certeza de que foi a ARCH corp que roubou os arquivos, já que neles tinha a localização das ruinas de um dos nossos mais antigos templos... Agora eles estão indo em direção deste local sagrado, para etão profaná-lo&quot;
 
 
 Por quê a ARCH corp teria envolvimento com isso? Se o mundo soubesse disso a pressão sobre a empresa ia ser suficiente para que todos os seus segredos venham a público
 
--[[Muito bem, eu posso ajudar|EscavaçãoF]]</tw-passagedata><tw-passagedata pid="107" name="Investigação 3.5" tags="" position="250,2850" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+-[[Muito bem, eu posso ajudar|EscavaçãoF]]</tw-passagedata><tw-passagedata pid="106" name="Investigação 3.5" tags="" position="250,2850" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;A localização das ruinas de um dos nossos mais antigos templos... Agora a ARCH corp esta indo em direção deste local sagrado, para etão profaná-lo&quot;
 
 Por quê a ARCH corp teria envolvimento com isso? Se o mundo soubesse disso a pressão sobre a empresa ia ser suficiente para que todos os seus segredos venham a público
 
 &lt;&lt;if $fe is false&gt;&gt;-[[Muito bem, eu posso ajudar|EscavaçãoF]]&lt;&lt;else&gt;&gt;-[[Seria uma honra poder ajudar, só me dizer por onde eu começo|EscavaçãoF]]&lt;&lt;/if&gt;&gt;
-</tw-passagedata><tw-passagedata pid="108" name="apaziguar" tags="" position="800,2125" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="107" name="apaziguar" tags="" position="800,2125" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &lt;center&gt;&lt;img id=&quot;freeman&quot; src=&quot;images/kateroom.png&quot;&gt;&lt;/center&gt;
 &quot;O que?! Você também?&quot; - ela se aproxima, pega o celular e olha preocupada - Isso só vai piorar! Você tem que tomar cuidado! Eles estão  me mandando coisas HORRÍVEIS! todo tipo de coisa...&quot; - ela começa a chorar mas para ao se lembrar que havia caminhado para fora de casa.   
 
@@ -1288,7 +1292,7 @@ Ela segura o seu pulso e puxa você para um lugar seguro dos drones e câmeras n
 
 -[[Você estava investigando a ARCH Corp?|bico solto]] - Você pergunta sobre a parte que te intriga
 
-</tw-passagedata><tw-passagedata pid="109" name="preocupado" tags="" position="725,2250" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="108" name="preocupado" tags="" position="725,2250" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;E colocar em risco mais pessoas? Não... agora me arrependo até de ter começado a investigar. Minha sorte é que logo depois de ter recebido o primeiro e-mail, os fieis do homem livre me ofereceram ajuda, porque logo depois disso as ameaças pioraram... muito.&quot; - ela apoia o queixo nas mãos, cobrindo levemente a boca.
 
 Olhando a casa de Kate, você percebe, que deve ter sido duro para ela, tudo parece muito frio e apertado aqui, Você quase mal consegue respirar, depois de ter saído de casa por tanto tempo e escutar tudo isso.
@@ -1296,12 +1300,12 @@ Olhando a casa de Kate, você percebe, que deve ter sido duro para ela, tudo par
 &lt;&lt;if $ko is true&gt;&gt;-[[Eles realmente têm te dado apoio?|curiosidade 1]]&lt;&lt;else&gt;&gt;-[[&quot;Algo que falei te lembrou do culto de Freeman?&quot;|curiosidade]]&lt;&lt;/if&gt;&gt; - Você questiona sinceramente
 
 -[[&quot;Não pode deixar isso te afetar tanto, eu posso ir até o fim e acabar com isso!&quot;|é só força de vontade]] - Tentando dar um pouco de motivação 
-</tw-passagedata><tw-passagedata pid="110" name="bico solto" tags="" position="850,2250" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="109" name="bico solto" tags="" position="850,2250" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Você realmente se importa com outras pessoas ou só quer usá-las à seus interesses?&quot;
 
 -[[Calma, não estou tentando atacar você, é que pode ser que essas ameaças sejam falsas, kate|é só força de vontade]]
 
--[[Perdão, mas os seguidores do homem livre, têm te ajudado?|curiosidade 1]]</tw-passagedata><tw-passagedata pid="111" name="curiosidade" tags="" position="675,2400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+-[[Perdão, mas os seguidores do homem livre, têm te ajudado?|curiosidade 1]]</tw-passagedata><tw-passagedata pid="110" name="curiosidade" tags="" position="675,2425" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 &quot;Sim, na verdade... o que você falou é muito semelhante ao que eles sempre falaram pra mim. Eles sempre priorizam descobrir a verdade, e fazem várias coisas altruístas também. Você sabia que quando eles se reúnem, mesmo com aglomeração, não ficam doentes? e mais...&quot; - Ela segue falando incansavelmente.
 
@@ -1311,7 +1315,7 @@ você aguarda e no momento que ela se vira, para pegar o celular e te mostrar im
 
 Espera, falando mais sobre a fé ao homem livre e [[estimulando a conversa|malandro]].
 
-Você olha para kate, que parece estar aliviada de ter alguém para conversar e poder desabafar de seus problemas. Então decide [[não roubar as informações|dignidade]].</tw-passagedata><tw-passagedata pid="112" name="é só força de vontade" tags="" position="950,2400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+Você olha para kate, que parece estar aliviada de ter alguém para conversar e poder desabafar de seus problemas. Então decide [[não roubar as informações|dignidade]].</tw-passagedata><tw-passagedata pid="111" name="é só força de vontade" tags="" position="950,2400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 &quot;Não é bem por aí! Isso não é tão fácil, Tem muita coisa em jogo aqui&quot; - ela fala, indignada
 
@@ -1321,13 +1325,13 @@ Você explica que precisa de mais informações e por isso, precisa que ela faç
 
 Isso faz focê se sentir mal, não foi sua intenção ser grosseiro, mas agora não resta outra escolha a não ser, [[voltar pra casa|pegar informações sigilosas]]
 
-&lt;&lt;set $K to false&gt;&gt;</tw-passagedata><tw-passagedata pid="113" name="cara de pau" tags="" position="750,2550" size="100,100">&quot;Ah eu nem parei para pensar em você, estou falando demais?&quot; - ela interrompe o movimento de pegar o celular e se vira para você, pegando-o no ato de esconder os documentos no casaco - &quot;O que está fazendo?&quot; - ela diz olhando para mesa que agora ostenta uma superfície limpa, sem papéis.
+&lt;&lt;set $K to false&gt;&gt;</tw-passagedata><tw-passagedata pid="112" name="cara de pau" tags="" position="750,2550" size="100,100">&quot;Ah eu nem parei para pensar em você, estou falando demais?&quot; - ela interrompe o movimento de pegar o celular e se vira para você, pegando-o no ato de esconder os documentos no casaco - &quot;O que está fazendo?&quot; - ela diz olhando para mesa que agora ostenta uma superfície limpa, sem papéis.
 
 Você tenta arranjar uma desculpa, sem sucesso... a sua cara de pau passou de todos limites e você sabe bem disso. Ela puxa a papelada da sua mão com um movimento só e fala:
 
 &quot;Eu já imaginava que você veio aqui para descobrir isso, mas não esperava uma atitude tão baixa.&quot; - disse ela em tom de desaprovação e com o rosto vermelho, enquanto praticamente te arrastava para fora da casa - &quot;Depois dessa, serei obrigada à comunicar ao chefe o que foi feito aqui. Sinto muito&quot; - disse, com a voz embargada 
 
-Ela fecha a porta e você caminha de volta para casa, sentindo que algo ruim estava por vir. Após algum tempo você sai de seus pensamentos quando [[seu telefone toca|Briga do Chefe]]. </tw-passagedata><tw-passagedata pid="114" name="malandro" tags="" position="625,2550" size="100,100">Kate fica falando por algum tempo mostrando fotos do templo de freeman para você e em determinado momento você pede um copo d&#39;água e ela vai à cozinha buscar. 
+Ela fecha a porta e você caminha de volta para casa, sentindo que algo ruim estava por vir. Após algum tempo você sai de seus pensamentos quando [[seu telefone toca|Briga do Chefe]]. </tw-passagedata><tw-passagedata pid="113" name="malandro" tags="" position="625,2550" size="100,100">Kate fica falando por algum tempo mostrando fotos do templo de freeman para você e em determinado momento você pede um copo d&#39;água e ela vai à cozinha buscar. 
 
 Nesse meio tempo, você pega os documentos da mesa e esconde no casaco. pouco depois, você escuta ela falar enquanto se aproxima:
 
@@ -1335,20 +1339,20 @@ Nesse meio tempo, você pega os documentos da mesa e esconde no casaco. pouco de
 
 -[[Eu preciso resolver algumas coisas, o chefe ligou reclamando de algumas manchetes que não enviei para publicação ainda e você sabe, estou com a corda no pescoço|esfarrapada]] - você diz e sai antes que ela possa te dar uma resposta
 
--[[Eu não vi a hora passar, tenho que editar uma manchete para enviar à publicação ainda hoje!|crível]] - Você diz atropelando suas palavras, ajeita novamente seu casaco e sai sem dizer mais nada</tw-passagedata><tw-passagedata pid="115" name="dignidade" tags="" position="875,2600" size="100,100">Defintivamente você não seria capaz de usar Kate só para conseguir informações e enganá-la sem piedade. Ela te mostra fotos, te traz àgua e te deixa falar sobre sua vida e perdas também.
+-[[Eu não vi a hora passar, tenho que editar uma manchete para enviar à publicação ainda hoje!|crível]] - Você diz atropelando suas palavras, ajeita novamente seu casaco e sai sem dizer mais nada</tw-passagedata><tw-passagedata pid="114" name="dignidade" tags="" position="875,2550" size="100,100">Defintivamente você não seria capaz de usar Kate só para conseguir informações e enganá-la sem piedade. Ela te mostra fotos, te traz àgua e te deixa falar sobre sua vida e perdas também.
 
 Após algum tempo, vocês se despedem, mas não antes de convencê-la a criar um novo e-mail e excluir o antigo, para manter a mente sã. Ela te leva à saída e vai jogar um livro jogo que você recomendou, &quot;O Isolamento&quot;.
 
 Mesmo que sem fôlego e cansado, você está um pouco feliz quando chega em casa, mas logo foca novamente em sua missão e percebe que [[não conseguiu nenhuma informação útil|pegar informações sigilosas]].
 
-&lt;&lt;set $K to false&gt;&gt;</tw-passagedata><tw-passagedata pid="116" name="desabafo" tags="" position="1125,2325" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;set $K to false&gt;&gt;</tw-passagedata><tw-passagedata pid="115" name="desabafo" tags="" position="1050,2500" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 &quot;Sim, na verdade... foi mais fácil falar com você sabendo disso. Você sabe que eles são pessoas que têm sido muito boas e estão trabalhando para desmascarar as metiras da arch corp...&quot; - ela relaxa os ombros - &quot;eles SEMPRE falam da busca da verdade, exatamente como você disse.&quot;
 
 Você pensa que talvez tenha algo em comum com os seguidores de Freeman a final...
  
 -[[Exatamente por isso que decidi pedir ajuda à eles.|segue]] - concordando com ela
-</tw-passagedata><tw-passagedata pid="117" name="segue" tags="" position="1250,2400" size="100,100">Enfim... eles me ajudaram muito, principalmente porque quando eu fui ameaçada pela primeira vez, foram eles me ajudaram e então as ameaças foram piorando mais e mais...&quot; - Ela olha para o chão de braços cruzados - &quot;E eles vem me dando muito apoio.&quot;
+</tw-passagedata><tw-passagedata pid="116" name="segue" tags="" position="1050,2625" size="100,100">Enfim... eles me ajudaram muito, principalmente porque quando eu fui ameaçada pela primeira vez, foram eles me ajudaram e então as ameaças foram piorando mais e mais...&quot; - Ela olha para o chão de braços cruzados - &quot;E eles vem me dando muito apoio.&quot;
 
 Olhando a casa de Kate, você percebe, que deve ter sido duro para ela, tudo parece muito frio e apertado aqui, Você quase mal consegue respirar, depois de ter saído de casa por tanto tempo e escutar tudo isso.
 
@@ -1361,7 +1365,7 @@ Esses documentos comprovam que a ARCH corp está desviando dinheiro que deveria 
 Seu celular toca. Você recebeu um [[novo e-mail|respondido]].
 
 &lt;&lt;set $J to false&gt;&gt;
-&lt;&lt;set $D to false&gt;&gt;</tw-passagedata><tw-passagedata pid="118" name="esfarrapada" tags="" position="625,2700" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;set $D to false&gt;&gt;</tw-passagedata><tw-passagedata pid="117" name="esfarrapada" tags="" position="625,2700" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 Antes de sair, você ainda consegue ver kate olhar para a mesa e sentar-se, desolada, cobrindo o rosto com as mãos. Ela definitivamente percebeu o que você fez, mas preferiu não dizer nada. 
 
@@ -1372,9 +1376,9 @@ São documentos que comprovam o desvio de dinheiro que deveria ser destinado à 
 Você não tem ideia do que a ARCH Corp tem a ver com santuários e escavações, mas antes que pense numa ligação entre essas coisas, seu celular toca. 
 
 Você recebeu um [[novo e-mail|respondido]].
-
+&lt;&lt;set $quem to 3&gt;&gt;
 &lt;&lt;set $J to false&gt;&gt;
-&lt;&lt;set $D to false&gt;&gt;</tw-passagedata><tw-passagedata pid="119" name="crível" tags="" position="750,2700" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;set $D to false&gt;&gt;</tw-passagedata><tw-passagedata pid="118" name="crível" tags="" position="750,2700" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Com seu corte rápido, Kate pareceu ter caído de volta à propria realidade de isolamento e ameaças. Antes de fechar a porta, você a vê pegar o notebook para ler as novas ameaças que chegavam. 
 
 Se sentindo mal por enganar Kate, você vai para casa, exausto e sem fôlego, deita na cama e lê o que roubou. 
@@ -1384,21 +1388,21 @@ São documentos que comprovam o desvio de dinheiro que deveria ser destinado à 
 Você não tem ideia do que a ARCH Corp tem a ver com santuarios e escavaçoes, mas antes que pense numa ligação entre essas coisas, seu celular toca. 
 
 Você recebeu um [[novo e-mail|respondido]].
-
+&lt;&lt;set $quem to 3&gt;&gt;
 &lt;&lt;set $J to false&gt;&gt;
-&lt;&lt;set $D to false&gt;&gt;</tw-passagedata><tw-passagedata pid="120" name="sincero1" tags="" position="600,2200" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;set $D to false&gt;&gt;</tw-passagedata><tw-passagedata pid="119" name="sincero1" tags="" position="600,2200" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &lt;&lt;set $sincero to true&gt;&gt;
 &quot;Se não sabe, porque veio aqui?&quot; - ela olha fixamente para seu rosto
 
 -[[Olha, depois que li aquela manchete, eu não consegui parar de pensar nela... e então recebi um e-mail estranho.|apaziguar1]] - Você mostra o e-mail ameaçador na sua caixa de entrada
 
--[[Eu preciso inventigar mais isso, kate. Eles podem estar escondendo algo que salvaria o mundo inteiro! Eu ja sofri muito com essa doença maldita, mas nós podemos mudar isso para outras pessoas. Não tenho mais nada a perder|manipular]]- Você é direto sobre suas motivaçôes caso omita, ela te expulsa</tw-passagedata><tw-passagedata pid="121" name="fora" tags="" position="625,2075" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+-[[Eu preciso inventigar mais isso, kate. Eles podem estar escondendo algo que salvaria o mundo inteiro! Eu ja sofri muito com essa doença maldita, mas nós podemos mudar isso para outras pessoas. Não tenho mais nada a perder|manipular]]- Você é direto sobre suas motivaçôes caso omita, ela te expulsa</tw-passagedata><tw-passagedata pid="120" name="fora" tags="" position="600,2075" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 &quot;Então procure fazer seu trabalho sem importunar outras pessoas, Vanno.&quot; - ela bate a porta num estrondo bem forte.
 
 e você sente o peso de suas escolhas, tendo que [[voltar pra casa de mãos vazias|pegar informações sigilosas]], e consumido pelo cansaço e falta de ar devido ao estresse, provavelmente.
 
-</tw-passagedata><tw-passagedata pid="122" name="apaziguar1" tags="" position="550,2325" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="121" name="apaziguar1" tags="" position="600,2325" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &lt;center&gt;&lt;img id=&quot;freeman&quot; src=&quot;images/kateroom.png&quot;&gt;&lt;/center&gt;
 &quot;O que?! Você também?&quot; - ela se aproxima, pega o celular e olha preocupada - Isso só vai piorar! Você tem que tomar cuidado! Eles estão  me mandando coisas HORRÍVEIS! todo tipo de coisa...&quot; - ela começa a chorar mas para ao se lembrar que havia caminhado para fora de casa.   
 
@@ -1410,7 +1414,7 @@ Ela segura o seu pulso e puxa você para um lugar seguro dos drones e câmeras n
 
 -[[Você estava investigando a ARCH Corp?|bico solto]] - Você pergunta sobre a parte que te intriga
 
-</tw-passagedata><tw-passagedata pid="123" name="curiosidade 1" tags="" position="800,2400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="122" name="curiosidade 1" tags="" position="800,2400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 &quot;Muito mesmo... eles sempre me dão dicas de como lidar com esses babacas da ARCH Corp. Sempre priorizam descobrir a verdade, e fazem várias coisas altruístas também. Você sabia que quando eles se reúnem, mesmo com aglomeração, não ficam doentes? e mais...&quot; - Ela segue falando incansavelmente.
 
@@ -1420,34 +1424,36 @@ você aguarda e no momento que ela se vira, para pegar o celular e te mostrar im
 
 Espera, falando mais sobre a fé ao homem livre e [[estimulando a conversa|malandro]].
 
-Você olha para kate, que parece estar aliviada de ter alguém para conversar e poder desabafar de seus problemas. Então decide [[não roubar as informações|dignidade]].</tw-passagedata><tw-passagedata pid="124" name="op1" tags="" position="1175,1850" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="125" name="op2" tags="" position="1300,1850" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="126" name="forum" tags="" position="3150,1400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+Você olha para kate, que parece estar aliviada de ter alguém para conversar e poder desabafar de seus problemas. Então decide [[não roubar as informações|dignidade]].</tw-passagedata><tw-passagedata pid="123" name="forum" tags="" position="3150,1400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 Você então tenta postar algumas informações em fóruns, mesmo eles sendo de confiança todos veem sua mensagem como uma &quot;Teoria da conspiração&quot;
 
 Os poucos que acreditam em suas palavras não sabem o suficiente para te ajudar
 
-então isso te faz tentar [[outra opção|procurar por informação alt]]</tw-passagedata><tw-passagedata pid="127" name="procurar por informação alt" tags="" position="3275,1250" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+então isso te faz tentar [[outra opção|procurar por informação alt]]</tw-passagedata><tw-passagedata pid="124" name="procurar por informação alt" tags="" position="3275,1250" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Não foi a melhor das escolhas... Isso me deixa com apenas algumas opções:
 
 Conversar com um funcionário da ARCH corp para talvez [[conseguir extrair alguma informação|infiltrado na empresa]]
 
 &lt;&lt;if $manchete lt 3 and $religiao is false&gt;&gt;
 Tentar falar em grupos do culto ao homem livre, talvez lá alguem tenha alguma [[resposta|falar com culto]]
-&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="128" name="falar com culto" tags="" position="3275,1400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="125" name="falar com culto" tags="" position="3275,1400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 VOcê então procura alguns dos grupos que cultuam o homem livre, muitos são fechados e não querem conversar, mesmo que você esconda o fato de ser um reporter eles parecem estar todos na defensiva, como se algo tivesse acontecido.
 
 Talvez eu ainda possa [[fazer algo|procurar por informação alt]]
 
-&lt;&lt;set $religiao to true&gt;&gt;</tw-passagedata><tw-passagedata pid="129" name="Empresa F" tags="" position="3550,1650" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;set $religiao to true&gt;&gt;</tw-passagedata><tw-passagedata pid="126" name="Empresa F" tags="" position="3550,1650" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;center&gt;&lt;img id=&quot;imgs&quot; src=&quot;images/rua.png&quot;&gt;&lt;/center&gt;
 Você sai de casa e vai em direção a empresa. Passando pela rua você percebe o quão vazia ela está,as únicas coisas se movendo são câmeras de segurança e alguns panfletos amassados sendo varridos pelo vento. Ver a cidade assim é triste e desconfortante pois mesmo ela estando vazia,você ainda tem uma sensação de estar sendo vigiado o tempo todo.
 
 Chegando a empresa você passa pelas portas e vê um salão de recepção vazio com algumas cadeiras,ainda novas e sem uso,algumas poucas câmeras e uma bancada de recepção. Ver um local como esse,feito para acomodar pessoas em espera sem ninguém te incomoda um pouco,pois onde era pra ter ao menos alguma aglomeração humana agora só existe uma pessoa,sendo o guarda mascarado no canto da sala. Indo até a mesa de recepção você nota que existe só uma máquina onde era pra ter uma pessoa lhe atendendo. Você mostra sua identificação e a máquina te aponta para um dos elevadores. O elevador sobe rapidamente e você é indicado a [[entrar em uma sala|Sala F]] pelos sinais nos monitores
-&lt;&lt;set $Saude to $Saude - 1&gt;&gt;</tw-passagedata><tw-passagedata pid="130" name="Empresa P" tags="" position="3950,1650" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;set $Saude to $Saude - 1&gt;&gt;</tw-passagedata><tw-passagedata pid="127" name="Empresa P" tags="" position="3950,1650" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;center&gt;&lt;img id=&quot;imgs&quot; src=&quot;images/rua.png&quot;&gt;&lt;/center&gt;
 Você sai de casa e vai em direção a empresa. Passando pela rua você percebe o quão vazia ela está,as únicas coisas se movendo são câmeras de segurança e alguns panfletos amassados sendo varridos pelo vento. Ver a cidade assim é triste e desconfortante pois mesmo ela estando vazia,você ainda tem uma sensação de estar sendo vigiado o tempo todo.
 
 Chegando a empresa você passa pelas portas e vê um salão de recepção vazio com algumas cadeiras,ainda novas e sem uso,algumas poucas câmeras e uma bancada de recepção. Ver um local como esse,feito para acomodar pessoas em espera sem ninguém te incomoda um pouco,pois onde era pra ter ao menos alguma aglomeração humana agora só existe uma pessoa,sendo o guarda mascarado no canto da sala. Indo até a mesa de recepção você nota que existe só uma máquina onde era pra ter uma pessoa lhe atendendo. Você mostra sua identificação e exige falar com a gerente comunitária,a máquina te aponta para um dos elevadores. O elevador sobe rapidamente e você é indicado a [[entrar em uma sala|Sala P]] pelos sinais nos monitores
-&lt;&lt;set $Saude to $Saude - 1&gt;&gt;</tw-passagedata><tw-passagedata pid="131" name="Sala P" tags="" position="3950,1800" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;set $Saude to $Saude - 1&gt;&gt;</tw-passagedata><tw-passagedata pid="128" name="Sala P" tags="" position="3950,1800" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Entrando na sala você se depara com uma janela enorme que cobre todo o fundo da sala,entre você e o vidro tem uma mesa e uma cadeira alta com as costas viradas pra você. A cadeira roda e você vê uma mulher sentada com uma xícara de café nas mãos,ela coloca a xícara na mesa,coloca sua máscara e fala
 
 &quot;Então você decidiu aparecer,é muito bom ter sua presença aqui,Vanno&quot;
@@ -1459,25 +1465,25 @@ Você a pergunta como ela sabe quem você é
 -[[Então eu acho que isso não é mais um entrevista não é?|Sarcastico]] - Diz você em tom sarcastico
 
 -[[Então o que acontece agora? Vocês vão me ameaçar de novo?|Confrontar]] - Você ainda com mágoa pelo que aconteceu, confronta a Aylin
-</tw-passagedata><tw-passagedata pid="132" name="Sarcastico" tags="" position="4100,1950" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="129" name="Sarcastico" tags="" position="4100,1950" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Claro que é,só depende de você,Vanno...&quot; - Diz ela abrindo um leve sínico
 
 -[[Qual o estado de desenvolvimento da cura?|Cura]]
 
 -[[Quanto tempo até vocês se pronunciarem sobre a cura?|Cura]]
 
--[[Por qual motivo a ARCH Corp ainda não fez nada a respeito do fim da pandemia?|Respostas]]</tw-passagedata><tw-passagedata pid="133" name="Confrontar" tags="" position="3800,1950" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+-[[Por qual motivo a ARCH Corp ainda não fez nada a respeito do fim da pandemia?|Respostas]]</tw-passagedata><tw-passagedata pid="130" name="Confrontar" tags="" position="3800,1950" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Ela da uma risada leve enquanto vira sua cadeira para a parede da sala
 
 &quot;Como se isso fosse funcionar,mesmo depois das ameaças você continuou pesquisando não foi? Seria tolice nossa insistir em tentar intimidar alguém tão audacioso como você... our seria você só estúpido por continuar?
 
 [[É... Eu estava certo... Ameaçar.|comentar]]
-</tw-passagedata><tw-passagedata pid="134" name="Cura" tags="" position="4250,2200" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="131" name="Cura" tags="" position="4250,2200" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Acho que a este ponto você já tem plena noção do estado do desenvolvimento da cura ,fazer uma vacina para imunizar as pessoas não é dificil quanto a mídia faz parecer,nós só não falamos abertamente sobre o assunto ainda por causa de uma outra pesquisa qua está nos causando um pequeno problema...&quot;
 
 [[O que poderia estar dando problemas à maior empresa que existe?|Respostas]] - Diz com indignção
 
-[[Mentiras e mais mentiras... Até quando vocês acham que as pessoas vão acreditar?|ate quando]]</tw-passagedata><tw-passagedata pid="135" name="Respostas" tags="" position="4025,2100" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+[[Mentiras e mais mentiras... Até quando vocês acham que as pessoas vão acreditar?|ate quando]]</tw-passagedata><tw-passagedata pid="132" name="Respostas" tags="" position="4025,2100" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &lt;&lt;set $arch to true&gt;&gt;
 &quot;Veja bem... após termos desenvolvido a cura nós encontramos em uma pesquisa paralela um templo de uma civilização antiga que descrevia um ciclo...&quot;
 
@@ -1486,7 +1492,7 @@ Ela abre alguns arquivos holográficos e vira-os para você
 -[[Você... poderia me explicar o que isso tem a ver com a situação do mundo?|Escavação]]
 
 -[[E... por que me mostrar isso? Meu trabalho ainda é divulgar as notícias e espalhar a verdade,essas informações nas minhas mãos são um risco para vocês...|Questionar2]]
-</tw-passagedata><tw-passagedata pid="136" name="ate quando" tags="" position="4225,2050" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="133" name="ate quando" tags="" position="4225,2050" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Garanto que se nos ouvir até o fim, entendera oque está acontecendo&quot;
 
 &lt;&lt;set $arch to false&gt;&gt;
@@ -1494,12 +1500,12 @@ Ela abre alguns arquivos holográficos e vira-os para você
 
 [[Vamos lá então, me diga oque esta acontecendo|Respostas]]
 
-</tw-passagedata><tw-passagedata pid="137" name="Tarde demais alt" tags="" position="4350,1850" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="134" name="Tarde demais alt" tags="" position="4350,1850" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Infelizmente já é tarde, receio que terá permanecer até que nossa conversa chegue ao fim, tudo bem?&quot; - Diz ela enquanto abre um sorrizo
 
 [[Vamos então...|Respostas]] - Você aceita a oferta e segue seu destino
 
-[[Claro que não posso aceitar um absurdo desses!|Tenta fugir]] - Em desepero você tenta fugir do local</tw-passagedata><tw-passagedata pid="138" name="Tenta fugir" tags="" position="4925,2800" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+[[Claro que não posso aceitar um absurdo desses!|Tenta fugir]] - Em desepero você tenta fugir do local</tw-passagedata><tw-passagedata pid="135" name="Tenta fugir" tags="" position="4925,2800" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Você dispara pela porta, corre até a saida da sala, mas ainda se ve com poucas apenas algumas opções:
 
 [[Seguir para o elevador|elevador]]
@@ -1508,33 +1514,36 @@ Você dispara pela porta, corre até a saida da sala, mas ainda se ve com poucas
 
 [[Fazer uma live com os fãs do ZER0 HORA|live]], para que se você for atacado mais pessoas verão
 
-[[Pular pela janela|janela]]</tw-passagedata><tw-passagedata pid="139" name="elevador" tags="" position="4950,2400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+[[Pular pela janela|janela]]
+
+&lt;&lt;audio arch_bgm stop&gt;&gt;
+&lt;&lt;audio run_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="136" name="elevador" tags="" position="4950,2400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Em desespero você resolve seguir para o elevador, já que esta tantos andares acima essa talvez seja a opção mais rápida.
 
 O mesmo desce alguns andares e então para antes de seu destino final, então um drone e um segurança calmamente entram nele e o elevador segue.
 
 &quot;Sim senhora, eu estou do lado dele&quot; - diz o segurança para o rádio
 
-Você então é agarrado pelo segurança e antes de [[apagar com um choque do drone|GAME OVER]], você se questiona se suas escolhas foram as melhores, afinal um elevador não era um bom caminho.</tw-passagedata><tw-passagedata pid="140" name="escada" tags="" position="5100,2400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
-Então decidido que esse é o melhor caminho você corre até a saida que leve as escadas mais próxima. As escadas parecem infinitas mas você desce o mais rápido que pode mas é barrado por um dos guardas,ele pede pra você se acalmar mas se você ficar preso aí tudo que você pesquisou não terá valido a pena. Não há muitas maneiras de sair dessa situação talvez [[pular escada abaixo]] possa dar certo,ou tentar [[derrubar o guarda]] para tirá-lo do caminho.</tw-passagedata><tw-passagedata pid="141" name="live" tags="" position="5250,2400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+Você então é agarrado pelo segurança e antes de [[apagar com um choque do drone|GAME OVER]], você se questiona se suas escolhas foram as melhores, afinal um elevador não era um bom caminho.</tw-passagedata><tw-passagedata pid="137" name="escada" tags="" position="5100,2400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+Então decidido que esse é o melhor caminho você corre até a saida que leve as escadas mais próxima. As escadas parecem infinitas mas você desce o mais rápido que pode mas é barrado por um dos guardas,ele pede pra você se acalmar mas se você ficar preso aí tudo que você pesquisou não terá valido a pena. Não há muitas maneiras de sair dessa situação talvez [[pular escada abaixo]] possa dar certo,ou tentar [[derrubar o guarda]] para tirá-lo do caminho.</tw-passagedata><tw-passagedata pid="138" name="live" tags="" position="5250,2400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Ao abrir as redes sociais você percebe que está sem internet, sua ligação com o mundo exterior foi cortada. Seguranças de todos os lados aparcem e te seguram, Aylim se aproxima e olha para seu rosto.
 
 &quot;Nos desculpe vanno, não podemos deixar que você saia com tanta informação...&quot;
 
-Você então se depara com um dos drones indo na sua direção preparado para te [[desacordar com um choque|GAME OVER]], por alguns segundos antes do seu inevitável destino você pensa se suas escolhas foram certas...</tw-passagedata><tw-passagedata pid="142" name="janela" tags="" position="5275,2800" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+Você então se depara com um dos drones indo na sua direção preparado para te [[desacordar com um choque|GAME OVER]], por alguns segundos antes do seu inevitável destino você pensa se suas escolhas foram certas...</tw-passagedata><tw-passagedata pid="139" name="janela" tags="" position="5275,2800" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Ao olhar a altura em que está você percebe que pular é suicidio, mas você ainda pode:
 
 [[Seguir para o elevador|elevador]]
 
 [[Seguir para escada|escada]]
 
-[[Fazer uma live com os fãs do ZER0 HORA|live]], para que se você for atacado mais pessoas verão</tw-passagedata><tw-passagedata pid="143" name="pular escada abaixo" tags="" position="5025,2250" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+[[Fazer uma live com os fãs do ZER0 HORA|live]], para que se você for atacado mais pessoas verão</tw-passagedata><tw-passagedata pid="140" name="pular escada abaixo" tags="" position="5025,2250" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Você pula e imediatamente nota seu erro,as escadas são muito epaçadas e você cai 4 andares antes de atingir o chão,suas pernas muito doloridas,provavelmente quebradas,te impedem de fugir,os guardas chegam e te carregam,você ouve a voz da gerente nos comunicadores dos guardas dizendo
 
-&quot;Você poderia ter se tornado Rei,Vanno,mas preferiu cair como Peão... [[Fim de jogo|GAME OVER]],eu acho...&quot;</tw-passagedata><tw-passagedata pid="144" name="derrubar o guarda" tags="" position="5175,2250" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&quot;Você poderia ter se tornado Rei,Vanno,mas preferiu cair como Peão... [[Fim de jogo|GAME OVER]],eu acho...&quot;</tw-passagedata><tw-passagedata pid="141" name="derrubar o guarda" tags="" position="5175,2250" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Você investe contra o segurança o que você nota não ter sido uma boa ideia,pois no mesmo instante ele desvia e encaixa um tazer no seu abdômen. Você cai no chão sentido a dor de ser eletrocutado e sem poder fazer nenhuma objeção imediata, é carregado pelos guardas. A voz de Aylin ressoa por um dos comunicadores dos guardas.
 
-&quot;Você tinha tanto potencial,Vanno,juro que não queria te ver se desperdiçando assim... Acho que [[Acabou|GAME OVER]] pra você.&quot;</tw-passagedata><tw-passagedata pid="145" name="Escavação" tags="" position="3825,2400" size="100,100">&quot;Essa excavação contém pinturas e artefatos muito antigos que mostram todos a mesma coisa,um ciclo de adoração e destruição&quot;
+&quot;Você tinha tanto potencial,Vanno,juro que não queria te ver se desperdiçando assim... Acho que [[Acabou|GAME OVER]] pra você.&quot;</tw-passagedata><tw-passagedata pid="142" name="Escavação" tags="" position="3825,2400" size="100,100">&quot;Essa excavação contém pinturas e artefatos muito antigos que mostram todos a mesma coisa,um ciclo de adoração e destruição&quot;
 
 Ela dá zoom em um círculo de pedra com alguma imagens que se assemalham ao tal ciclo que ela acabou de comentar. Ela vai girando a imagem enquanto comenta sobre a mesma.
 
@@ -1542,13 +1551,13 @@ Ela dá zoom em um círculo de pedra com alguma imagens que se assemalham ao tal
 
 [[Isso tudo não me parece certo, preciso de um tempo para pensar...|Tarde demais]] 
 
-[[Apesar de não me parecer a melhor das ideias... Vou seguir com vocês|EscavaçãoA]]</tw-passagedata><tw-passagedata pid="146" name="Questionar2" tags="" position="4100,2350" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+[[Apesar de não me parecer a melhor das ideias... Vou seguir com vocês|EscavaçãoA]]</tw-passagedata><tw-passagedata pid="143" name="Questionar2" tags="" position="4100,2350" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 A cara dela está cética com os olhos semi-cerrados como se minha pergunta fosse algo simples para ela responder
 
-&quot;Ora,por que nós dois sabemos que você não seria estúpido a ponto de alarmar toda a população desse jeito. Claro,você iria acabar com a empresa mas pioraria a situação mundial gravemente. Então antes de eu continuar,senhor Vanno,me diga, você prefere [[espalhar a verdade]] e acabar com a ordem ou trabalhar nas sombras conosco e nos [[ajudar]] a restaurar o mundo?</tw-passagedata><tw-passagedata pid="147" name="espalhar a verdade" tags="" position="4250,2350" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&quot;Ora,por que nós dois sabemos que você não seria estúpido a ponto de alarmar toda a população desse jeito. Claro,você iria acabar com a empresa mas pioraria a situação mundial gravemente. Então antes de eu continuar,senhor Vanno,me diga, você prefere [[espalhar a verdade]] e acabar com a ordem ou trabalhar nas sombras conosco e nos [[ajudar]] a restaurar o mundo?</tw-passagedata><tw-passagedata pid="144" name="espalhar a verdade" tags="" position="4250,2350" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Você se levanta,agradecendo o encontro e ao se virar de costas e caminhar até a porta você ouve dois estalos de dedos seguidos da voz de Aylin. Os sons dos drones carregando seuas armas é inconfundível,ela //está// te ameaçando
 
-&quot;Desculpe,senhor Vanno,eu não queria que chegasse a esse ponto,mas eu perguntei o que você //Preferia//, não o que você achava que poderia fazer. Eu não posso permitir que você saia daqui com toda essa informação. Admito que estava errada sobre sua ideologia,você é sim estúpido o suficiente a ponto de alarmar a população,então eu vou te dar mais uma chance,[[volte a se sentar]] e continuamos a entrevista ou [[continue a me desafiar]] e... creio que você sabe o que vai acontecer...&quot;</tw-passagedata><tw-passagedata pid="148" name="ajudar" tags="" position="3900,2725" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&quot;Desculpe,senhor Vanno,eu não queria que chegasse a esse ponto,mas eu perguntei o que você //Preferia//, não o que você achava que poderia fazer. Eu não posso permitir que você saia daqui com toda essa informação. Admito que estava errada sobre sua ideologia,você é sim estúpido o suficiente a ponto de alarmar a população,então eu vou te dar mais uma chance,[[volte a se sentar]] e continuamos a entrevista ou [[continue a me desafiar]] e... creio que você sabe o que vai acontecer...&quot;</tw-passagedata><tw-passagedata pid="145" name="ajudar" tags="" position="3900,2725" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Muito bem! Já que você se disponibilizou a nos dar uma mãozinha eu vou te passar o que eu preciso que faça&quot;
 
 Ela parece estar um pouco animada demais com você ter terminado ajudando a empresa,é impossível dizer se é tudo faixada ou se é genuíno,isso te deixa desconfortável,mas é melhor não deixar transparecer.
@@ -1557,11 +1566,11 @@ As ruínas que eu comentei? preciso que você vá coletar mais evidências e que
 
 [[Isso tudo não me parece certo, preciso de um tempo para pensar...|Tarde demais]] 
 
-[[Apesar de não me parecer a melhor das ideias... Vou seguir com vocês|EscavaçãoA]]</tw-passagedata><tw-passagedata pid="149" name="comentar" tags="" position="3800,2100" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="150" name="Tarde demais" tags="" position="4300,2700" size="100,100">&quot;Infelizmente já é tarde, o senhor passou em nossos testes e sabe demais, receio que terá que vir conosco, tudo bem?&quot; - Diz ela enquanto abre um sorrizo
+[[Apesar de não me parecer a melhor das ideias... Vou seguir com vocês|EscavaçãoA]]</tw-passagedata><tw-passagedata pid="146" name="comentar" tags="" position="3800,2100" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="147" name="Tarde demais" tags="" position="4300,2700" size="100,100">&quot;Infelizmente já é tarde, o senhor passou em nossos testes e sabe demais, receio que terá que vir conosco, tudo bem?&quot; - Diz ela enquanto abre um sorrizo
 
 [[Vamos então... acho que não me resta escolha|EscavaçãoA]] - Você aceita a oferta e segue seu destino
 
-[[Claro que não posso aceitar um absurdo desses!|Tenta fugir]] - Em desepero você tenta fugir do local</tw-passagedata><tw-passagedata pid="151" name="EscavaçãoA" tags="" position="3775,3075" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+[[Claro que não posso aceitar um absurdo desses!|Tenta fugir]] - Em desepero você tenta fugir do local</tw-passagedata><tw-passagedata pid="148" name="EscavaçãoA" tags="" position="3775,3075" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 &quot;Você provavelmente vai ter pouco tempo de explorar o local então precisamos ser rápidos para coletar o máximo de evidências possiveis&quot;
 
@@ -1569,16 +1578,16 @@ Você entra no carro e diz para si mesmo em tom sarcástico
 
 [[Até parece que tenho escolha...|escavaçãoa 2]]
 
-[[Até que enfim, respostas...|escavaçãoa 2]]</tw-passagedata><tw-passagedata pid="152" name="volte a se sentar" tags="" position="4175,2500" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+[[Até que enfim, respostas...|escavaçãoa 2]]</tw-passagedata><tw-passagedata pid="149" name="volte a se sentar" tags="" position="4175,2500" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Você volta e se senta. Um sorriso leve se ergue no rosto dela enquanto ela estala os dedos novamente. Os drones desaparecem ao passar por portinholas nas paredes que eram indetectáveis quando fechadas. Ela volta a falar.
 
 &quot;Meus parabens o senhor passou em nossos testes e fez a escolha certa. Não gostaria de ter que terminar me livrando de você,pra ser sincera eu ficaria até triste se fosse mesmo necessário&quot;
 
--[[O que você quer?|ajudar]]</tw-passagedata><tw-passagedata pid="153" name="continue a me desafiar" tags="" position="4325,2500" size="100,100">Você deixa a porta entreaberta e solta a maçaneta recuando seu braço e os levantando mostrando que não há motivos para as armas
+-[[O que você quer?|ajudar]]</tw-passagedata><tw-passagedata pid="150" name="continue a me desafiar" tags="" position="4325,2500" size="100,100">Você deixa a porta entreaberta e solta a maçaneta recuando seu braço e os levantando mostrando que não há motivos para as armas
 
 &quot;Muito bem... vamos continuar nossa conver-&quot;
 
-Você então [[Tenta fugir]]</tw-passagedata><tw-passagedata pid="154" name="Sala F" tags="" position="3550,1800" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+Você então [[Tenta fugir]]</tw-passagedata><tw-passagedata pid="151" name="Sala F" tags="" position="3550,1800" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Entrando na sala você se depara com uma janela enorme que cobre todo o fundo da sala,entre você e o vidro tem uma mesa e uma cadeira alta com as costas viradas pra você. A cadeira roda e você vê uma mulher sentada com uma xícara de chá nas mãos,ela coloca a xícara na mesa,coloca sua máscara e fala
 
 &quot;Você é o jornalista,não? Do ZER0 HORA,se não me engano. Estou certa de que você queria uma entrevista para falar sobre as nossas motivações,não é? Sente-se,por favor.&quot;
@@ -1587,7 +1596,7 @@ Após se sentar você liga o gravador do seu celular sem que ela perceba e entã
 
 -[[Sim! Eu queria me informar para postar uma manchete sobre a empresa|Continuar Infiltrado]]
 
--[[Na verdade eu queria só fazer algumas perguntas|Ser direto]]</tw-passagedata><tw-passagedata pid="155" name="Continuar Infiltrado" tags="" position="3550,1950" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+-[[Na verdade eu queria só fazer algumas perguntas|Ser direto]]</tw-passagedata><tw-passagedata pid="152" name="Continuar Infiltrado" tags="" position="3550,1950" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Claro! quando recebi sua mensagem eu imediatamente pensei na oportunidade de melhorar a nossa imagem para o resto do mundo,é dificil ter a confiança das pessoas com todos esses rumores soltos por aí,não é mesmo?&quot;
 
 Ela força um tussida para limpar a garganta e diz
@@ -1596,28 +1605,28 @@ Ela força um tussida para limpar a garganta e diz
 
 -[[O que poderia me contar sobre os objetivos da empresa?|Continuar infiltrado novamente]]
 
--[[Pessoas tem comentado bastante sobre a cura já ter sido finalizada,qual a posição da empresa sobre esses boatos?|Falar sobre a polêmica]]</tw-passagedata><tw-passagedata pid="156" name="Ser direto" tags="" position="3350,1950" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+-[[Pessoas tem comentado bastante sobre a cura já ter sido finalizada,qual a posição da empresa sobre esses boatos?|Falar sobre a polêmica]]</tw-passagedata><tw-passagedata pid="153" name="Ser direto" tags="" position="3350,1950" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Ah,sim. Direto ao ponto,pode fazer as perguntas que precisa,senhor. Vou responder o mais verdadeiramente possível afim de melhorar a imagem pública da ARCH Corp&quot;
 
--[[O que a ARCH Corp tem a dizer sobre os rumores sobre a cura já ter sido desenvolvida,porém não distribuída?|Falar sobre a polêmica]]</tw-passagedata><tw-passagedata pid="157" name="Continuar infiltrado novamente" tags="" position="3625,2125" size="100,100">&quot;A ARCH Corp tem como funcão principal encontrar uma cura para a pândemia,mas enquanto ainda não encontramos uma solução para isso estamos trabalhando em instrumentos para melhorar a qualidade de vida da população mundial,isso inclui equipamentos médicos,softwares para que todos possam trabalhar em casa, equipamentos para melhorar os serviços de entrega entre outras coisas mais e menos complexas&quot;
+-[[O que a ARCH Corp tem a dizer sobre os rumores sobre a cura já ter sido desenvolvida,porém não distribuída?|Falar sobre a polêmica]]</tw-passagedata><tw-passagedata pid="154" name="Continuar infiltrado novamente" tags="" position="3625,2125" size="100,100">&quot;A ARCH Corp tem como funcão principal encontrar uma cura para a pândemia,mas enquanto ainda não encontramos uma solução para isso estamos trabalhando em instrumentos para melhorar a qualidade de vida da população mundial,isso inclui equipamentos médicos,softwares para que todos possam trabalhar em casa, equipamentos para melhorar os serviços de entrega entre outras coisas mais e menos complexas&quot;
 
 [[E quanto tempo mais o povo deve esperar até que a cura seja liberada?|Arriscar]]
 
-[[Tudo isso em uma única empresa? Vocês realmente trabalham em muitas areas.|mais sobre a empresa]]</tw-passagedata><tw-passagedata pid="158" name="Falar sobre a polêmica" tags="" position="3400,2250" size="100,100">Os olhos dela se arregalam um pouco e ela segue dizendo
+[[Tudo isso em uma única empresa? Vocês realmente trabalham em muitas areas.|mais sobre a empresa]]</tw-passagedata><tw-passagedata pid="155" name="Falar sobre a polêmica" tags="" position="3400,2250" size="100,100">Os olhos dela se arregalam um pouco e ela segue dizendo
 
 &quot;Senhor,eu gostaria de poder mostrar ao público que os rumores são feitos sem base no cenário atual dos desenvolvimentos da empresa,poderíamos nos ater á entrevista,por favor?&quot;
 
 [[Muito bem,me diga então sobre a cura,quanto tempo até ela ser liberada?|Arriscar]]
 
-[[Mas essas perguntas fazem parte da entrevista,Senhorita|Confrontá-la]]</tw-passagedata><tw-passagedata pid="159" name="Arriscar" tags="" position="3550,2275" size="100,100">&quot;Não muito tempo,pra ser sincera,quando os nossos cientistas terminarem de explorar...&quot;
+[[Mas essas perguntas fazem parte da entrevista,Senhorita|Confrontá-la]]</tw-passagedata><tw-passagedata pid="156" name="Arriscar" tags="" position="3550,2275" size="100,100">&quot;Não muito tempo,pra ser sincera,quando os nossos cientistas terminarem de explorar...&quot;
 
 Ela hesita por um segundo
 
 &quot;Digo... estudar os reagentes químicos do vírus,poderemos liberar o real tratamento para a sociedade. Não queremos que alguém tenha efeitos colaterais na tentativa de se curar,não é mesmo?
 
-[[A senhora disse &quot;Explorar&quot;?|Questionar]]</tw-passagedata><tw-passagedata pid="160" name="mais sobre a empresa" tags="" position="3700,2275" size="100,100">&quot;Com certeza a ARCH corp sempre busca estar presente de varias formas na vida de todos, garantindo a segurança e o bem estar da população e...&quot; - ela então continua a mencionar os inumeros serviços da empresa
+[[A senhora disse &quot;Explorar&quot;?|Questionar]]</tw-passagedata><tw-passagedata pid="157" name="mais sobre a empresa" tags="" position="3700,2275" size="100,100">&quot;Com certeza a ARCH corp sempre busca estar presente de varias formas na vida de todos, garantindo a segurança e o bem estar da população e...&quot; - ela então continua a mencionar os inumeros serviços da empresa
 
-[[E quanto tempo mais o povo deve esperar até que a cura seja liberada?|Arriscar]]</tw-passagedata><tw-passagedata pid="161" name="Questionar" tags="" position="3550,2425" size="100,100">&quot;Foi um erro no meu jeito de expressar,nada com o que se preocupar,podemos continuar?&quot;
+[[E quanto tempo mais o povo deve esperar até que a cura seja liberada?|Arriscar]]</tw-passagedata><tw-passagedata pid="158" name="Questionar" tags="" position="3550,2425" size="100,100">&quot;Foi um erro no meu jeito de expressar,nada com o que se preocupar,podemos continuar?&quot;
 
 Você levanta seu celular e para a gravação
 
@@ -1625,7 +1634,7 @@ Você levanta seu celular e para a gravação
 
 Você retorna a gravação até a parte que ela fala sobre explorar
 
-[[Você estava convicta do que falava até errar,Senhorita Aylin,certeza de que essas são suas verdadeira intenções?|Confrontá-la]]</tw-passagedata><tw-passagedata pid="162" name="Confrontá-la" tags="" position="3450,2575" size="100,100">Ela abre um sorriso sínico e olha para baixo
+[[Você estava convicta do que falava até errar,Senhorita Aylin,certeza de que essas são suas verdadeira intenções?|Confrontá-la]]</tw-passagedata><tw-passagedata pid="159" name="Confrontá-la" tags="" position="3450,2575" size="100,100">Ela abre um sorriso sínico e olha para baixo
 
 &quot;Sabia que você era mais esperto do que parecia... pois bem,se você insiste,vou lhe mostrar nossa ultima descoberta.&quot;
 
@@ -1637,20 +1646,20 @@ Você fica assustado ao ouvir tanta informação que não aprece ter sentido
 
 [[|EscavaçãoA]] - Determinado de sua escolha, você vai até o fim dessa historia
 
-[[Não tem como eu aceitar ir a lugar nenhum, tudo que você falou é loucura|Tarde demais]] - Diz você assustado enquanto se afasta</tw-passagedata><tw-passagedata pid="163" name="EscavaçãoF" tags="" position="250,3000" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+[[Não tem como eu aceitar ir a lugar nenhum, tudo que você falou é loucura|Tarde demais]] - Diz você assustado enquanto se afasta</tw-passagedata><tw-passagedata pid="160" name="EscavaçãoF" tags="" position="250,3000" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Com certeza eles ainda vão demorar um tempo para decifrar nossos arquivos, você tem esse tempo para ir até lá e recolher nossas relíquias&quot;
 
 Você se levanta e segue até a porta
 
--[[Seria uma honra proteger as relíquias do homem livre|EscavaçãoF 2]]&lt;&lt;if $fe is true&gt;&gt;Você fala com um calor no coração&lt;&lt;else&gt;&gt;apesar de não entender nem acreditar muito bem, você esta começando a mudar de opinião
+Você diz que seria uma honra proteger as relíquias do homem livre, &lt;&lt;if $fe is true&gt;&gt; com calor no coração.&lt;&lt;else&gt;&gt;apesar de não entender nem acreditar muito bem, você esta começando a mudar de opinião.&lt;&lt;/if&gt;&gt;
 
--[[Claro... Isso pode me fazer entender as reais motivações|EscavaçãoF 2]]&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="164" name="EscavaçãoF 2" tags="" position="250,3150" size="100,100">Determinado em buscar a verdade você sai do templo em direção além dos limites da cidade... Uma viagem que normalmente seria um tanto demorada, mas com os transportes públicos automáticos, que ainda permanecem vazios, a viagem é bem curta.
+Determinado à buscar a verdade você sai do templo em indo para além dos limites da cidade... Uma viagem que normalmente seria um tanto demorada, mas com os transportes públicos automáticos, que ainda permanecem vazios, a viagem é bem curta.
 
 Pelo caminho você recebe uma notificação em seu celular, parece ser a [[resposta de Billy Jordan|respostaF]] que você tanto espera
 
 &lt;&lt;set $Saude to $Saude - 2&gt;&gt;
-&lt;&lt;audio curch_bgm stop&gt;&gt;
-&lt;&lt;audio cyber2_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="165" name="respostaF" tags="" position="475,3225" size="100,100">&quot;Então meu amigo, eu tenho pesquisado muito e cheguei a conclusão de que a ARCH corp está em direção a estes templo para estudar as Relíquias que ha nele... eu sei que parece estranho, mas calma que fica ainda mais. 
+&lt;&lt;audio church_bgm stop&gt;&gt;
+&lt;&lt;audio cyber2_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="161" name="respostaF" tags="" position="325,3150" size="100,100">&quot;Então meu amigo, eu tenho pesquisado muito e cheguei a conclusão de que a ARCH corp está em direção a este templo para estudar as Relíquias que ha nele... eu sei que parece estranho, mas calma, fica ainda mais. 
 
 Eles querem uma peça em especifico, uma espécie de &quot;calendário&quot; entalhado em pedra, aparentemente isso tem algo a ver com a pandemia...
 
@@ -1658,38 +1667,38 @@ Se descobrir algo me responde assim que possível.
 
 - Seu amigo B.J.&quot;
 
-Você esperá que encontre algo para poder responder B.J. futuramente e [[segue viagem|Escavaçãof 3]]</tw-passagedata><tw-passagedata pid="166" name="Escavaçãof 3" tags="" position="250,3300" size="100,100">Chegando numa parte mais montanhosa e com muitas plantas, você segue seu caminho até a base de uma colina, lá você vê muito bem escondida a entrada de uma caverna. 
+Você esperá que encontre algo para poder responder B.J. futuramente e [[segue viagem|Escavaçãof 3]]</tw-passagedata><tw-passagedata pid="162" name="Escavaçãof 3" tags="" position="250,3300" size="100,100">Chegando numa parte mais montanhosa e com muitas plantas, você segue seu caminho até a base de uma colina, lá você vê muito bem escondida a entrada de uma caverna. 
 
-Ainda parece tranquilo, eu deveria [[entrar|Escavaçãof 4]] de uma vez ou [[esperar|ARCH chega]] mais um pouco?</tw-passagedata><tw-passagedata pid="167" name="Escavaçãof 4" tags="" position="250,3450" size="100,100">O caminho pela caverna é confuso e tortuoso, eventualmente você encontra uma bifurcação. Em cada entrada existe uma criatura entalhada na parede, na direita um morcego, que te faz lembrar do começo da pandemia, na esquerda um pássaro...
+Ainda parece tranquilo, eu deveria [[entrar|Escavaçãof 4]] de uma vez ou [[esperar|ARCH chega]] mais um pouco?</tw-passagedata><tw-passagedata pid="163" name="Escavaçãof 4" tags="" position="250,3450" size="100,100">O caminho pela caverna é confuso e tortuoso, eventualmente você encontra uma bifurcação. Em cada entrada existe uma criatura entalhada na parede, na direita um morcego, que te faz lembrar do começo da pandemia, na esquerda um pássaro...
 &lt;&lt;if $fe is true&gt;&gt;
 Por um segundo voê jura ouvir uma vós familiar te chamando do caminho esquerdo&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;
 
-Você deveria seguir para a [[esquerda|Escavaçãof 5]] ou para a [[direita|covidf]]</tw-passagedata><tw-passagedata pid="168" name="ARCH chega" tags="" position="475,3375" size="100,100">Você acha melhor esperar para confirmar que o local é seguro, porém com essa espera toda, vários carros começam a aparecer e parecem ser da ARCH corp, uma mulher sai liderando um grupo de pessoas e drones... Mesmo tentando se afastar do local, alguns drones rastreiam você.
+Você deveria seguir para a [[esquerda|Escavaçãof 5]] ou para a [[direita|covidf]]</tw-passagedata><tw-passagedata pid="164" name="ARCH chega" tags="" position="475,3375" size="100,100">Você acha melhor esperar para confirmar que o local é seguro, porém com essa espera toda, vários carros começam a aparecer e parecem ser da ARCH corp, uma mulher sai liderando um grupo de pessoas e drones... Mesmo tentando se afastar do local, alguns drones rastreiam você.
 
-Você deveria [[correr]] ou [[se entregar]]?</tw-passagedata><tw-passagedata pid="169" name="correr" tags="" position="625,3425" size="100,100">Você tenta correr, mas quando percebe está cercado
+Você deveria [[correr]] ou [[se entregar]]?</tw-passagedata><tw-passagedata pid="165" name="correr" tags="" position="625,3425" size="100,100">Você tenta correr, mas quando percebe está cercado
 
 &quot;Pare imediatamente!&quot; - Diz um guarda em fúria
 
 Um dos seguranças junto ao drone imobilizam você e te prendem em um carro
 
-Por um segundo você fica refletindo sobre suas escolhas, pensa se deveria ter feito diferente... Infelizmente é [[tarde demais para voltar|GAME OVER]]</tw-passagedata><tw-passagedata pid="170" name="se entregar" tags="" position="625,3300" size="100,100">Um dos seguranças junto ao drone imobilizam você e te prendem em um carro
+Por um segundo você fica refletindo sobre suas escolhas, pensa se deveria ter feito diferente... Infelizmente é [[tarde demais para voltar|GAME OVER]]</tw-passagedata><tw-passagedata pid="166" name="se entregar" tags="" position="625,3300" size="100,100">Um dos seguranças junto ao drone imobilizam você e te prendem em um carro
 
 &quot;Você não deveria estar aqui!&quot; - Diz o guarda em fúria
 
-Por um segundo você fica refletindo sobre suas escolhas, pensa se deveria ter feito diferente... Infelizmente é [[tarde demais para voltar|GAME OVER]]</tw-passagedata><tw-passagedata pid="171" name="Escavaçãof 5" tags="" position="250,3625" size="100,100">Seguindo o caminho do pássaro, já que remete a liberdade, pelo local você encontera desenhos e entalhes do chão ao teto da caverna, aos poucos você começa a ver o local ganhando forma de um templo que a muito fora esculpido em pedra...
+Por um segundo você fica refletindo sobre suas escolhas, pensa se deveria ter feito diferente... Infelizmente é [[tarde demais para voltar|GAME OVER]]</tw-passagedata><tw-passagedata pid="167" name="Escavaçãof 5" tags="" position="250,3625" size="100,100">Seguindo o caminho do pássaro, já que remete a liberdade, pelo local você encontera desenhos e entalhes do chão ao teto da caverna, aos poucos você começa a ver o local ganhando forma de um templo que a muito fora esculpido em pedra...
 
-Impressionantemente tem luminosidade natural, já que existem entradas no teto para o lado de fora, permitindo que os ultimos raios de sol da tarde entrem no local. Seguindo pelo caminho você vê algumas pequenas relíquias de uma antiga civilização que um dia também seguiu os ensinamentos do &lt;&lt;if &amp;fe is true&gt;&gt;PODEROSO&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt; homem livre, mas a sua frente tem uma que chama mais atenção doque as outras.
+Impressionantemente tem luminosidade natural, já que existem entradas no teto para o lado de fora, permitindo que os ultimos raios de sol da tarde entrem no local. Seguindo pelo caminho você vê algumas pequenas relíquias de uma antiga civilização que um dia também seguiu os ensinamentos do &lt;&lt;if $fe is true&gt;&gt;PODEROSO&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt; homem livre, mas a sua frente tem uma que chama mais atenção doque as outras.
 
 Um grande circulo de pedra detalhado com metais preciosos, como ouro e prata, entalhado no mesmo você vê que se assemelha muito com um calendário, deve ser disso que Billy Jordan se referia.
 
 &lt;&lt;if $fe is true&gt;&gt;Você sente como se tivesse uma força te puxando em direção a relíquia... Uma sensação boa... Uma sensação de paz... [[Você segue com a força|A liberdade]] ou prefere tentar [[estudar mais sobre a relíquia|analise]]?
-&lt;&lt;else&gt;&gt;Talvez com uns minutos [[estudando de para entender oque tem nele|analise]] ou você deveria tentar [[retirar-lo do templo|retirar calendario]]?&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="172" name="covidf" tags="" position="475,3675" size="100,100">Você escolhe o caminho do morcego, afinal foi o animal de ua das teorias da origem do vírus
+&lt;&lt;else&gt;&gt;Talvez com uns minutos [[estudando de para entender oque tem nele|analise]] ou você deveria tentar [[retirar-lo do templo|retirar calendario]]?&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="168" name="covidf" tags="" position="475,3675" size="100,100">Você escolhe o caminho do morcego, afinal foi o animal de uma das teorias da origem do vírus
 
 Entrando na caverna você se depara com alguns desenhos e entalhes indicando um pedestal, quando você se aproxima vê um pedestal com desenhos inidicando para que alguém coloque coloque sua mão no pedestal.
 
-Você deveria fazer oque os [[desenhos indicam|19f]] ou deveria [[voltar a biforcação|Escavação 4.5]]
+Você deveria fazer oque os [[desenhos indicam|19f]] ou deveria [[voltar a bifurcação|Escavação 4.5]]
 
-&lt;&lt;set $Saude to $Saude - 1&gt;&gt;</tw-passagedata><tw-passagedata pid="173" name="19f" tags="" position="625,3550" size="100,100">Você sente uma dor imensurável, cai de joelhos com sua visão ficando turva... você ve apenas alguns flashes de pessoas entrando, uma mulher de máscara e com uniforme da ARCH corp se aproximando de você, então você ouve
+&lt;&lt;set $Saude to $Saude - 1&gt;&gt;</tw-passagedata><tw-passagedata pid="169" name="19f" tags="" position="625,3550" size="100,100">Você sente uma dor imensurável, cai de joelhos com sua visão ficando turva... você ve apenas alguns flashes de pessoas entrando, uma mulher de máscara e com uniforme da ARCH corp se aproximando de você, então você ouve
 
 &quot;Nós temos que ajudá-lo rápido, peguem os equipamentos médicos&quot; - Diz a figura gritando para um drone que estava com ela
 
@@ -1701,17 +1710,17 @@ Ela então se aproxima de você
 
 &quot;Nos desculpe por chegar tarde...&quot; - Diz a mulher com a máscara
 
-Aparentemente suas escolhas resultaram em um [[caminho trágico|GAME OVER]]</tw-passagedata><tw-passagedata pid="174" name="Escavação 4.5" tags="" position="400,3525" size="100,100">Você então retorna a biforcação e escolhe o [[caminho esquerdo|Escavaçãof 5]]
+Aparentemente suas escolhas resultaram em um [[caminho trágico|GAME OVER]]</tw-passagedata><tw-passagedata pid="170" name="Escavação 4.5" tags="" position="400,3525" size="100,100">Fazendo o caminho devolta você sente um ar pesado preenchendo seus pulmões... Você então retorna a bifurcação e escolhe o [[caminho esquerdo|Escavaçãof 5]]
 
-&lt;&lt;set $Saude to $Saude - 1&gt;&gt;</tw-passagedata><tw-passagedata pid="175" name="analise" tags="" position="100,3825" size="100,100">Usando seu celular, que ainda tem sinal, você faz uma pesquisa demorada sobre antigas civilizações e percebe que a criadora deste templo, sumiu em pouquissmo tempo, como se eles tivessem passado por uma catástrofe. Com isso em mente, olhando novamente ao calendário e você percebe que ele não consta datas, mas sim eventos. E o evento final parece ser a catástrofe que levou aquela civilização à ruína...
+&lt;&lt;set $Saude to $Saude - 1&gt;&gt;</tw-passagedata><tw-passagedata pid="171" name="analise" tags="" position="100,3825" size="100,100">Usando seu celular, que ainda tem sinal, você faz uma pesquisa demorada sobre antigas civilizações e percebe que a criadora deste templo, sumiu em pouquissmo tempo, como se eles tivessem passado por uma catástrofe. Com isso em mente, olhando novamente ao calendário e você percebe que ele não consta datas, mas sim eventos. E o evento final parece ser a catástrofe que levou aquela civilização à ruína...
 
 Impressionantemente essa não é a parte assustadora, mas sim o fato de que o primeiro evento parece mostrar algo sobre, várias pessoas ficando doentes ao mesmo tempo...
 
 
 &lt;&lt;if $Saude lte 0&gt;&gt;Você instantaneamente pensa em contar isso ao mundo, mas assim que você pega seu celular sua visão fica turva e você começa a tossir sangue na tela dele, você sabe que não pode parar. Em seus ultimos esforços de vida você pega todas as [[informações da sua pesquisa para enviar a Billy Jordan|morrer como heroi]]&lt;&lt;else&gt;&gt;
-Você instantaneamente pensa em contar isso ao mundo, mas a única pessoa que lhe daria [[ouvidos seria Billy Jordan|contar a verdade ao mundo]]&lt;&lt;/if&gt;</tw-passagedata><tw-passagedata pid="176" name="retirar calendario" tags="" position="400,3825" size="100,100">Você então tenta retirar a pedra do lugar, para estuda-lá melhor em outro lugar, mas no momento em que você faz força sobre ela você ouve um som de algum mecanismo sendo ativado...
+Você instantaneamente pensa em contar isso ao mundo, mas a única pessoa que lhe daria [[ouvidos seria Billy Jordan|contar a verdade ao mundo]]&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="172" name="retirar calendario" tags="" position="400,3825" size="100,100">Você então tenta retirar a pedra do lugar, para estuda-lá melhor em outro lugar, mas no momento em que você faz força sobre ela você ouve um som de algum mecanismo sendo ativado...
 
-Deveria [[continuar fazendo força|desmorona]] ou [[sair de perto|desmorona alt]]</tw-passagedata><tw-passagedata pid="177" name="contar a verdade ao mundo" tags="" position="500,4200" size="100,100">Rápidamente você começa a escrever o e-mail ao Billy Jordan falando sobre tudo sua pesquisa e oque descobriu, mas enquanto o e-mail esta sendo enviado você ve varios drones te cercando... Virando o rosto para a entrada do templo você ve uma figura feminina com uniforme da ARCH corp se aproximando enquanto fala:
+Deveria [[continuar fazendo força|desmorona]] ou [[sair de perto|desmorona alt]]</tw-passagedata><tw-passagedata pid="173" name="contar a verdade ao mundo" tags="" position="500,4200" size="100,100">Rápidamente você começa a escrever o e-mail ao Billy Jordan falando sobre tudo sua pesquisa e oque descobriu, mas enquanto o e-mail esta sendo enviado você ve varios drones te cercando... Virando o rosto para a entrada do templo você ve uma figura feminina com uniforme da ARCH corp se aproximando enquanto fala:
 
 &quot;Tudo aqui dentro é para pesquisas exclusivamente da ARCH corp e vamos ver oque você estava fazendo no celular&quot; - Diz ela em um tom alto e claro
 
@@ -1719,21 +1728,22 @@ O mundo ja sabe da verdade, antes que eles te peguem só resta você destruir as
 
 [[Jogar celular no chão e pisar|contar a verdade ao mundo 2]]
 
-[[Jogar celular na parede o mais forte que puder|contar a verdade ao mundo 2]]</tw-passagedata><tw-passagedata pid="178" name="A liberdade" tags="" position="250,3825" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="179" name="morrer como heroi" tags="" position="900,4400" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="180" name="desmorona" tags="" position="625,3675" size="100,100">Você tenta com toda sua força retirar a pedra de uma vez, para que você possa sair desse lugar, mas você não tem força suficiente. Por segundos você olha para a entrada do templo e ve um grupo de pessoas com uniforme da ARCH corp que estava entrando começando a evacuar, mesmo pedindo por ajuda [[já é tarde...|GAME OVER]]
+[[Jogar celular na parede o mais forte que puder|contar a verdade ao mundo 2]]</tw-passagedata><tw-passagedata pid="174" name="A liberdade" tags="" position="250,3825" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="175" name="morrer como heroi" tags="" position="900,4400" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="176" name="desmorona" tags="" position="625,3675" size="100,100">Você tenta com toda sua força retirar a pedra de uma vez, para que você possa sair desse lugar, mas você não tem força suficiente. Por segundos você olha para a entrada do templo e ve um grupo de pessoas com uniforme da ARCH corp que estava entrando começando a evacuar, mesmo pedindo por ajuda [[já é tarde...|GAME OVER]]
 
-Você por alguns segundos pensa sobre suas ultimas escolhas... E se talvez se você tivesse feito diferente isso não teria terminado assim</tw-passagedata><tw-passagedata pid="181" name="desmorona alt" tags="" position="500,3925" size="100,100">Em desespero vocÊ correm direção a saída, abandonando tudo que você teve tanto trabalho para conseguir... Logo na entrada tem duas pessoas com uniformes da ARCH corp e alguns drones.
+Você por alguns segundos pensa sobre suas ultimas escolhas... E se talvez se você tivesse feito diferente isso não teria terminado assim</tw-passagedata><tw-passagedata pid="177" name="desmorona alt" tags="" position="500,3925" size="100,100">Em desespero vocÊ correm direção a saída, abandonando tudo que você teve tanto trabalho para conseguir... Logo na entrada tem duas pessoas com uniformes da ARCH corp e alguns drones.
 
 Uma delas extende a mão para você como se estivesse preparada para te puxar.
 
-Você [[agarra as mãos|vivo e destruído]] ou [[tenta correr sozinho|esmagado]]</tw-passagedata><tw-passagedata pid="182" name="vivo e destruído" tags="" position="625,3925" size="100,100">Você agarra as mãos femininas doque parece ser uma agente da ARCH corp, então você é puxado segundos antes de ser esmagado, então você olha para traz e vê todo o seu trabalho destruido... A pedra que vocÊ precisava tanto investigar foi destruida e soterrada, como se não bastasse tudo isso os agentes da ARCH corp te imobilizam e levam para o carro deles fazendo inumeras perguntas...
+Você [[agarra as mãos|vivo e destruído]] ou [[tenta correr sozinho|esmagado]]</tw-passagedata><tw-passagedata pid="178" name="vivo e destruído" tags="" position="625,3925" size="100,100">Você agarra as mãos femininas doque parece ser uma agente da ARCH corp, então você é puxado segundos antes de ser esmagado, então você olha para traz e vê todo o seu trabalho destruido... A pedra que você precisava tanto investigar foi destruida e soterrada, como se não bastasse tudo isso os agentes da ARCH corp te imobilizam e levam para o carro deles fazendo inumeras perguntas...
 
-Você ainda incrédulo que tudo se foi por causa de um empurrão, permanece quieto e triste. Sabendo que a [[verdade nunca será descoberta por sua causa.|GAME OVER]]</tw-passagedata><tw-passagedata pid="183" name="esmagado" tags="" position="625,3800" size="100,100">Você então tenta correr até a entrada sozinho, ignorando qualquer tipo de ajuda, mas você não é rápido o suficiente e por segundos consegue ver para a pessoa com uniforme da ARCH corp que estava tentando te salvar, mas agora [[já é tarde...|GAME OVER]]
+Você ainda incrédulo que tudo se foi por causa de um empurrão, permanece quieto e triste. Sabendo que a [[verdade nunca será descoberta por sua causa.|GAME OVER]]</tw-passagedata><tw-passagedata pid="179" name="esmagado" tags="" position="625,3800" size="100,100">Você então tenta correr até a entrada sozinho, ignorando qualquer tipo de ajuda, mas você não é rápido o suficiente e por segundos consegue ver para a pessoa com uniforme da ARCH corp que estava tentando te salvar, mas agora [[já é tarde...|GAME OVER]]
 
-Você por alguns segundos pensa sobre suas ultimas escolhas... E se talvez se você tivesse feito diferente isso não teria terminado assim</tw-passagedata><tw-passagedata pid="184" name="contar a verdade ao mundo 2" tags="" position="700,4400" size="100,100">&quot;RÁPIDO, NÃO PERMITAM ISSO&quot; - Grita a funcionaria da ARCH corp em desespero
+Você por alguns segundos pensa sobre suas ultimas escolhas... E se talvez se você tivesse feito diferente isso não teria terminado assim</tw-passagedata><tw-passagedata pid="180" name="contar a verdade ao mundo 2" tags="" position="700,4400" size="100,100">&quot;RÁPIDO, NÃO PERMITAM ISSO&quot; - Grita a funcionaria da ARCH corp em desespero
 
 Os drones tentam impedir, mas seu celular quebra em pequenos pedaços. Você tem certeza de que Billy Jordan irá fazer bom uso da mensagem... agora só te resta aceitar seu destino...
 
-&quot;SEUS INCONPETENTES... PRENDAM ELE JÁ!&quot;</tw-passagedata><tw-passagedata pid="185" name="escavaçãoa 2" tags="" position="3775,3250" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&quot;SEUS INCONPETENTES... PRENDAM ELE JÁ!&quot;</tw-passagedata><tw-passagedata pid="181" name="escavaçãoa 2" tags="" position="3775,3250" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+Com toda essa conversa você percebe que provavelmente Aylin tem um cargo muito mais importante doque ela diz.
 
 A viagem de carro segue por um tempo,mas nada que estivesse fora do planejado. A fata de veículos na rua ajuda bastante a locomoção em automóveis.
 Na estrada seu celular vibra,você pega seu celular com cautela afim de não ser percebido e nota que parece ser a tão aguardada resposta de Billy Jordan
@@ -1741,7 +1751,7 @@ Na estrada seu celular vibra,você pega seu celular com cautela afim de não ser
 Ler o [[e-mail enquanto viaja|respostaA]]
 
 &lt;&lt;audio arch_bgm stop&gt;&gt;
-&lt;&lt;audio cyber2_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="186" name="respostaA" tags="" position="3925,3375" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+&lt;&lt;audio cyber2_bgm volume 0.05 play loop&gt;&gt;</tw-passagedata><tw-passagedata pid="182" name="respostaA" tags="" position="3925,3375" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 &quot;Então meu amigo, eu tenho pesquisado muito e cheguei a conclusão de que o templo é na verdade um local sagrado para o culto do homem livre e aparentemente eles tem algumas relíquias que podem ter alguma relação com a pândemia.
 
@@ -1754,15 +1764,15 @@ Se descobrir algo a mais tenta me contatar assim que possível
 Você espera poder encontrar o que
 
 [[escavação3]]
-</tw-passagedata><tw-passagedata pid="187" name="escavação3" tags="" position="3775,3500" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="183" name="escavação3" tags="" position="3775,3500" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
 Chegando numa parte mais montanhosa e com muitas plantas, você segue seu caminho até a base de uma colina, lá você vê muito bem escondida a entrada de uma caverna.
 
-Ainda parece tranquilo,você poderia [[entrar e explorar sozinho|escavaçãoSA4]] ou [[esperar a ARCH Corp|aguardar]] preparar os equipamentos</tw-passagedata><tw-passagedata pid="188" name="escavaçãoSA4" tags="" position="3600,3600" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+Ainda parece tranquilo,você poderia [[entrar e explorar sozinho|escavaçãoSA4]] ou [[esperar a ARCH Corp|aguardar]] preparar os equipamentos</tw-passagedata><tw-passagedata pid="184" name="escavaçãoSA4" tags="" position="3600,3600" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
-O caminho pela caverna é confuso e tortuoso, eventualmente você encontra uma bifurcação. Em cada entrada tem uma criatura entalhada na parede,na [[direita|COVIDA]] um morcego,que te faz lembrar do começo da pandemia,na [[esquerda|escavaçãoSA5]] um pássaro</tw-passagedata><tw-passagedata pid="189" name="escavação4" tags="" position="4050,4150" size="100,100"></tw-passagedata><tw-passagedata pid="190" name="Retirar do Templo" tags="" position="4150,4150" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="191" name="COVIDA" tags="" position="3400,3700" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+O caminho pela caverna é confuso e tortuoso, eventualmente você encontra uma bifurcação. Em cada entrada tem uma criatura entalhada na parede,na [[direita|COVIDA]] um morcego,que te faz lembrar do começo da pandemia,na [[esquerda|escavaçãoSA5]] um pássaro</tw-passagedata><tw-passagedata pid="185" name="escavação4" tags="" position="4050,4150" size="100,100"></tw-passagedata><tw-passagedata pid="186" name="Retirar do Templo" tags="" position="4150,4150" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="187" name="COVIDA" tags="" position="3825,3700" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
-Ao tentar seguir pela direita algumas vozes te gritam. O pessoal da Arch Corp te alcança e avisa que o caminho certo é pela esquerda. É impossível não se perguntar o que há pelo caminho do morcego, mas você segue com a ARCH Corp pela [[esquerda|escavaçãoSA5]]sem questionamentos.</tw-passagedata><tw-passagedata pid="192" name="escavaçãoSA5" tags="" position="3600,3800" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="193" name="aguardar" tags="" position="4075,3625" size="100,100">Você aguarda a divisão de equipamentos da ARCH Corp. Assim que eles chegam, distribuem máscaras e equipamentos de segurança especializado para evitar contágio dentro do templo. Você tenta seguir pelas cavernas do templo mas os seguranças te impedem de ir na frente,dizendo que você é importante demais para a empresa para se arriscar indo sozinho,só lhe resta [[seguir|escavaçãoA 4]]</tw-passagedata><tw-passagedata pid="194" name="escavaçãoA 4" tags="" position="4075,3775" size="100,100">Vocês seguem pelo caminho, passam por uma bifurcação, mas aparentemente eles sabem por onde seguir, com isso você e a companhia da ARCH Corp finalmente atravessa o labirinto de cavernas que é o templo.
+Ao tentar seguir pela direita uma voz te grita. Aylin te alcança e avisa que o caminho certo é pela esquerda. É impossível não se perguntar o que há pelo caminho do morcego, mas você segue com a ARCH Corp pela [[esquerda|escavaçãoA 4]]sem questionamentos, já que ela pode ter salvo sua vida.</tw-passagedata><tw-passagedata pid="188" name="escavaçãoSA5" tags="" position="3600,3800" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="189" name="aguardar" tags="" position="4075,3625" size="100,100">Você aguarda a divisão de equipamentos da ARCH Corp. Assim que eles chegam, distribuem máscaras e equipamentos de segurança especializado para evitar contágio dentro do templo. Você tenta seguir pelas cavernas do templo mas os seguranças te impedem de ir na frente,dizendo que você é importante demais para a empresa para se arriscar indo sozinho,só lhe resta [[seguir|escavaçãoA 4]]</tw-passagedata><tw-passagedata pid="190" name="escavaçãoA 4" tags="" position="4075,3775" size="100,100">Vocês seguem pelo caminho, passando pelo caminho da esquerda, aparentemente eles sabem por onde seguir, com isso você e a companhia da ARCH Corp finalmente atravessa o labirinto de cavernas que é o templo.
 
 Impressionantemente existe luminosdade natural,já que existem buracos no teto que dão para o lado de fora, permitindo que os últimos raios de sol da tarde entrem no local. Seguindo pelo caminho, você vê algumas pequenas relíquias de uma antiga civilização que um dia também seguiu os ensinamentos do homem livre.
 
@@ -1770,13 +1780,148 @@ Mas a sua frente tem uma que chama mais atenção que as outras,um grande círcu
 
 &quot;Finalmente! Agora vou poder pesquisar com material físico ao invés de meras imagens! Vamos drones tirem-na do pedestal&quot;
 
-Eles começam a retirar a roda metálica de cima do pedestal e as paredes começam a tremer. Você entende que é uma armadilha, se o calendário sair de cima do pedestal o templo inteiro pode vir abaixo, Mas Aylin não parece estar satisfeita com o fato de ter perdido sua fonte de pesquisa.
+-[[Não seria melhor estudar a pedra enquanto ela está no pedestal?| escavaçãoA 5]] - VocÊ avisa, com medo de ter armadilhas
+
+[[Permanecer calado|desabamentoA]]
+
+</tw-passagedata><tw-passagedata pid="191" name="manso 1" tags="" position="1175,2150" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $boa to $boa + 1&gt;&gt;
+
+&quot;Você não teria motivos para publicar nenhuma das outras.&quot; - Ela diz encostando na moldura da porta - &quot;A que difama o freeman não passa de calúnia mal feita e a que revela o que a empresa esconde é perigosa demais! Você está melhor sem se envolver nisso.&quot; - ela parece estar se forçando muito para manter a voz firme, mas você percebe que ela está sensível.
+
+Ela começa a fechar a porta, você precisa prender a atenção dela:
+
+-[[Mas e quanto as pessoas que sofrem diariamente com isso? Devemos deixá-las morrer?|manso 2]] - Você faz um apelo para a consciência dela tentando atingir essa sensibilidade que ela emana
+
+-[[Então o CERTO é omitir a verdade e deixar as pessoas sofrendo e morrendo, kate?!|bruto 2]] - Você decide que a melhor escolha é usar a mesma tática e ser firme também, tentando testar a fraqueza dela.
+
+&lt;&lt;set $manso to true&gt;&gt;
+</tw-passagedata><tw-passagedata pid="192" name="bruto 1" tags="" position="1325,2150" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="193" name="manso 2" tags="" position="1175,2300" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $boa to $boa + 1&gt;&gt;
+&lt;&lt;if $manso is true&gt;&gt;
+&quot;Pessoas vão sempre morrer, Vanno, nem sempre somos capazes de impedir a morte de todas&quot; - ela evita de olhar em seus olhos
+
+Você olha para ela, incrédulo, não parece a mesma Kate que você conhece
+
+-[[Kate, qualquer um pode sofrer perdas. Eu perdi minha única familia, o que impede de isso acontecer com a você?|manso 3]] - Apelando para a humanidade que ela sempre apresentou, desde que se conheceram
+
+-[[Você diz isso porque não deve ter perdido ninguém! Eu perdi todos meus amigos e família, Kate. Imagine perder alguém e poder ter impedido!|bruto 3]] - Tentando trazer um pouco de consciência coletiva para ela 
+
+&lt;&lt;elseif $manso is false&gt;&gt;
+
+&quot;Pessoas vão sempre morrer, Vanno, nem sempre somos capazes de impedir a morte de todas&quot; - ela evita de olhar em seus olhos
+
+Você olha para ela, incrédulo, não parece a mesma Kate que você conhece
+
+-[[Kate, qualquer um pode sofrer perdas. Eu perdi minha única familia, o que impede de isso acontecer com a você?|manso 3]] - Apelando para a humanidade que ela sempre apresentou, desde que se conheceram
+
+-[[Você diz isso porque não deve ter perdido ninguém! Eu perdi todos meus amigos e família, Kate. Imagine perder alguém e poder ter impedido!|bruto 3]] - Tentando trazer um pouco de consciência coletiva para ela 
+
+
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;set $manso to true&gt;&gt;
+
+
+</tw-passagedata><tw-passagedata pid="194" name="bruto 2" tags="" position="1325,2300" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="195" name="manso 3" tags="" position="1175,2450" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $boa to $boa + 1&gt;&gt;
+&lt;&lt;if $manso is true&gt;&gt;
+&quot;Eu já estou protegendo minha familia, Vanno! Se eu continuasse me metendo nesse assunto... Eu... só não quero perdê-los.&quot;
+
+você se lembra de quando ligou para ela pouco antes, ela parecia estar sendo ameaçada
+
+-[[Você está sendo ameaçada? precisa de ajuda?|manso 4]] - Você dá um passo à frente
+
+-[[Estão te ameaçando? Você vai ceder?! Vai condenar o mundo inteiro por causa de algumas mensagens ruins?!|bruto 4]] - Incrédulo, levantando um pouco o tom de voz, mas regulando-se
+
+&lt;&lt;elseif $manso is false&gt;&gt;
+
+&quot;Eu já estou protegendo minha familia, Vanno! Se eu continuasse me metendo nesse assunto... Eu... só não quero perdê-los.&quot; 
+
+você se lembra de quando ligou para ela pouco antes, ela parecia estar sendo ameaçada
+
+-[[Você está sendo ameaçada? precisa de ajuda?|manso 4]] - Você dá um passo
+
+-[[Estão te ameaçando? Você vai ceder?! Vai condenar o mundo inteiro por causa de algumas mensagens ruins?!|bruto 4]] - Incrédulo, levantando um pouco o tom de voz, mas regulando-se
+
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;set $manso to true&gt;&gt;
+
+
+</tw-passagedata><tw-passagedata pid="196" name="bruto 3" tags="" position="1325,2450" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="197" name="manso 4" tags="" position="1175,2600" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $boa to $boa + 1&gt;&gt;
+&lt;&lt;if $manso is true&gt;&gt;
+&quot;Eles me mandam coisas horríveis! A ARCH Corp tem vigiado minha familia... sabe cada passo que eles dão! Até fotos minhas dentro de casa, tiradas de bem onde você está parado! Até os animais de rua que eu cuidava, apareceram mortos!&quot; - ela se encolhe e coloca a mão na testa
+
+Ela parece inquieta, esperando suas próximas palavras
+
+-[[Kate, não vão fazer nada com a sua família, caso seja eu que investigue. Me ajuda, vai.|manso 5]] - você, ainda irritado, tenta usar palavras doces para manipulação
+
+-[[Então não se envolva mais, kate! Você já viu que não aguenta! Mas me deixe fazer alguma coisa, eu sei que você pode me ajudar!|bruto 5]] - Você fala com o a voz firme
+
+&lt;&lt;elseif $manso is false&gt;&gt;
+&quot;Eles me mandam coisas horríveis! A ARCH Corp tem vigiado minha familia... sabe cada passo que eles dão! Até fotos minhas dentro de casa, tiradas de bem onde você está parado! Até os animais de rua que eu cuidava, apareceram mortos!&quot; - ela se encolhe e coloca a mão na testa
+
+-[[Kate, não vão fazer nada com a sua família, caso seja eu que investigue. Me ajuda, vai.|manso 5]] - você, ainda irritado, tenta usar palavras doces para manipulação
+
+-[[Então não se envolva mais, kate! Você já viu que não aguenta! Mas me deixe fazer alguma coisa que seja! Eu sei que você pode me ajudar!|bruto 5]] - Você fala com o a voz firme, definindo tudo o qu disse como algo urgente
+
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;set $manso to true&gt;&gt;
+
+
+</tw-passagedata><tw-passagedata pid="198" name="bruto 4" tags="" position="1325,2600" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="199" name="manso 5" tags="" position="1175,2750" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;&lt;&lt;set $boa to $boa + 1&gt;&gt;
+&lt;&lt;if $manso is true&gt;&gt;
+&quot;Eu não sei&quot; - &quot;Não entendo essa sua fixação SEM SENTIDO em arranjar problemas!&quot; - &quot;Eles vão descobrir se eu te falar algo e você SABE disso, não tente me manipular!&quot; - Ela dá um passo a frente - &quot;Não me faça gastar o pouco ânimo que eu tenho nessa conversa&quot;
+
+Pelo que percebe, essa será, definitivamente, a última vez que você terá a chance de falar algo
+
+&lt;&lt;if $boa gt $grosso&gt;&gt;-[[Você conseguirá mesmo viver sabendo que deixou bilhões de pessoas morrerem por causa de egoísmo?|se lascou]] - Você tenta finalizar, mostrando que essa culpa nuncá irá sair das mãos dela
+
+&lt;&lt;elseif $grosso gt $boa&gt;&gt;-[[Então não me entregue. Mas quando tiver que editar manchetes sobre o número de mortos crescendo aos bilhões e ver mais pessoas ficando loucas por causa da ARCH Corp, tenha em mente que A CULPA SERÁ INTEIRAMENTE SUA .|venceu]]&lt;&lt;/if&gt;&gt; - Você despeja tudo 
+
+
+&lt;&lt;elseif $manso is false&gt;&gt;
+
+&quot;Eu não sei&quot; - &quot;Não entendo essa sua fixação em arranjar problemas!&quot; - &quot;Eles vão descobrir se eu te falar algo e você SABE disso, não tente me manipular!&quot; - Ela dá um passo a frente, parece a extremamente frustrada e exausta mentalmente.
+
+Parece será a ultima vez que você terá a chance de falar algo
+
+&lt;&lt;if $boa gt $grosso&gt;&gt;-[[E então? Você conseguirá mesmo viver sabendo que deixou bilhões de pessoas morrerem por causa de egoísmo, Kate?|se lascou]] - Você tenta finalizar, mostrando que essa culpa nuncá irá sair das mãos dela
+
+&lt;&lt;elseif $grosso gt $boa&gt;&gt;-[[Então não me entregue. Mas quando tiver que editar manchetes sobre o número de mortos crescendo aos bilhões e ver mais pessoas ficando loucas por causa da ARCH Corp, tenha em mente que A CULPA SERÁ INTEIRAMENTE SUA E DO SEU EGOÍSMO.|venceu]]&lt;&lt;/if&gt;&gt; - Você despeja tudo que acha das atitudes dela, provavelmente ela pensa o mesmo
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;set $manso to true&gt;&gt;
+
+
+</tw-passagedata><tw-passagedata pid="200" name="bruto 5" tags="" position="1325,2750" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="201" name="se lascou" tags="" position="1050,2750" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+
+&quot;Eu...&quot; - ela fica um tempo caladaa antes de se decidir - &quot;Não posso confiar! Preciso preservar o que é importante para mim! Então... sim! Vou conviver e sobreviver com isso!&quot; - Ela bate a porta sem deixar você retrucar.
+
+Agora você está sozinho, na rua sente o peso de suas escolhas, tendo que [[voltar pra casa de mãos vazias|pegar informações sigilosas]], consumido pelo cansaço e falta de ar devido ao estresse dessa conversa, provavelmente.
+</tw-passagedata><tw-passagedata pid="202" name="venceu" tags="" position="1325,2900" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
+
+Kate volta para dentro de casa correndo. &quot;você se pergunta se foi rude demais com ela, mas retorna após alguns segundos e joga uma pilha de papéis no chão, bem à sua frente.
+
+&quot;CERTO, CORRA ATRÁS DO PERIGO! MAS QUANDO ELES PEGAREM VOCÊ, NÃO PONHA A CULPA EM MIM!&quot; - ela fecha a porta num estrondo, te deixando do lado de fora.
+
+Sem saber como se sentir depois dessa gritaria, você vai para casa, exausto e sem fôlego, deita na cama e lê o que ela te jogou. 
+
+São documentos que comprovam o desvio de dinheiro que deveria ser destinado à hospitais e até o pouco que iria para educação também. Tudo isso, feito pela própria ARCH Corp na intenção de comprar equipamentos de escavação. Também há papéis de pesquisa sobre um antigo santuário que desapareceu há milhões de anos.
+
+Você não tem ideia do que a ARCH Corp tem a ver com santuarios e escavaçoes, mas antes que pense numa ligação entre essas coisas, seu celular toca. 
+
+Você recebeu um [[novo e-mail|respondido]].
+&lt;&lt;set $quem to 4&gt;&gt;
+&lt;&lt;set $J to false&gt;&gt;
+&lt;&lt;set $D to false&gt;&gt;
+
+</tw-passagedata><tw-passagedata pid="203" name=" escavaçãoA 5" tags="" position="4000,3925" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="204" name="desabamentoA" tags="" position="4150,3925" size="100,100">Eles começam a retirar a roda metálica de cima do pedestal e as paredes começam a tremer. Você entende que é uma armadilha, se o calendário sair de cima do pedestal o templo inteiro pode vir abaixo, Mas Aylin não parece estar satisfeita com o fato de ter perdido sua fonte de pesquisa.
 
 &quot;Não... Não! Eu não vou sair daqui sem esse calendário! Guardas!&quot; 
 
 Ela perdeu completamente a noção. Quanto mais eles mexem na pedra mais as paredes tremem e se despedaçam
 
-[[Aylin! Você vai matar todos nós se fizer isso!]]</tw-passagedata><tw-passagedata pid="195" name="Aylin! Você vai matar todos nós se fizer isso!" tags="" position="4300,3975" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+-[[Aylin! Você vai matar todos nós se fizer isso!|desabamentoA 2]] - Você grita desesperadamente para que eles parem
+
+[[Correr para fora do templo e se salvar|se salvar]]</tw-passagedata><tw-passagedata pid="205" name="desabamentoA 2" tags="" position="4375,3950" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="206" name="se salvar" tags="" position="4325,3800" size="100,100">Você corre com todas as suas forças, até que por muito pouco consegue se jogar pra fora, quando a poeira baixa você vê que foi o unico sobrevivente... Os seus novos possíveis aliados,  pedra que vocÊ precisava tanto investigar foi destruida e soterrada, como se não bastasse tudo isso os agentes da ARCH corp te imobilizam e levam para o carro deles fazendo inumeras perguntas...
+
+Você ainda incrédulo que tudo se foi por causa de um empurrão, permanece triste na frente do templo. Sabendo que a [[verdade nunca será descoberta por que você não impediu a ganância de Aylin.|GAME OVER]]</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */
 	if(document.documentElement.getAttribute("data-init")==="loading"){!function(window,document,jQuery,undefined){"use strict";function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,r=Array(e.length);t<e.length;t++)r[t]=e[t];return r}return Array.from(e)}var _createClass=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(t,r,n){return r&&e(t.prototype,r),n&&e(t,n),t}}(),_slicedToArray=function(){function e(e,t){var r=[],n=!0,a=!1,i=undefined;try{for(var o,s=e[Symbol.iterator]();!(n=(o=s.next()).done)&&(r.push(o.value),!t||r.length!==t);n=!0);}catch(e){a=!0,i=e}finally{try{!n&&s.return&&s.return()}finally{if(a)throw i}}return r}return function(t,r){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,r);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},errorPrologRegExp=/^(?:(?:uncaught\s+(?:exception:\s+)?)?\w*(?:error|exception|_err):\s+)+/i,Alert=function(){function e(e,t,r,n){var a="fatal"===e,i="Apologies! "+(a?"A fatal":"An")+" error has occurred.";i+=a?" Aborting.":" You may be able to continue, but some parts may not work properly.",null==t&&null==r||(i+="\n\nError",null!=t&&(i+=" ["+t+"]"),i+=null!=r?": "+r.replace(errorPrologRegExp,"")+".":": unknown error."),"object"===(void 0===n?"undefined":_typeof(n))&&null!==n&&n.stack&&(i+="\n\nStack Trace:\n"+n.stack),window.alert(i)}function t(t,r,n){e(null,t,r,n)}function r(t,r,n){e("fatal",t,r,n)}return function(e){window.onerror=function(n,a,i,o,s){"complete"===document.readyState?t(null,n,s):(r(null,n,s),window.onerror=e,"function"==typeof window.onerror&&window.onerror.apply(this,arguments))}}(window.onerror),Object.freeze(Object.defineProperties({},{error:{value:t},fatal:{value:r}}))}(),Patterns=function(){var e=function(){var e=new Map([[" ","\\u0020"],["\f","\\f"],["\n","\\n"],["\r","\\r"],["\t","\\t"],["\v","\\v"],[" ","\\u00a0"],[" ","\\u1680"],["᠎","\\u180e"],[" ","\\u2000"],[" ","\\u2001"],[" ","\\u2002"],[" ","\\u2003"],[" ","\\u2004"],[" ","\\u2005"],[" ","\\u2006"],[" ","\\u2007"],[" ","\\u2008"],[" ","\\u2009"],[" ","\\u200a"],["\u2028","\\u2028"],["\u2029","\\u2029"],[" ","\\u202f"],[" ","\\u205f"],["　","\\u3000"],["\ufeff","\\ufeff"]]),t=/^\s$/,r="";return e.forEach(function(e,n){t.test(n)||(r+=e)}),r?"[\\s"+r+"]":"\\s"}(),t="[\\u0020\\f\\t\\v\\u00a0\\u1680\\u180e\\u2000-\\u200a\\u202f\\u205f\\u3000\\ufeff]",r="\\s"===e?"\\S":e.replace(/^\[/,"[^"),n="[0-9A-Z_a-z\\-\\u00c0-\\u00d6\\u00d8-\\u00f6\\u00f8-\\u00ff\\u0150\\u0170\\u0151\\u0171]",a=n.replace("\\-",""),i=function(){return"("+n+"+)\\(([^\\)\\|\\n]+)\\):|"+t+"*("+n+"+)"+t+"*:([^;\\|\\n]+);|"+t+"*((?:[#.]"+n+"+"+t+"*)+);"}();return Object.freeze({space:e,spaceNoTerminator:t,lineTerminator:"[\\n\\r\\u2028\\u2029]",notSpace:r,anyChar:"(?:.|[\\n\\r\\u2028\\u2029])",anyLetter:n,anyLetterStrict:a,identifierFirstChar:"[$A-Z_a-z]",identifierNextChar:"[$0-9A-Z_a-z]",identifier:"[$A-Z_a-z][$0-9A-Z_a-z]*",variableSigil:"[$_]",variable:"[$_][$A-Z_a-z][$0-9A-Z_a-z]*",macroName:"[A-Za-z][\\w-]*|[=-]",templateName:"[A-Za-z][\\w-]*",cssIdOrClassSigil:"[#.]",cssImage:"\\[[<>]?[Ii][Mm][Gg]\\[(?:\\s|\\S)*?\\]\\]+",inlineCss:i,url:"(?:file|https?|mailto|ftp|javascript|irc|news|data):[^\\s'\"]+"})}();!function(){function e(e,t){var r=Number.parseInt(e,10)||0;if(r<1)return"";var n=void 0===t?"":String(t);for(""===n&&(n=" ");n.length<r;){var a=n.length,i=r-a;n+=a>i?n.slice(0,i):n}return n.length>r&&(n=n.slice(0,r)),n}var t=function(){function e(e,n){var a=String(e);if(!a)return a;switch(n){case"start":return t.test(a)?a.replace(t,""):a;case"end":return r.test(a)?a.replace(r,""):a;default:throw new Error('_trimString called with incorrect where parameter value: "'+n+'"')}}var t=new RegExp("^"+Patterns.space+Patterns.space+"*"),r=new RegExp(""+Patterns.space+Patterns.space+"*$");return e}();Array.prototype.flat||Object.defineProperty(Array.prototype,"flat",{configurable:!0,writable:!0,value:function(){function e(){if(null==this)throw new TypeError("Array.prototype.flat called on null or undefined");var t=0===arguments.length?1:Number(arguments[0])||0;return t<1?Array.prototype.slice.call(this):Array.prototype.reduce.call(this,function(r,n){return n instanceof Array?r.push.apply(r,_toConsumableArray(e.call(n,t-1))):r.push(n),r},[])}return e}()}),Array.prototype.flatMap||Object.defineProperty(Array.prototype,"flatMap",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.flatMap called on null or undefined");return Array.prototype.map.apply(this,arguments).flat()}}),Array.prototype.includes||Object.defineProperty(Array.prototype,"includes",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includes called on null or undefined");if(0===arguments.length)return!1;var e=this.length>>>0;if(0===e)return!1;var t=arguments[0],r=Number(arguments[1])||0;for(r<0&&(r=Math.max(0,e+r));r<e;++r){var n=this[r];if(n===t||n!==n&&t!==t)return!0}return!1}}),Object.entries||Object.defineProperty(Object,"entries",{configurable:!0,writable:!0,value:function(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e)throw new TypeError("Object.entries object parameter must be an object");return Object.keys(e).map(function(t){return[t,e[t]]})}}),Object.fromEntries||Object.defineProperty(Object,"fromEntries",{configurable:!0,writable:!0,value:function(e){return Array.from(e).reduce(function(e,t){if(Object(t)!==t)throw new TypeError("Object.fromEntries iterable parameter must yield objects");return t[0]in e?Object.defineProperty(e,t[0],{configurable:!0,enumerable:!0,writable:!0,value:t[1]}):e[t[0]]=t[1],e},{})}}),Object.getOwnPropertyDescriptors||Object.defineProperty(Object,"getOwnPropertyDescriptors",{configurable:!0,writable:!0,value:function(e){if(null==e)throw new TypeError("Object.getOwnPropertyDescriptors object parameter is null or undefined");var t=Object(e);return Reflect.ownKeys(t).reduce(function(e,r){var n=Object.getOwnPropertyDescriptor(t,r);return void 0!==n&&(r in e?Object.defineProperty(e,r,{configurable:!0,enumerable:!0,writable:!0,value:n}):e[r]=n),e},{})}}),Object.values||Object.defineProperty(Object,"values",{configurable:!0,writable:!0,value:function(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e)throw new TypeError("Object.values object parameter must be an object");return Object.keys(e).map(function(t){return e[t]})}}),String.prototype.padStart||Object.defineProperty(String.prototype,"padStart",{configurable:!0,writable:!0,value:function(t,r){if(null==this)throw new TypeError("String.prototype.padStart called on null or undefined");var n=String(this),a=n.length,i=Number.parseInt(t,10);return i<=a?n:e(i-a,r)+n}}),String.prototype.padEnd||Object.defineProperty(String.prototype,"padEnd",{configurable:!0,writable:!0,value:function(t,r){if(null==this)throw new TypeError("String.prototype.padEnd called on null or undefined");var n=String(this),a=n.length,i=Number.parseInt(t,10);return i<=a?n:n+e(i-a,r)}}),String.prototype.trimStart||Object.defineProperty(String.prototype,"trimStart",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimStart called on null or undefined");return t(this,"start")}}),String.prototype.trimLeft||Object.defineProperty(String.prototype,"trimLeft",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimLeft called on null or undefined");return t(this,"start")}}),String.prototype.trimEnd||Object.defineProperty(String.prototype,"trimEnd",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimEnd called on null or undefined");return t(this,"end")}}),String.prototype.trimRight||Object.defineProperty(String.prototype,"trimRight",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimRight called on null or undefined");return t(this,"end")}})}(),function(){function _random(){var e=void 0,t=void 0;switch(arguments.length){case 0:throw new Error("_random called with insufficient parameters");case 1:e=0,t=arguments[0];break;default:e=arguments[0],t=arguments[1]}if(e>t){var r=[t,e];e=r[0],t=r[1]}return Math.floor(_nativeMathRandom()*(t-e+1))+e}function _randomIndex(e,t){var r=void 0,n=void 0;switch(t.length){case 1:r=0,n=e-1;break;case 2:r=0,n=Math.trunc(t[1]);break;default:r=Math.trunc(t[1]),n=Math.trunc(t[2])}return Number.isNaN(r)?r=0:!Number.isFinite(r)||r>=e?r=e-1:r<0&&(r=e+r)<0&&(r=0),Number.isNaN(n)?n=0:!Number.isFinite(n)||n>=e?n=e-1:n<0&&(n=e+n)<0&&(n=e-1),_random(r,n)}function _getCodePointStartAndEnd(e,t){var r=e.charCodeAt(t);if(Number.isNaN(r))return{char:"",start:-1,end:-1};if(r<55296||r>57343)return{char:e.charAt(t),start:t,end:t};if(r>=55296&&r<=56319){var n=t+1;if(n>=e.length)throw new Error("high surrogate without trailing low surrogate");var a=e.charCodeAt(n);if(a<56320||a>57343)throw new Error("high surrogate without trailing low surrogate");return{char:e.charAt(t)+e.charAt(n),start:t,end:n}}if(0===t)throw new Error("low surrogate without leading high surrogate");var i=t-1,o=e.charCodeAt(i);if(o<55296||o>56319)throw new Error("low surrogate without leading high surrogate");return{char:e.charAt(i)+e.charAt(t),start:i,end:t}}var _nativeMathRandom=Math.random;Object.defineProperty(Array,"random",{configurable:!0,writable:!0,value:function(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e||!Object.prototype.hasOwnProperty.call(e,"length"))throw new TypeError("Array.random array parameter must be an array or array-lke object");var t=e.length>>>0;if(0!==t){return e[0===arguments.length?_random(0,t-1):_randomIndex(t,Array.prototype.slice.call(arguments,1))]}}}),Object.defineProperty(Array.prototype,"concatUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.concatUnique called on null or undefined");var e=Array.from(this);if(0===arguments.length)return e;var t=Array.prototype.reduce.call(arguments,function(e,t){return e.concat(t)},[]),r=t.length;if(0===r)return e;for(var n=Array.prototype.indexOf,a=Array.prototype.push,i=0;i<r;++i){var o=t[i];-1===n.call(e,o)&&a.call(e,o)}return e}}),Object.defineProperty(Array.prototype,"count",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.count called on null or undefined");for(var e=Array.prototype.indexOf,t=arguments[0],r=Number(arguments[1])||0,n=0;-1!==(r=e.call(this,t,r));)++n,++r;return n}}),Object.defineProperty(Array.prototype,"delete",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.delete called on null or undefined");if(0===arguments.length)return[];var e=this.length>>>0;if(0===e)return[];for(var t=Array.prototype.concat.apply([],arguments),r=t.length,n=[],a=0;a<e;++a)for(var i=this[a],o=0;o<r;++o){var s=t[o];if(i===s||i!==i&&s!==s){n.push(a);break}}for(var u=[],l=0,c=n.length;l<c;++l)u[l]=this[n[l]];for(var d=Array.prototype.splice,f=n.length-1;f>=0;--f)d.call(this,n[f],1);return u}}),Object.defineProperty(Array.prototype,"deleteAt",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.deleteAt called on null or undefined");if(0===arguments.length)return[];var e=this.length>>>0;if(0===e)return[];for(var t=Array.prototype.splice,r=[].concat(_toConsumableArray(new Set(Array.prototype.concat.apply([],arguments).map(function(t){return t<0?Math.max(0,e+t):t})).values())),n=[].concat(_toConsumableArray(r)).sort(function(e,t){return t-e}),a=[],i=0,o=r.length;i<o;++i)a[i]=this[r[i]];for(var s=0,u=n.length;s<u;++s)t.call(this,n[s],1);return a}}),Object.defineProperty(Array.prototype,"deleteWith",{configurable:!0,writable:!0,value:function(e,t){if(null==this)throw new TypeError("Array.prototype.deleteWith called on null or undefined");if("function"!=typeof e)throw new Error("Array.prototype.deleteWith predicate parameter must be a function");var r=this.length>>>0;if(0===r)return[];for(var n=Array.prototype.splice,a=[],i=[],o=0;o<r;++o)e.call(t,this[o],o,this)&&(i.push(this[o]),a.push(o));for(var s=a.length-1;s>=0;--s)n.call(this,a[s],1);return i}}),Object.defineProperty(Array.prototype,"first",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.first called on null or undefined");if(0!=this.length>>>0)return this[0]}}),Object.defineProperty(Array.prototype,"includesAll",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includesAll called on null or undefined");if(1===arguments.length)return Array.isArray(arguments[0])?Array.prototype.includesAll.apply(this,arguments[0]):Array.prototype.includes.apply(this,arguments);for(var e=0,t=arguments.length;e<t;++e)if(!Array.prototype.some.call(this,function(e){return e===this.val||e!==e&&this.val!==this.val},{val:arguments[e]}))return!1;return!0}}),Object.defineProperty(Array.prototype,"includesAny",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includesAny called on null or undefined");if(1===arguments.length)return Array.isArray(arguments[0])?Array.prototype.includesAny.apply(this,arguments[0]):Array.prototype.includes.apply(this,arguments);for(var e=0,t=arguments.length;e<t;++e)if(Array.prototype.some.call(this,function(e){return e===this.val||e!==e&&this.val!==this.val},{val:arguments[e]}))return!0;return!1}}),Object.defineProperty(Array.prototype,"last",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.last called on null or undefined");var e=this.length>>>0;if(0!==e)return this[e-1]}}),Object.defineProperty(Array.prototype,"pluck",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.pluck called on null or undefined");var e=this.length>>>0;if(0!==e){var t=0===arguments.length?_random(0,e-1):_randomIndex(e,[].concat(Array.prototype.slice.call(arguments)));return Array.prototype.splice.call(this,t,1)[0]}}}),Object.defineProperty(Array.prototype,"pluckMany",{configurable:!0,writable:!0,value:function(e){if(null==this)throw new TypeError("Array.prototype.pluckMany called on null or undefined");var t=this.length>>>0;if(0===t)return[];var r=Math.trunc(e);if(!Number.isInteger(r))throw new Error("Array.prototype.pluckMany want parameter must be an integer");if(r<1)return[];r>t&&(r=t);var n=Array.prototype.splice,a=[],i=t-1;do{a.push(n.call(this,_random(0,i--),1)[0])}while(a.length<r);return a}}),Object.defineProperty(Array.prototype,"pushUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.pushUnique called on null or undefined");var e=arguments.length;if(0===e)return this.length>>>0;for(var t=Array.prototype.indexOf,r=Array.prototype.push,n=0;n<e;++n){var a=arguments[n];-1===t.call(this,a)&&r.call(this,a)}return this.length>>>0}}),Object.defineProperty(Array.prototype,"random",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.random called on null or undefined");var e=this.length>>>0;if(0!==e){return this[0===arguments.length?_random(0,e-1):_randomIndex(e,[].concat(Array.prototype.slice.call(arguments)))]}}}),Object.defineProperty(Array.prototype,"randomMany",{configurable:!0,writable:!0,value:function(e){if(null==this)throw new TypeError("Array.prototype.randomMany called on null or undefined");var t=this.length>>>0;if(0===t)return[];var r=Math.trunc(e);if(!Number.isInteger(r))throw new Error("Array.prototype.randomMany want parameter must be an integer");if(r<1)return[];r>t&&(r=t);var n=new Map,a=[],i=t-1;do{var o=void 0;do{o=_random(0,i)}while(n.has(o));n.set(o,!0),a.push(this[o])}while(a.length<r);return a}}),Object.defineProperty(Array.prototype,"shuffle",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.shuffle called on null or undefined");var e=this.length>>>0;if(0===e)return this;for(var t=e-1;t>0;--t){var r=Math.floor(_nativeMathRandom()*(t+1));if(t!==r){var n=this[t];this[t]=this[r],this[r]=n}}return this}}),Object.defineProperty(Array.prototype,"unshiftUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.unshiftUnique called on null or undefined");var e=arguments.length;if(0===e)return this.length>>>0;for(var t=Array.prototype.indexOf,r=Array.prototype.unshift,n=0;n<e;++n){var a=arguments[n];-1===t.call(this,a)&&r.call(this,a)}return this.length>>>0}}),Object.defineProperty(Function.prototype,"partial",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Function.prototype.partial called on null or undefined");var e=Array.prototype.slice,t=this,r=e.call(arguments,0);return function(){for(var n=[],a=0,i=0;i<r.length;++i)n.push(r[i]===undefined?arguments[a++]:r[i]);return t.apply(this,n.concat(e.call(arguments,a)))}}}),Object.defineProperty(Math,"clamp",{configurable:!0,writable:!0,value:function(e,t,r){var n=Number(e);return Number.isNaN(n)?NaN:n.clamp(t,r)}}),Object.defineProperty(Math,"easeInOut",{configurable:!0,writable:!0,value:function(e){return 1-(Math.cos(Number(e)*Math.PI)+1)/2}}),Object.defineProperty(Number.prototype,"clamp",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Number.prototype.clamp called on null or undefined");if(2!==arguments.length)throw new Error("Number.prototype.clamp called with an incorrect number of parameters");var e=Number(arguments[0]),t=Number(arguments[1]);if(e>t){var r=[t,e];e=r[0],t=r[1]}return Math.min(Math.max(this,e),t)}}),RegExp.escape||function(){var e=/[\\^$*+?.()|[\]{}]/g,t=new RegExp(e.source);Object.defineProperty(RegExp,"escape",{configurable:!0,writable:!0,value:function(r){var n=String(r);return n&&t.test(n)?n.replace(e,"\\$&"):n}})}(),function(){var e=/{(\d+)(?:,([+-]?\d+))?}/g,t=new RegExp(e.source);Object.defineProperty(String,"format",{configurable:!0,writable:!0,value:function(r){function n(e,t,r){if(!t)return e;var n=Math.abs(t)-e.length;if(n<1)return e;var a=String(r).repeat(n);return t<0?e+a:a+e}if(arguments.length<2)return 0===arguments.length?"":r;var a=2===arguments.length&&Array.isArray(arguments[1])?[].concat(_toConsumableArray(arguments[1])):Array.prototype.slice.call(arguments,1);return 0===a.length?r:t.test(r)?(e.lastIndex=0,r.replace(e,function(e,t,r){var i=a[t];if(null==i)return"";for(;"function"==typeof i;)i=i();switch(void 0===i?"undefined":_typeof(i)){case"string":break;case"object":i=JSON.stringify(i);break;default:i=String(i)}return n(i,r?Number.parseInt(r,10):0," ")})):r}})}(),Object.defineProperty(String.prototype,"contains",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.contains called on null or undefined");return-1!==String.prototype.indexOf.apply(this,arguments)}}),Object.defineProperty(String.prototype,"count",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.count called on null or undefined");var e=String(arguments[0]||"");if(""===e)return 0;for(var t=String.prototype.indexOf,r=e.length,n=Number(arguments[1])||0,a=0;-1!==(n=t.call(this,e,n));)++a,n+=r;return a}}),Object.defineProperty(String.prototype,"first",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.first called on null or undefined");return _getCodePointStartAndEnd(String(this),0).char}}),Object.defineProperty(String.prototype,"last",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.last called on null or undefined");var e=String(this);return _getCodePointStartAndEnd(e,e.length-1).char}}),Object.defineProperty(String.prototype,"splice",{configurable:!0,writable:!0,value:function(e,t,r){if(null==this)throw new TypeError("String.prototype.splice called on null or undefined");var n=this.length>>>0;if(0===n)return"";var a=Number(e);Number.isSafeInteger(a)?a<0&&(a+=n)<0&&(a=0):a=0,a>n&&(a=n);var i=Number(t);(!Number.isSafeInteger(i)||i<0)&&(i=0);var o=this.slice(0,a);return void 0!==r&&(o+=r),a+i<n&&(o+=this.slice(a+i)),o}}),Object.defineProperty(String.prototype,"splitOrEmpty",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.splitOrEmpty called on null or undefined");return""===String(this)?[]:String.prototype.split.apply(this,arguments)}}),Object.defineProperty(String.prototype,"toLocaleUpperFirst",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.toLocaleUpperFirst called on null or undefined");var e=String(this),t=_getCodePointStartAndEnd(e,0),r=t.char,n=t.end;return-1===n?"":r.toLocaleUpperCase()+e.slice(n+1)}}),Object.defineProperty(String.prototype,"toUpperFirst",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.toUpperFirst called on null or undefined");var e=String(this),t=_getCodePointStartAndEnd(e,0),r=t.char,n=t.end;return-1===n?"":r.toUpperCase()+e.slice(n+1)}}),Object.defineProperty(Date.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:date)",this.toISOString()]}}),Object.defineProperty(Function.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:eval)","("+this.toString()+")"]}}),Object.defineProperty(Map.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:map)",[].concat(_toConsumableArray(this))]}}),Object.defineProperty(RegExp.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:eval)",this.toString()]}}),Object.defineProperty(Set.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:set)",[].concat(_toConsumableArray(this))]}}),Object.defineProperty(JSON,"reviveWrapper",{configurable:!0,writable:!0,value:function(e,t){if("string"!=typeof e)throw new TypeError("JSON.reviveWrapper code parameter must be a string");return["(revive:eval)",[e,t]]}}),Object.defineProperty(JSON,"_real_parse",{value:JSON.parse}),Object.defineProperty(JSON,"parse",{configurable:!0,writable:!0,value:function value(text,reviver){return JSON._real_parse(text,function(key,val){var value=val;if(Array.isArray(value)&&2===value.length)switch(value[0]){case"(revive:set)":value=new Set(value[1]);break;case"(revive:map)":value=new Map(value[1]);break;case"(revive:date)":value=new Date(value[1]);break;case"(revive:eval)":try{if(Array.isArray(value[1])){var $ReviveData$=value[1][1];value=eval(value[1][0])}else value=eval(value[1])}catch(e){}}else if("string"==typeof value&&"@@revive@@"===value.slice(0,10))try{value=eval(value.slice(10))}catch(e){}if("function"==typeof reviver)try{value=reviver(key,value)}catch(e){}return value})}}),Object.defineProperty(Array.prototype,"contains",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.contains called on null or undefined");return Array.prototype.includes.apply(this,arguments)}}),Object.defineProperty(Array.prototype,"containsAll",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.containsAll called on null or undefined");return Array.prototype.includesAll.apply(this,arguments)}}),Object.defineProperty(Array.prototype,"containsAny",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.containsAny called on null or undefined");return Array.prototype.includesAny.apply(this,arguments)}}),Object.defineProperty(Array.prototype,"flatten",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.flatten called on null or undefined");return Array.prototype.flat.call(this,1/0)}}),Object.defineProperty(String.prototype,"readBracketedList",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.readBracketedList called on null or undefined");for(var e=new RegExp("(?:\\[\\[((?:\\s|\\S)*?)\\]\\])|([^\"'\\s]\\S*)","gm"),t=[],r=void 0;null!==(r=e.exec(this));)r[1]?t.push(r[1]):r[2]&&t.push(r[2]);return t}})}();var Browser=function(){var e=navigator.userAgent.toLowerCase(),t=e.includes("windows phone"),r=Object.freeze({Android:!t&&e.includes("android"),BlackBerry:/blackberry|bb10/.test(e),iOS:!t&&/ip(?:hone|ad|od)/.test(e),Opera:!t&&("object"===_typeof(window.operamini)||e.includes("opera mini")),Windows:t||/iemobile|wpdesktop/.test(e),any:function(){return r.Android||r.BlackBerry||r.iOS||r.Opera||r.Windows}}),n=!r.Windows&&!/khtml|trident|edge/.test(e)&&e.includes("gecko"),a=!e.includes("opera")&&/msie|trident/.test(e),i=a?function(){var t=/(?:msie\s+|rv:)(\d+\.\d)/.exec(e);return t?Number(t[1]):0}():null,o=e.includes("opera")||e.includes(" opr/"),s=o?function(){var t=new RegExp((/khtml|chrome/.test(e)?"opr":"version")+"\\/(\\d+\\.\\d+)"),r=t.exec(e);return r?Number(r[1]):0}():null,u=e.includes("vivaldi");return Object.freeze({userAgent:e,isMobile:r,isGecko:n,isIE:a,ieVersion:i,isOpera:o,operaVersion:s,isVivaldi:u})}(),Has=function(){var e=function(){try{return"function"==typeof document.createElement("audio").canPlayType}catch(e){}return!1}(),t=function(){try{return"Blob"in window&&"File"in window&&"FileList"in window&&"FileReader"in window&&!Browser.isMobile.any()&&(!Browser.isOpera||Browser.operaVersion>=15)}catch(e){}return!1}(),r=function(){try{return"geolocation"in navigator&&"function"==typeof navigator.geolocation.getCurrentPosition&&"function"==typeof navigator.geolocation.watchPosition}catch(e){}return!1}(),n=function(){try{return"MutationObserver"in window&&"function"==typeof window.MutationObserver}catch(e){}return!1}(),a=function(){try{return"performance"in window&&"function"==typeof window.performance.now}catch(e){}return!1}(),i=function(){try{return"ontouchstart"in window||!!window.DocumentTouch&&document instanceof window.DocumentTouch||!!navigator.maxTouchPoints||!!navigator.msMaxTouchPoints}catch(e){}return!1}(),o=function(){try{for(var e=new Map([["transition","transitionend"],["MSTransition","msTransitionEnd"],["WebkitTransition","webkitTransitionEnd"],["MozTransition","transitionend"]]),t=[].concat(_toConsumableArray(e.keys())),r=document.createElement("div"),n=0;n<t.length;++n)if(r.style[t[n]]!==undefined)return e.get(t[n])}catch(e){}return!1}();return Object.freeze({audio:e,fileAPI:t,geolocation:r,mutationObserver:n,performance:a,touch:i,transitionEndEvent:o})}(),Visibility=function(){function e(){return a}function t(){return a&&document[a.stateProperty]||"visible"}function r(){return Boolean(a)}function n(){return Boolean(a&&document[a.hiddenProperty])}var a=function(){try{return Object.freeze([{hiddenProperty:"hidden",stateProperty:"visibilityState",changeEvent:"visibilitychange"},{hiddenProperty:"webkitHidden",stateProperty:"webkitVisibilityState",changeEvent:"webkitvisibilitychange"},{hiddenProperty:"mozHidden",stateProperty:"mozVisibilityState",changeEvent:"mozvisibilitychange"},{hiddenProperty:"msHidden",stateProperty:"msVisibilityState",changeEvent:"msvisibilitychange"}].find(function(e){return e.hiddenProperty in document}))}catch(e){}return undefined}();return Object.freeze(Object.defineProperties({},{vendor:{get:e},state:{get:t},isEnabled:{value:r},isHidden:{value:n},hiddenProperty:{value:a&&a.hiddenProperty},stateProperty:{value:a&&a.stateProperty},changeEvent:{value:a&&a.changeEvent}}))}(),Fullscreen=function(){function e(e){var t=e||document.documentElement;return t===document.documentElement&&("msRequestFullscreen"===f.requestFn||Browser.isOpera&&Browser.operaVersion<15)&&(t=document.body),t}function t(){return f}function r(){return(f||null)&&document[f.element]}function n(){return Boolean(f&&document[f.isEnabled])}function a(){return Boolean(f&&document[f.element])}function i(t,r){var n=this;if(!f)return Promise.reject(new Error("fullscreen not supported"));var i=e(r);if("function"!=typeof i[f.requestFn])return Promise.reject(new Error("fullscreen not supported"));if(a())return Promise.resolve();if(p())return i[f.requestFn](t);var o=".Fullscreen_requestFullscreen";return new Promise(function(e,r){jQuery(i).off(o).one(""+f.errorEvent+o+" "+f.changeEvent+o,function(t){jQuery(n).off(o),t.type===f.errorEvent?r(new Error("unknown fullscreen request error")):e()}),i[f.requestFn](t)})}function o(){var e=this;if(!f||"function"!=typeof document[f.exitFn])return Promise.reject(new TypeError("fullscreen not supported"));if(!a())return Promise.reject(new TypeError("fullscreen mode not active"));if(p())return document[f.exitFn]();var t=".Fullscreen_exitFullscreen";return new Promise(function(r,n){jQuery(document).off(t).one(""+f.errorEvent+t+" "+f.changeEvent+t,function(a){jQuery(e).off(t),a.type===f.errorEvent?n(new Error("unknown fullscreen exit error")):r()}),document[f.exitFn]()})}function s(e,t){return a()?o():i(e,t)}function u(t,r){if(f){var n=e(r);$(n).on(f.changeEvent,t)}}function l(t,r){if(f){var n=e(r);t?$(n).off(f.changeEvent,t):$(n).off(f.changeEvent)}}function c(t,r){if(f){var n=e(r);$(n).on(f.errorEvent,t)}}function d(t,r){if(f){var n=e(r);t?$(n).off(f.errorEvent,t):$(n).off(f.errorEvent)}}var f=function(){try{return Object.freeze([{isEnabled:"fullscreenEnabled",element:"fullscreenElement",requestFn:"requestFullscreen",exitFn:"exitFullscreen",changeEvent:"fullscreenchange",errorEvent:"fullscreenerror"},{isEnabled:"webkitFullscreenEnabled",element:"webkitFullscreenElement",requestFn:"webkitRequestFullscreen",exitFn:"webkitExitFullscreen",changeEvent:"webkitfullscreenchange",errorEvent:"webkitfullscreenerror"},{isEnabled:"mozFullScreenEnabled",element:"mozFullScreenElement",requestFn:"mozRequestFullScreen",exitFn:"mozCancelFullScreen",changeEvent:"mozfullscreenchange",errorEvent:"mozfullscreenerror"},{isEnabled:"msFullscreenEnabled",element:"msFullscreenElement",requestFn:"msRequestFullscreen",exitFn:"msExitFullscreen",changeEvent:"MSFullscreenChange",errorEvent:"MSFullscreenError"}].find(function(e){return e.isEnabled in document}))}catch(e){}return undefined}(),p=function(){function e(){if(null!==t)return t;if(t=!1,f)try{var e=document.exitFullscreen();e.catch(function(){}),t=e instanceof Promise}catch(e){}return t}var t=null;return e}();return Object.freeze(Object.defineProperties({},{vendor:{get:t},element:{get:r},isEnabled:{value:n},isFullscreen:{value:a},request:{value:i},exit:{value:o},toggle:{value:s},onChange:{value:u},offChange:{value:l},onError:{value:c},offError:{value:d}}))}(),_ref3=function(){function e(e){for(var t=e.cloneNode(!0),r=document.createDocumentFragment(),n=void 0;null!==(n=t.firstChild);){if(n.nodeType===Node.ELEMENT_NODE)switch(n.nodeName.toUpperCase()){case"BR":case"DIV":case"P":r.appendChild(document.createTextNode(" "))}r.appendChild(n)}return r.textContent}function t(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e)return e;if(e instanceof String)return String(e);if(e instanceof Number)return Number(e);if(e instanceof Boolean)return Boolean(e);if("function"==typeof e.clone)return e.clone(!0);if(e.nodeType&&"function"==typeof e.cloneNode)return e.cloneNode(!0);var r=void 0;return e instanceof Array?r=new Array(e.length):e instanceof Date?r=new Date(e.getTime()):e instanceof Map?(r=new Map,e.forEach(function(e,n){return r.set(n,t(e))})):e instanceof RegExp?r=new RegExp(e):e instanceof Set?(r=new Set,e.forEach(function(e){return r.add(t(e))})):r=Object.create(Object.getPrototypeOf(e)),Object.keys(e).forEach(function(n){return r[n]=t(e[n])}),r}function r(e){
