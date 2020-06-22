@@ -577,7 +577,7 @@ Postar mensagens em fóruns para ver se [[alguém sabe de algo|forum]]
 
 Conversar com um funcionário da ARCH corp para talvez [[conseguir extrair alguma informação|infiltrado na empresa]]
 
-&lt;&lt;if $manchete lt 3&gt;&gt;
+&lt;&lt;if $ManchetePlt 3&gt;&gt;
 Tentar falar em grupos do culto ao homem livre, talvez lá alguem tenha alguma [[resposta|falar com culto]]
 &lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;
 
@@ -927,9 +927,9 @@ Após toda essa conversa com José você percebe que seu e-mail enviado a Billy 
 &lt;&lt;set $D to false&gt;&gt;</tw-passagedata><tw-passagedata pid="63" name="infiltrado na empresa" tags="" position="3750,1500" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 Você acessa o site da ARCH Corp e usa seu cargo na ZER0 HORA para marcar um horário para uma entrevista constando que sua intenção é melhorar a imagem da empresa.
 
-&lt;&lt;if $manchete eq 3&gt;&gt;
+&lt;&lt;if $MancheteP eq 3&gt;&gt;
 Seu pedido é aceito,estranho mesmo foram as especificações do que você deveria fazer para conseguir a entrevista. Ir pessoalmente até a empresa para conversar com a Gerente Comunitária da própria. Convenientemente o horário foi marcado para um pouco mais tarde então você pega sua câmera,sua identificação e vai na direção da [[empresa|Empresa F]].
-&lt;&lt;elseif $manchete eq 1&gt;&gt;
+&lt;&lt;elseif $MancheteP eq 1&gt;&gt;
 Mas seu pedido é negado. Já era esperado que não fossem aceitar ter uma entrevista com qualquer funcionário do ZER0 HORA mas... um e-mail chega logo em seguida,e tem o nome da ARCH Corp nele. O e-mail fala que se quiser mesmo ter uma entrevista você irá até a ARCH Corp mais tarde na data de hoje e irá pedir para falar com a Aylin,Gerente Comunitária da empresa. Você fica confuso com o que acabou de acontecer,mas de uma maneira ou de outra,conseguiu a entrevista que queria então você pega sua câmera,sua identificação e vai na direção da [[empresa|Empresa P]].
 &lt;&lt;else&gt;&gt;ERRO!&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="64" name="A verdade 2.5" tags="" position="2400,2300" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 &quot;Você entendeu errado meu consagrado, ela trabalha em um cargo um pouquinho alto na ZER0 HORA&quot;
@@ -1451,7 +1451,7 @@ Não foi a melhor das escolhas... Isso me deixa com apenas algumas opções:
 
 Conversar com um funcionário da ARCH corp para talvez [[conseguir extrair alguma informação|infiltrado na empresa]]
 
-&lt;&lt;if $manchete lt 3 and $religiao is false&gt;&gt;
+&lt;&lt;if $ManchetePlt 3 and $religiao is false&gt;&gt;
 Tentar falar em grupos do culto ao homem livre, talvez lá alguem tenha alguma [[resposta|falar com culto]]
 &lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="125" name="falar com culto" tags="" position="3275,1400" size="100,100">&lt;div id=&quot;volume&quot;&gt;Volume:&lt;&lt;volume&gt;&gt;&lt;/div&gt;
 
